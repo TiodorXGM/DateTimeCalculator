@@ -98,5 +98,10 @@ namespace DateTimeCalculator
             guna2CircleButton1.PerformClick();
             guna2CircleButton1.Focus();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
