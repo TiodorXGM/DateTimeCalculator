@@ -116,8 +116,8 @@ namespace DateTimeCalculator
             date1 = date1.AddMilliseconds(-date1.Millisecond);
             date2 = date2.AddMilliseconds(-date2.Millisecond);
 
-            int ms1 = string.IsNullOrEmpty(DC_MsBox1.Text) ? 0 : int.Parse(DC_MsBox1.Text);
-            int ms2 = string.IsNullOrEmpty(DC_MsBox2.Text) ? 0 : int.Parse(DC_MsBox2.Text);
+            int ms1 = int.Parse(DC_NumMs1.Value.ToString());
+            int ms2 = int.Parse(DC_NumMs2.Value.ToString());
 
             if (date1 > date2 || (date1 == date2 && ms1 > ms2))
             {
@@ -204,6 +204,16 @@ namespace DateTimeCalculator
         }
 
         private void DC_MsBox1_TextChanged(object sender, EventArgs e)
+        {
+            DateComparer(TimePicker1.Value, TimePicker2.Value);
+        }
+
+        private void DC_NumMs1_ValueChanged(object sender, EventArgs e)
+        {
+            DateComparer(TimePicker1.Value, TimePicker2.Value);
+        }
+
+        private void DC_NumMs2_ValueChanged(object sender, EventArgs e)
         {
             DateComparer(TimePicker1.Value, TimePicker2.Value);
         }

@@ -31,8 +31,6 @@
             this.MenuTabControl = new Guna.UI2.WinForms.Guna2TabControl();
             this.DateComparerPage = new System.Windows.Forms.TabPage();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.DC_MsBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.DC_MsBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -78,6 +76,8 @@
             this.labelTimestamp = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.DC_NumMs2 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.DC_NumMs1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -94,6 +94,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs1)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuTabControl
@@ -146,8 +148,8 @@
             // 
             this.guna2Panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Panel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel3.Controls.Add(this.DC_MsBox2);
-            this.guna2Panel3.Controls.Add(this.DC_MsBox1);
+            this.guna2Panel3.Controls.Add(this.DC_NumMs1);
+            this.guna2Panel3.Controls.Add(this.DC_NumMs2);
             this.guna2Panel3.Controls.Add(this.label5);
             this.guna2Panel3.Controls.Add(this.label7);
             this.guna2Panel3.Controls.Add(this.label2);
@@ -169,70 +171,13 @@
             this.guna2Panel3.Size = new System.Drawing.Size(620, 441);
             this.guna2Panel3.TabIndex = 3;
             // 
-            // DC_MsBox2
-            // 
-            this.DC_MsBox2.BorderColor = System.Drawing.Color.Transparent;
-            this.DC_MsBox2.BorderRadius = 15;
-            this.DC_MsBox2.BorderThickness = 0;
-            this.DC_MsBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DC_MsBox2.CustomizableEdges.TopLeft = false;
-            this.DC_MsBox2.DefaultText = "";
-            this.DC_MsBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.DC_MsBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.DC_MsBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DC_MsBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DC_MsBox2.FillColor = System.Drawing.Color.SteelBlue;
-            this.DC_MsBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DC_MsBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DC_MsBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.DC_MsBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DC_MsBox2.Location = new System.Drawing.Point(373, 64);
-            this.DC_MsBox2.MaxLength = 3;
-            this.DC_MsBox2.Name = "DC_MsBox2";
-            this.DC_MsBox2.PasswordChar = '\0';
-            this.DC_MsBox2.PlaceholderText = "000";
-            this.DC_MsBox2.SelectedText = "";
-            this.DC_MsBox2.Size = new System.Drawing.Size(95, 31);
-            this.DC_MsBox2.TabIndex = 12;
-            this.DC_MsBox2.TextChanged += new System.EventHandler(this.DC_MsBox2_TextChanged);
-            this.DC_MsBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DC_MsBox2_KeyPress);
-            // 
-            // DC_MsBox1
-            // 
-            this.DC_MsBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.DC_MsBox1.BorderRadius = 15;
-            this.DC_MsBox1.BorderThickness = 0;
-            this.DC_MsBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DC_MsBox1.CustomizableEdges.TopRight = false;
-            this.DC_MsBox1.DefaultText = "";
-            this.DC_MsBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.DC_MsBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.DC_MsBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DC_MsBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DC_MsBox1.FillColor = System.Drawing.Color.SteelBlue;
-            this.DC_MsBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DC_MsBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DC_MsBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.DC_MsBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DC_MsBox1.Location = new System.Drawing.Point(152, 64);
-            this.DC_MsBox1.MaxLength = 3;
-            this.DC_MsBox1.Name = "DC_MsBox1";
-            this.DC_MsBox1.PasswordChar = '\0';
-            this.DC_MsBox1.PlaceholderText = "000";
-            this.DC_MsBox1.SelectedText = "";
-            this.DC_MsBox1.Size = new System.Drawing.Size(95, 31);
-            this.DC_MsBox1.TabIndex = 12;
-            this.DC_MsBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.DC_MsBox1.TextChanged += new System.EventHandler(this.DC_MsBox1_TextChanged);
-            this.DC_MsBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DC_MsBox1_KeyPress);
-            // 
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label5.Location = new System.Drawing.Point(249, 66);
+            this.label5.Location = new System.Drawing.Point(249, 69);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(122, 25);
             this.label5.TabIndex = 11;
@@ -245,7 +190,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label7.Location = new System.Drawing.Point(249, 37);
+            this.label7.Location = new System.Drawing.Point(249, 33);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 25);
             this.label7.TabIndex = 11;
@@ -258,7 +203,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label2.Location = new System.Drawing.Point(249, 8);
+            this.label2.Location = new System.Drawing.Point(249, -2);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 25);
             this.label2.TabIndex = 11;
@@ -270,7 +215,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label14.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.label14.Location = new System.Drawing.Point(135, 95);
+            this.label14.Location = new System.Drawing.Point(135, 97);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(352, 23);
             this.label14.TabIndex = 10;
@@ -280,7 +225,7 @@
             // guna2Separator1
             // 
             this.guna2Separator1.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator1.Location = new System.Drawing.Point(42, 101);
+            this.guna2Separator1.Location = new System.Drawing.Point(42, 103);
             this.guna2Separator1.Name = "guna2Separator1";
             this.guna2Separator1.Size = new System.Drawing.Size(537, 10);
             this.guna2Separator1.TabIndex = 8;
@@ -559,7 +504,7 @@
             this.guna2Panel6.Controls.Add(this.label16);
             this.guna2Panel6.Controls.Add(this.DC_TotalDays_Value);
             this.guna2Panel6.FillColor = System.Drawing.Color.SteelBlue;
-            this.guna2Panel6.Location = new System.Drawing.Point(192, 389);
+            this.guna2Panel6.Location = new System.Drawing.Point(192, 391);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(237, 38);
             this.guna2Panel6.TabIndex = 4;
@@ -632,7 +577,7 @@
             // guna2Separator2
             // 
             this.guna2Separator2.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator2.Location = new System.Drawing.Point(43, 404);
+            this.guna2Separator2.Location = new System.Drawing.Point(43, 406);
             this.guna2Separator2.Name = "guna2Separator2";
             this.guna2Separator2.Size = new System.Drawing.Size(537, 10);
             this.guna2Separator2.TabIndex = 8;
@@ -795,6 +740,52 @@
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
+            // DC_NumMs2
+            // 
+            this.DC_NumMs2.BackColor = System.Drawing.Color.Transparent;
+            this.DC_NumMs2.BorderRadius = 10;
+            this.DC_NumMs2.BorderThickness = 0;
+            this.DC_NumMs2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.DC_NumMs2.FillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DC_NumMs2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs2.Location = new System.Drawing.Point(373, 66);
+            this.DC_NumMs2.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.DC_NumMs2.Name = "DC_NumMs2";
+            this.DC_NumMs2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.DC_NumMs2.Size = new System.Drawing.Size(100, 31);
+            this.DC_NumMs2.TabIndex = 13;
+            this.DC_NumMs2.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs2.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs2.ValueChanged += new System.EventHandler(this.DC_NumMs2_ValueChanged);
+            // 
+            // DC_NumMs1
+            // 
+            this.DC_NumMs1.BackColor = System.Drawing.Color.Transparent;
+            this.DC_NumMs1.BorderRadius = 10;
+            this.DC_NumMs1.BorderThickness = 0;
+            this.DC_NumMs1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.DC_NumMs1.FillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DC_NumMs1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs1.Location = new System.Drawing.Point(147, 66);
+            this.DC_NumMs1.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.DC_NumMs1.Name = "DC_NumMs1";
+            this.DC_NumMs1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.DC_NumMs1.Size = new System.Drawing.Size(100, 31);
+            this.DC_NumMs1.TabIndex = 13;
+            this.DC_NumMs1.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs1.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs1.ValueChanged += new System.EventHandler(this.DC_NumMs1_ValueChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -826,6 +817,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -877,10 +870,10 @@
         private System.Windows.Forms.Label label14;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator2;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox DC_MsBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox DC_MsBox2;
+        private Guna.UI2.WinForms.Guna2NumericUpDown DC_NumMs1;
+        private Guna.UI2.WinForms.Guna2NumericUpDown DC_NumMs2;
     }
 }
 
