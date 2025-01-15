@@ -99,6 +99,18 @@
             this.guna2Separator5 = new Guna.UI2.WinForms.Guna2Separator();
             this.label13 = new System.Windows.Forms.Label();
             this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.guna2Separator7 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.LC_LeapYears = new System.Windows.Forms.Label();
+            this.LC_DatePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.LC_DatePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2Separator8 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator9 = new Guna.UI2.WinForms.Guna2Separator();
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -111,6 +123,7 @@
             this.guna2Panel5.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             this.DateWorkingCounterPage.SuspendLayout();
+            this.LeapCounterPage.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -120,6 +133,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs1)).BeginInit();
             this.guna2Panel13.SuspendLayout();
             this.guna2Panel14.SuspendLayout();
+            this.guna2Panel15.SuspendLayout();
+            this.guna2Panel16.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuTabControl
@@ -621,6 +636,7 @@
             // LeapCounterPage
             // 
             this.LeapCounterPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
+            this.LeapCounterPage.Controls.Add(this.guna2Panel15);
             this.LeapCounterPage.Location = new System.Drawing.Point(224, 4);
             this.LeapCounterPage.Name = "LeapCounterPage";
             this.LeapCounterPage.Size = new System.Drawing.Size(633, 455);
@@ -844,11 +860,11 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label9.Location = new System.Drawing.Point(241, 137);
+            this.label9.Location = new System.Drawing.Point(222, 137);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(122, 25);
+            this.label9.Size = new System.Drawing.Size(170, 25);
             this.label9.TabIndex = 11;
-            this.label9.Text = "working days:";
+            this.label9.Text = "select working days:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
@@ -857,7 +873,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label11.Location = new System.Drawing.Point(288, 32);
+            this.label11.Location = new System.Drawing.Point(288, 36);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(44, 25);
             this.label11.TabIndex = 11;
@@ -891,7 +907,7 @@
             this.guna2Panel14.Controls.Add(this.label17);
             this.guna2Panel14.Controls.Add(this.DWC_Label_WorkingDays);
             this.guna2Panel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel14.Location = new System.Drawing.Point(249, 281);
+            this.guna2Panel14.Location = new System.Drawing.Point(249, 296);
             this.guna2Panel14.Name = "guna2Panel14";
             this.guna2Panel14.Size = new System.Drawing.Size(122, 122);
             this.guna2Panel14.TabIndex = 5;
@@ -925,39 +941,39 @@
             // 
             this.DWC_DatePicker1.BorderRadius = 15;
             this.DWC_DatePicker1.Checked = true;
-            this.DWC_DatePicker1.CustomFormat = "yyyy-MM-dd - HH:mm:ss";
+            this.DWC_DatePicker1.CustomFormat = "";
             this.DWC_DatePicker1.CustomizableEdges.BottomRight = false;
             this.DWC_DatePicker1.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_DatePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.DWC_DatePicker1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.DWC_DatePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DWC_DatePicker1.Location = new System.Drawing.Point(42, 27);
+            this.DWC_DatePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DWC_DatePicker1.Location = new System.Drawing.Point(42, 29);
             this.DWC_DatePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DWC_DatePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DWC_DatePicker1.Name = "DWC_DatePicker1";
-            this.DWC_DatePicker1.ShowUpDown = true;
             this.DWC_DatePicker1.Size = new System.Drawing.Size(205, 36);
             this.DWC_DatePicker1.TabIndex = 2;
             this.DWC_DatePicker1.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            this.DWC_DatePicker1.ValueChanged += new System.EventHandler(this.DWC_DatePicker1_ValueChanged);
             // 
             // DWC_DatePicker2
             // 
             this.DWC_DatePicker2.BorderRadius = 15;
             this.DWC_DatePicker2.Checked = true;
-            this.DWC_DatePicker2.CustomFormat = "yyyy-MM-dd - HH:mm:ss";
+            this.DWC_DatePicker2.CustomFormat = "";
             this.DWC_DatePicker2.CustomizableEdges.BottomLeft = false;
             this.DWC_DatePicker2.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_DatePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.DWC_DatePicker2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.DWC_DatePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DWC_DatePicker2.Location = new System.Drawing.Point(373, 27);
+            this.DWC_DatePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DWC_DatePicker2.Location = new System.Drawing.Point(373, 29);
             this.DWC_DatePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DWC_DatePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DWC_DatePicker2.Name = "DWC_DatePicker2";
-            this.DWC_DatePicker2.ShowUpDown = true;
             this.DWC_DatePicker2.Size = new System.Drawing.Size(207, 36);
             this.DWC_DatePicker2.TabIndex = 2;
             this.DWC_DatePicker2.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            this.DWC_DatePicker2.ValueChanged += new System.EventHandler(this.DWC_DatePicker2_ValueChanged);
             // 
             // DWC_CB_Monday
             // 
@@ -968,7 +984,7 @@
             this.DWC_CB_Monday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_CB_Monday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DWC_CB_Monday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Monday.Location = new System.Drawing.Point(45, 184);
+            this.DWC_CB_Monday.Location = new System.Drawing.Point(45, 193);
             this.DWC_CB_Monday.Name = "DWC_CB_Monday";
             this.DWC_CB_Monday.Size = new System.Drawing.Size(88, 29);
             this.DWC_CB_Monday.TabIndex = 12;
@@ -977,6 +993,7 @@
             this.DWC_CB_Monday.UncheckedState.BorderRadius = 0;
             this.DWC_CB_Monday.UncheckedState.BorderThickness = 0;
             this.DWC_CB_Monday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Monday.CheckedChanged += new System.EventHandler(this.DWC_CB_Monday_CheckedChanged);
             // 
             // DWC_CB_Tuesday
             // 
@@ -987,7 +1004,7 @@
             this.DWC_CB_Tuesday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_CB_Tuesday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DWC_CB_Tuesday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Tuesday.Location = new System.Drawing.Point(149, 184);
+            this.DWC_CB_Tuesday.Location = new System.Drawing.Point(149, 193);
             this.DWC_CB_Tuesday.Name = "DWC_CB_Tuesday";
             this.DWC_CB_Tuesday.Size = new System.Drawing.Size(90, 29);
             this.DWC_CB_Tuesday.TabIndex = 12;
@@ -996,6 +1013,7 @@
             this.DWC_CB_Tuesday.UncheckedState.BorderRadius = 0;
             this.DWC_CB_Tuesday.UncheckedState.BorderThickness = 0;
             this.DWC_CB_Tuesday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Tuesday.CheckedChanged += new System.EventHandler(this.DWC_CB_Tuesday_CheckedChanged);
             // 
             // DWC_CB_Wednesday
             // 
@@ -1006,7 +1024,7 @@
             this.DWC_CB_Wednesday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_CB_Wednesday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DWC_CB_Wednesday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Wednesday.Location = new System.Drawing.Point(255, 184);
+            this.DWC_CB_Wednesday.Location = new System.Drawing.Point(255, 193);
             this.DWC_CB_Wednesday.Name = "DWC_CB_Wednesday";
             this.DWC_CB_Wednesday.Size = new System.Drawing.Size(113, 29);
             this.DWC_CB_Wednesday.TabIndex = 12;
@@ -1015,6 +1033,7 @@
             this.DWC_CB_Wednesday.UncheckedState.BorderRadius = 0;
             this.DWC_CB_Wednesday.UncheckedState.BorderThickness = 0;
             this.DWC_CB_Wednesday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Wednesday.CheckedChanged += new System.EventHandler(this.DWC_CB_Wednesday_CheckedChanged);
             // 
             // DWC_CB_Thursday
             // 
@@ -1025,7 +1044,7 @@
             this.DWC_CB_Thursday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_CB_Thursday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DWC_CB_Thursday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Thursday.Location = new System.Drawing.Point(384, 184);
+            this.DWC_CB_Thursday.Location = new System.Drawing.Point(384, 193);
             this.DWC_CB_Thursday.Name = "DWC_CB_Thursday";
             this.DWC_CB_Thursday.Size = new System.Drawing.Size(101, 29);
             this.DWC_CB_Thursday.TabIndex = 12;
@@ -1034,6 +1053,7 @@
             this.DWC_CB_Thursday.UncheckedState.BorderRadius = 0;
             this.DWC_CB_Thursday.UncheckedState.BorderThickness = 0;
             this.DWC_CB_Thursday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Thursday.CheckedChanged += new System.EventHandler(this.DWC_CB_Thursday_CheckedChanged);
             // 
             // DWC_CB_Friday
             // 
@@ -1044,7 +1064,7 @@
             this.DWC_CB_Friday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_CB_Friday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DWC_CB_Friday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Friday.Location = new System.Drawing.Point(501, 184);
+            this.DWC_CB_Friday.Location = new System.Drawing.Point(501, 193);
             this.DWC_CB_Friday.Name = "DWC_CB_Friday";
             this.DWC_CB_Friday.Size = new System.Drawing.Size(78, 29);
             this.DWC_CB_Friday.TabIndex = 12;
@@ -1053,6 +1073,7 @@
             this.DWC_CB_Friday.UncheckedState.BorderRadius = 0;
             this.DWC_CB_Friday.UncheckedState.BorderThickness = 0;
             this.DWC_CB_Friday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Friday.CheckedChanged += new System.EventHandler(this.DWC_CB_Friday_CheckedChanged);
             // 
             // DWC_CB_Saturday
             // 
@@ -1063,7 +1084,7 @@
             this.DWC_CB_Saturday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_CB_Saturday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DWC_CB_Saturday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Saturday.Location = new System.Drawing.Point(179, 219);
+            this.DWC_CB_Saturday.Location = new System.Drawing.Point(179, 228);
             this.DWC_CB_Saturday.Name = "DWC_CB_Saturday";
             this.DWC_CB_Saturday.Size = new System.Drawing.Size(101, 29);
             this.DWC_CB_Saturday.TabIndex = 12;
@@ -1072,6 +1093,7 @@
             this.DWC_CB_Saturday.UncheckedState.BorderRadius = 0;
             this.DWC_CB_Saturday.UncheckedState.BorderThickness = 0;
             this.DWC_CB_Saturday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Saturday.CheckedChanged += new System.EventHandler(this.DWC_CB_Saturday_CheckedChanged);
             // 
             // DWC_CB_Sunday
             // 
@@ -1082,7 +1104,7 @@
             this.DWC_CB_Sunday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
             this.DWC_CB_Sunday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.DWC_CB_Sunday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Sunday.Location = new System.Drawing.Point(326, 219);
+            this.DWC_CB_Sunday.Location = new System.Drawing.Point(326, 228);
             this.DWC_CB_Sunday.Name = "DWC_CB_Sunday";
             this.DWC_CB_Sunday.Size = new System.Drawing.Size(85, 29);
             this.DWC_CB_Sunday.TabIndex = 12;
@@ -1091,11 +1113,12 @@
             this.DWC_CB_Sunday.UncheckedState.BorderRadius = 0;
             this.DWC_CB_Sunday.UncheckedState.BorderThickness = 0;
             this.DWC_CB_Sunday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Sunday.CheckedChanged += new System.EventHandler(this.DWC_CB_Sunday_CheckedChanged);
             // 
             // guna2Separator4
             // 
             this.guna2Separator4.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator4.Location = new System.Drawing.Point(42, 335);
+            this.guna2Separator4.Location = new System.Drawing.Point(42, 350);
             this.guna2Separator4.Name = "guna2Separator4";
             this.guna2Separator4.Size = new System.Drawing.Size(537, 10);
             this.guna2Separator4.TabIndex = 13;
@@ -1103,7 +1126,7 @@
             // guna2Separator5
             // 
             this.guna2Separator5.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator5.Location = new System.Drawing.Point(255, 23);
+            this.guna2Separator5.Location = new System.Drawing.Point(255, 29);
             this.guna2Separator5.Name = "guna2Separator5";
             this.guna2Separator5.Size = new System.Drawing.Size(108, 40);
             this.guna2Separator5.TabIndex = 13;
@@ -1128,6 +1151,159 @@
             this.guna2Separator6.Name = "guna2Separator6";
             this.guna2Separator6.Size = new System.Drawing.Size(108, 40);
             this.guna2Separator6.TabIndex = 14;
+            // 
+            // guna2Panel15
+            // 
+            this.guna2Panel15.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel15.Controls.Add(this.label20);
+            this.guna2Panel15.Controls.Add(this.label21);
+            this.guna2Panel15.Controls.Add(this.label22);
+            this.guna2Panel15.Controls.Add(this.guna2Separator7);
+            this.guna2Panel15.Controls.Add(this.guna2Panel16);
+            this.guna2Panel15.Controls.Add(this.LC_DatePicker1);
+            this.guna2Panel15.Controls.Add(this.LC_DatePicker2);
+            this.guna2Panel15.Controls.Add(this.guna2Separator8);
+            this.guna2Panel15.Controls.Add(this.guna2Separator9);
+            this.guna2Panel15.Location = new System.Drawing.Point(6, 3);
+            this.guna2Panel15.Name = "guna2Panel15";
+            this.guna2Panel15.Size = new System.Drawing.Size(620, 449);
+            this.guna2Panel15.TabIndex = 5;
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label20.Location = new System.Drawing.Point(452, -269);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(10, 55);
+            this.label20.TabIndex = 11;
+            this.label20.Text = "date";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label21.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label21.Location = new System.Drawing.Point(287, 133);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(44, 25);
+            this.label21.TabIndex = 11;
+            this.label21.Text = "date";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label22.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.label22.Location = new System.Drawing.Point(116, 185);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(394, 23);
+            this.label22.TabIndex = 10;
+            this.label22.Text = "This function helps to determine the number of high years between dates";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Separator7
+            // 
+            this.guna2Separator7.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator7.Location = new System.Drawing.Point(43, 191);
+            this.guna2Separator7.Name = "guna2Separator7";
+            this.guna2Separator7.Size = new System.Drawing.Size(537, 10);
+            this.guna2Separator7.TabIndex = 8;
+            // 
+            // guna2Panel16
+            // 
+            this.guna2Panel16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel16.BorderRadius = 20;
+            this.guna2Panel16.Controls.Add(this.label23);
+            this.guna2Panel16.Controls.Add(this.LC_LeapYears);
+            this.guna2Panel16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel16.Location = new System.Drawing.Point(249, 221);
+            this.guna2Panel16.Name = "guna2Panel16";
+            this.guna2Panel16.Size = new System.Drawing.Size(122, 122);
+            this.guna2Panel16.TabIndex = 5;
+            // 
+            // label23
+            // 
+            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.label23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label23.Location = new System.Drawing.Point(0, 81);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(122, 25);
+            this.label23.TabIndex = 3;
+            this.label23.Text = "leap years";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LC_LeapYears
+            // 
+            this.LC_LeapYears.BackColor = System.Drawing.Color.Transparent;
+            this.LC_LeapYears.Font = new System.Drawing.Font("BigNoodleTooOblique", 40F);
+            this.LC_LeapYears.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.LC_LeapYears.Location = new System.Drawing.Point(0, 9);
+            this.LC_LeapYears.Name = "LC_LeapYears";
+            this.LC_LeapYears.Size = new System.Drawing.Size(122, 87);
+            this.LC_LeapYears.TabIndex = 3;
+            this.LC_LeapYears.Text = "30";
+            this.LC_LeapYears.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LC_DatePicker1
+            // 
+            this.LC_DatePicker1.BorderRadius = 15;
+            this.LC_DatePicker1.Checked = true;
+            this.LC_DatePicker1.CustomFormat = "";
+            this.LC_DatePicker1.CustomizableEdges.BottomRight = false;
+            this.LC_DatePicker1.FillColor = System.Drawing.Color.SteelBlue;
+            this.LC_DatePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.LC_DatePicker1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.LC_DatePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.LC_DatePicker1.Location = new System.Drawing.Point(41, 125);
+            this.LC_DatePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.LC_DatePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.LC_DatePicker1.Name = "LC_DatePicker1";
+            this.LC_DatePicker1.Size = new System.Drawing.Size(205, 36);
+            this.LC_DatePicker1.TabIndex = 2;
+            this.LC_DatePicker1.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            // 
+            // LC_DatePicker2
+            // 
+            this.LC_DatePicker2.BorderRadius = 15;
+            this.LC_DatePicker2.Checked = true;
+            this.LC_DatePicker2.CustomFormat = "";
+            this.LC_DatePicker2.CustomizableEdges.BottomLeft = false;
+            this.LC_DatePicker2.FillColor = System.Drawing.Color.SteelBlue;
+            this.LC_DatePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.LC_DatePicker2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.LC_DatePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.LC_DatePicker2.Location = new System.Drawing.Point(372, 125);
+            this.LC_DatePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.LC_DatePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.LC_DatePicker2.Name = "LC_DatePicker2";
+            this.LC_DatePicker2.Size = new System.Drawing.Size(207, 36);
+            this.LC_DatePicker2.TabIndex = 2;
+            this.LC_DatePicker2.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            // 
+            // guna2Separator8
+            // 
+            this.guna2Separator8.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator8.Location = new System.Drawing.Point(42, 275);
+            this.guna2Separator8.Name = "guna2Separator8";
+            this.guna2Separator8.Size = new System.Drawing.Size(537, 10);
+            this.guna2Separator8.TabIndex = 13;
+            // 
+            // guna2Separator9
+            // 
+            this.guna2Separator9.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator9.Location = new System.Drawing.Point(254, 124);
+            this.guna2Separator9.Name = "guna2Separator9";
+            this.guna2Separator9.Size = new System.Drawing.Size(108, 40);
+            this.guna2Separator9.TabIndex = 13;
             // 
             // Form1
             // 
@@ -1155,6 +1331,7 @@
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel6.ResumeLayout(false);
             this.DateWorkingCounterPage.ResumeLayout(false);
+            this.LeapCounterPage.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
@@ -1166,6 +1343,8 @@
             this.guna2Panel13.ResumeLayout(false);
             this.guna2Panel13.PerformLayout();
             this.guna2Panel14.ResumeLayout(false);
+            this.guna2Panel15.ResumeLayout(false);
+            this.guna2Panel16.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1242,6 +1421,18 @@
         private Guna.UI2.WinForms.Guna2Separator guna2Separator4;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator5;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator6;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel15;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator7;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel16;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label LC_LeapYears;
+        private Guna.UI2.WinForms.Guna2DateTimePicker LC_DatePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker LC_DatePicker2;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator8;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator9;
     }
 }
 

@@ -26,6 +26,9 @@ namespace DateTimeCalculator
             TimePicker1.Value = DateTime.Now;
             TimePicker2.Value = DateTime.Now;
 
+            DWC_DatePicker1.Value = DateTime.Now;
+            DWC_DatePicker2.Value = DateTime.Now;
+
 
             DateComparer(TimePicker1.Value, TimePicker2.Value);
         }
@@ -80,6 +83,7 @@ namespace DateTimeCalculator
                     break;
                 case 1:
                     CategoryLabel.Text = "2Date Working Counter";
+                    DateWoringCounter();
                     break;
                 case 2:
                     CategoryLabel.Text = "Leap Counter";
@@ -190,6 +194,107 @@ namespace DateTimeCalculator
         {
             DateComparer(TimePicker1.Value, TimePicker2.Value);
         }
+
+
+        void DateWoringCounter()
+        {
+            var date1 = DWC_DatePicker1.Value;
+            var date2 = DWC_DatePicker2.Value;        
+
+            int count = 0;
+
+            if (date1 > date2 || (date1 == date2))
+            {
+                var tempDate = date1;
+                date1 = date2;
+                date2 = tempDate;
+
+               
+            }
+
+            for (DateTime date = date1; date <= date2; date = date.AddDays(1))
+            {
+                if (DWC_CB_Monday.Checked)
+                {
+                    if (date.DayOfWeek == DayOfWeek.Monday) count++; 
+                }
+                if (DWC_CB_Tuesday.Checked)
+                {
+                    if (date.DayOfWeek == DayOfWeek.Tuesday) count++; 
+                }
+                if (DWC_CB_Wednesday.Checked)
+                {
+                    if (date.DayOfWeek == DayOfWeek.Wednesday) count++;
+                }
+                if ( DWC_CB_Thursday.Checked)
+                {
+                    if (date.DayOfWeek == DayOfWeek.Thursday) count++; 
+                }
+                if (DWC_CB_Friday.Checked)
+                {
+                    if (date.DayOfWeek == DayOfWeek.Friday) count++; 
+                }  
+                if (DWC_CB_Saturday.Checked)
+                {
+                    if (date.DayOfWeek == DayOfWeek.Saturday) count++;
+                }
+                if (DWC_CB_Sunday.Checked)
+                {
+                    if (date.DayOfWeek == DayOfWeek.Sunday) count++;
+                }
+
+            }
+
+            DWC_Label_WorkingDays.Text = count.ToString();
+
+        }
+
+        private void DWC_DatePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_DatePicker2_ValueChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_CB_Monday_CheckedChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_CB_Tuesday_CheckedChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_CB_Wednesday_CheckedChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_CB_Thursday_CheckedChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_CB_Friday_CheckedChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_CB_Saturday_CheckedChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        private void DWC_CB_Sunday_CheckedChanged(object sender, EventArgs e)
+        {
+            DateWoringCounter();
+        }
+
+        
     }
 }
 
