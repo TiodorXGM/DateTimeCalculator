@@ -111,6 +111,19 @@
             this.LC_DatePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2Separator8 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator9 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.guna2Separator10 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
+            this.TC_FinalValue_Type = new System.Windows.Forms.Label();
+            this.TC_FinalValue = new System.Windows.Forms.Label();
+            this.guna2Separator11 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator12 = new Guna.UI2.WinForms.Guna2Separator();
+            this.label24 = new System.Windows.Forms.Label();
+            this.TC_NumLeft = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.TC_Combo_Left = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.TC_Combo_Right = new Guna.UI2.WinForms.Guna2ComboBox();
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -124,6 +137,7 @@
             this.guna2Panel6.SuspendLayout();
             this.DateWorkingCounterPage.SuspendLayout();
             this.LeapCounterPage.SuspendLayout();
+            this.TimeConverterPage.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -135,6 +149,9 @@
             this.guna2Panel14.SuspendLayout();
             this.guna2Panel15.SuspendLayout();
             this.guna2Panel16.SuspendLayout();
+            this.guna2Panel17.SuspendLayout();
+            this.guna2Panel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TC_NumLeft)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuTabControl
@@ -646,6 +663,7 @@
             // TimeConverterPage
             // 
             this.TimeConverterPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
+            this.TimeConverterPage.Controls.Add(this.guna2Panel17);
             this.TimeConverterPage.Location = new System.Drawing.Point(224, 4);
             this.TimeConverterPage.Name = "TimeConverterPage";
             this.TimeConverterPage.Size = new System.Drawing.Size(633, 455);
@@ -1211,9 +1229,9 @@
             // guna2Separator7
             // 
             this.guna2Separator7.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator7.Location = new System.Drawing.Point(43, 191);
+            this.guna2Separator7.Location = new System.Drawing.Point(41, 191);
             this.guna2Separator7.Name = "guna2Separator7";
-            this.guna2Separator7.Size = new System.Drawing.Size(537, 10);
+            this.guna2Separator7.Size = new System.Drawing.Size(538, 10);
             this.guna2Separator7.TabIndex = 8;
             // 
             // guna2Panel16
@@ -1294,9 +1312,9 @@
             // guna2Separator8
             // 
             this.guna2Separator8.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator8.Location = new System.Drawing.Point(42, 275);
+            this.guna2Separator8.Location = new System.Drawing.Point(41, 275);
             this.guna2Separator8.Name = "guna2Separator8";
-            this.guna2Separator8.Size = new System.Drawing.Size(537, 10);
+            this.guna2Separator8.Size = new System.Drawing.Size(538, 10);
             this.guna2Separator8.TabIndex = 13;
             // 
             // guna2Separator9
@@ -1306,6 +1324,205 @@
             this.guna2Separator9.Name = "guna2Separator9";
             this.guna2Separator9.Size = new System.Drawing.Size(108, 40);
             this.guna2Separator9.TabIndex = 13;
+            // 
+            // guna2Panel17
+            // 
+            this.guna2Panel17.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.guna2Panel17.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel17.Controls.Add(this.TC_Combo_Right);
+            this.guna2Panel17.Controls.Add(this.TC_Combo_Left);
+            this.guna2Panel17.Controls.Add(this.TC_NumLeft);
+            this.guna2Panel17.Controls.Add(this.label19);
+            this.guna2Panel17.Controls.Add(this.label24);
+            this.guna2Panel17.Controls.Add(this.label25);
+            this.guna2Panel17.Controls.Add(this.guna2Separator10);
+            this.guna2Panel17.Controls.Add(this.guna2Panel18);
+            this.guna2Panel17.Controls.Add(this.guna2Separator11);
+            this.guna2Panel17.Controls.Add(this.guna2Separator12);
+            this.guna2Panel17.Location = new System.Drawing.Point(6, 3);
+            this.guna2Panel17.Name = "guna2Panel17";
+            this.guna2Panel17.Size = new System.Drawing.Size(620, 449);
+            this.guna2Panel17.TabIndex = 6;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label19.Location = new System.Drawing.Point(452, -269);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(10, 55);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "date";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label25.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.label25.Location = new System.Drawing.Point(102, 184);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(419, 23);
+            this.label25.TabIndex = 10;
+            this.label25.Text = "Easily calculate and convert time between years, months, days, hours, and more.";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Separator10
+            // 
+            this.guna2Separator10.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator10.Location = new System.Drawing.Point(41, 191);
+            this.guna2Separator10.Name = "guna2Separator10";
+            this.guna2Separator10.Size = new System.Drawing.Size(537, 10);
+            this.guna2Separator10.TabIndex = 8;
+            // 
+            // guna2Panel18
+            // 
+            this.guna2Panel18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel18.BorderRadius = 20;
+            this.guna2Panel18.Controls.Add(this.TC_FinalValue_Type);
+            this.guna2Panel18.Controls.Add(this.TC_FinalValue);
+            this.guna2Panel18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel18.Location = new System.Drawing.Point(249, 221);
+            this.guna2Panel18.Name = "guna2Panel18";
+            this.guna2Panel18.Size = new System.Drawing.Size(122, 122);
+            this.guna2Panel18.TabIndex = 5;
+            // 
+            // TC_FinalValue_Type
+            // 
+            this.TC_FinalValue_Type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.TC_FinalValue_Type.BackColor = System.Drawing.Color.Transparent;
+            this.TC_FinalValue_Type.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.TC_FinalValue_Type.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.TC_FinalValue_Type.Location = new System.Drawing.Point(0, 81);
+            this.TC_FinalValue_Type.Name = "TC_FinalValue_Type";
+            this.TC_FinalValue_Type.Size = new System.Drawing.Size(122, 25);
+            this.TC_FinalValue_Type.TabIndex = 3;
+            this.TC_FinalValue_Type.Text = "years";
+            this.TC_FinalValue_Type.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // TC_FinalValue
+            // 
+            this.TC_FinalValue.BackColor = System.Drawing.Color.Transparent;
+            this.TC_FinalValue.Font = new System.Drawing.Font("BigNoodleTooOblique", 40F);
+            this.TC_FinalValue.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.TC_FinalValue.Location = new System.Drawing.Point(0, 9);
+            this.TC_FinalValue.Name = "TC_FinalValue";
+            this.TC_FinalValue.Size = new System.Drawing.Size(122, 87);
+            this.TC_FinalValue.TabIndex = 3;
+            this.TC_FinalValue.Text = "30";
+            this.TC_FinalValue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Separator11
+            // 
+            this.guna2Separator11.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator11.Location = new System.Drawing.Point(42, 275);
+            this.guna2Separator11.Name = "guna2Separator11";
+            this.guna2Separator11.Size = new System.Drawing.Size(537, 10);
+            this.guna2Separator11.TabIndex = 13;
+            // 
+            // guna2Separator12
+            // 
+            this.guna2Separator12.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator12.Location = new System.Drawing.Point(307, 122);
+            this.guna2Separator12.Name = "guna2Separator12";
+            this.guna2Separator12.Size = new System.Drawing.Size(100, 40);
+            this.guna2Separator12.TabIndex = 13;
+            // 
+            // label24
+            // 
+            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label24.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label24.Location = new System.Drawing.Point(315, 131);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(84, 25);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "Convert to";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // TC_NumLeft
+            // 
+            this.TC_NumLeft.BackColor = System.Drawing.Color.Transparent;
+            this.TC_NumLeft.BorderRadius = 10;
+            this.TC_NumLeft.BorderThickness = 0;
+            this.TC_NumLeft.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TC_NumLeft.FillColor = System.Drawing.Color.SteelBlue;
+            this.TC_NumLeft.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TC_NumLeft.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_NumLeft.Location = new System.Drawing.Point(90, 125);
+            this.TC_NumLeft.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.TC_NumLeft.Name = "TC_NumLeft";
+            this.TC_NumLeft.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.TC_NumLeft.Size = new System.Drawing.Size(83, 36);
+            this.TC_NumLeft.TabIndex = 14;
+            this.TC_NumLeft.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
+            this.TC_NumLeft.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_NumLeft.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // TC_Combo_Left
+            // 
+            this.TC_Combo_Left.BackColor = System.Drawing.Color.Transparent;
+            this.TC_Combo_Left.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Left.BorderRadius = 10;
+            this.TC_Combo_Left.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.TC_Combo_Left.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.TC_Combo_Left.FillColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Left.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Left.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Left.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.TC_Combo_Left.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_Combo_Left.ItemHeight = 30;
+            this.TC_Combo_Left.Items.AddRange(new object[] {
+            "Years",
+            "Months",
+            "Days",
+            "Hours",
+            "Minutes",
+            "Seconds"});
+            this.TC_Combo_Left.Location = new System.Drawing.Point(179, 125);
+            this.TC_Combo_Left.Name = "TC_Combo_Left";
+            this.TC_Combo_Left.Size = new System.Drawing.Size(121, 36);
+            this.TC_Combo_Left.StartIndex = 0;
+            this.TC_Combo_Left.TabIndex = 15;
+            this.TC_Combo_Left.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
+            // 
+            // TC_Combo_Right
+            // 
+            this.TC_Combo_Right.BackColor = System.Drawing.Color.Transparent;
+            this.TC_Combo_Right.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Right.BorderRadius = 10;
+            this.TC_Combo_Right.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.TC_Combo_Right.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.TC_Combo_Right.FillColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Right.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Right.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Right.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.TC_Combo_Right.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_Combo_Right.ItemHeight = 30;
+            this.TC_Combo_Right.Items.AddRange(new object[] {
+            "Years",
+            "Months",
+            "Days",
+            "Hours",
+            "Minutes",
+            "Seconds"});
+            this.TC_Combo_Right.Location = new System.Drawing.Point(413, 125);
+            this.TC_Combo_Right.Name = "TC_Combo_Right";
+            this.TC_Combo_Right.Size = new System.Drawing.Size(121, 36);
+            this.TC_Combo_Right.StartIndex = 0;
+            this.TC_Combo_Right.TabIndex = 15;
+            this.TC_Combo_Right.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // Form1
             // 
@@ -1334,6 +1551,7 @@
             this.guna2Panel6.ResumeLayout(false);
             this.DateWorkingCounterPage.ResumeLayout(false);
             this.LeapCounterPage.ResumeLayout(false);
+            this.TimeConverterPage.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
@@ -1347,6 +1565,9 @@
             this.guna2Panel14.ResumeLayout(false);
             this.guna2Panel15.ResumeLayout(false);
             this.guna2Panel16.ResumeLayout(false);
+            this.guna2Panel17.ResumeLayout(false);
+            this.guna2Panel18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TC_NumLeft)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1435,6 +1656,19 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker LC_DatePicker2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator8;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator9;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel17;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label25;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator10;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel18;
+        private System.Windows.Forms.Label TC_FinalValue_Type;
+        private System.Windows.Forms.Label TC_FinalValue;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator11;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator12;
+        private Guna.UI2.WinForms.Guna2NumericUpDown TC_NumLeft;
+        private System.Windows.Forms.Label label24;
+        private Guna.UI2.WinForms.Guna2ComboBox TC_Combo_Left;
+        private Guna.UI2.WinForms.Guna2ComboBox TC_Combo_Right;
     }
 }
 
