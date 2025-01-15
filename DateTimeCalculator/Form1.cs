@@ -139,7 +139,6 @@ namespace DateTimeCalculator
            
             long totalDifference = totalMilliseconds2 - totalMilliseconds1;
 
-       
             int years = (int)(totalDifference / (365L * 24 * 60 * 60 * 1000));
             totalDifference %= (365L * 24 * 60 * 60 * 1000);
 
@@ -180,33 +179,7 @@ namespace DateTimeCalculator
             DateComparer(TimePicker1.Value, TimePicker2.Value);
         }
 
-        private void DC_MsBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true; // Отклоняем ввод
-            }
-        }
-
-        private void DC_MsBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true; // Отклоняем ввод
-            }
-        }
-
-    
-
-        private void DC_MsBox2_TextChanged(object sender, EventArgs e)
-        {
-            DateComparer(TimePicker1.Value, TimePicker2.Value);
-        }
-
-        private void DC_MsBox1_TextChanged(object sender, EventArgs e)
-        {
-            DateComparer(TimePicker1.Value, TimePicker2.Value);
-        }
+   
 
         private void DC_NumMs1_ValueChanged(object sender, EventArgs e)
         {
