@@ -91,6 +91,7 @@ namespace DateTimeCalculator
                     break;
                 case 3:
                     CategoryLabel.Text = "Time Converter";
+                    TimeConverter();
                     break;
                 case 4:
                     CategoryLabel.Text = "Birthday Informer";
@@ -162,13 +163,13 @@ namespace DateTimeCalculator
             int seconds = (int)(totalDifference / 1000);
             int milliseconds = Math.Abs((int)(totalDifference % 1000));
 
-            DC_Years_Value.Text = years.ToString();
-            DC_Months_Value.Text = months.ToString();
-            DC_Days_Value.Text = days.ToString();
-            DC_Hours_Value.Text = hours.ToString();
-            DC_Minutes_Value.Text = minutes.ToString();
-            DC_Sec_Value.Text = seconds.ToString();
-            DC_Ms_Value.Text = milliseconds.ToString();
+            DC_Years_Value.Text     = years.ToString();
+            DC_Months_Value.Text    = months.ToString();
+            DC_Days_Value.Text      = days.ToString();
+            DC_Hours_Value.Text     = hours.ToString();
+            DC_Minutes_Value.Text   = minutes.ToString();
+            DC_Sec_Value.Text       = seconds.ToString();
+            DC_Ms_Value.Text        = milliseconds.ToString();
             DC_TotalDays_Value.Text = difference.Days.ToString();
 
 
@@ -328,9 +329,65 @@ namespace DateTimeCalculator
             LeapCounter();
         }
 
-        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        public enum TimeType
         {
+            Years,
+            Months,
+            Days,
+            Hours,
+            Minutes,
+            Seconds
+        }
 
+        int GetTimeFactor(TimeType type)
+        {
+            int timeFactor = 1;
+            if (type == TimeType.Years)   timeFactor = 60 * 60 * 24 * 365;
+            if (type == TimeType.Months)  timeFactor = 60 * 60 * 24 * 30;
+            if (type == TimeType.Days)    timeFactor = 60 * 60 * 24;
+            if (type == TimeType.Hours)   timeFactor = 60 * 60;
+            if (type == TimeType.Minutes) timeFactor = 60;
+            if (type == TimeType.Seconds) timeFactor = 1;
+            return timeFactor;
+        }
+        void TimeConverter()
+        {
+            string valueType = TC_Combo_Right.Items[TC_Combo_Right.StartIndex].ToString();
+
+            TimeType rightType = (TimeType)TC_Combo_Right.SelectedIndex;
+
+            TimeType leftType = (TimeType)TC_Combo_Left.SelectedIndex;           
+
+            valueType = rightType.ToString();
+
+            decimal leftFactor = GetTimeFactor(leftType);
+            decimal rightFactor = GetTimeFactor(rightType);
+
+            decimal time = (TC_NumLeft.Value * leftFactor / rightFactor);
+
+            string formattedTime = (time % 1 == 0)
+                                  ? time.ToString("F0") 
+                                  : time.ToString("F8"); 
+
+            TC_FinalValue.Text = formattedTime.ToString();
+
+
+            TC_FinalValue_Type.Text = valueType;
+        }
+
+        private void TC_NumLeft_ValueChanged(object sender, EventArgs e)
+        {
+            TimeConverter();
+        }
+
+        private void TC_Combo_Left_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TimeConverter();
+        }
+
+        private void TC_Combo_Right_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TimeConverter();
         }
     }
 }

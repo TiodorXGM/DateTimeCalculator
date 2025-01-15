@@ -31,6 +31,8 @@
             this.MenuTabControl = new Guna.UI2.WinForms.Guna2TabControl();
             this.DateComparerPage = new System.Windows.Forms.TabPage();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.DC_NumMs1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.DC_NumMs2 = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -63,23 +65,18 @@
             this.TimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.TimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2Separator2 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
             this.DateWorkingCounterPage = new System.Windows.Forms.TabPage();
-            this.LeapCounterPage = new System.Windows.Forms.TabPage();
-            this.TimeConverterPage = new System.Windows.Forms.TabPage();
-            this.BirthdayInformerPage = new System.Windows.Forms.TabPage();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.CategoryLabel = new System.Windows.Forms.Label();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.labelTimestamp = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.DC_NumMs2 = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.DC_NumMs1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
+            this.DWC_CB_Sunday = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DWC_CB_Saturday = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DWC_CB_Friday = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DWC_CB_Thursday = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DWC_CB_Wednesday = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DWC_CB_Tuesday = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DWC_CB_Monday = new Guna.UI2.WinForms.Guna2CheckBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.guna2Separator3 = new Guna.UI2.WinForms.Guna2Separator();
@@ -88,17 +85,9 @@
             this.DWC_Label_WorkingDays = new System.Windows.Forms.Label();
             this.DWC_DatePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.DWC_DatePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.DWC_CB_Monday = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.DWC_CB_Tuesday = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.DWC_CB_Wednesday = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.DWC_CB_Thursday = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.DWC_CB_Friday = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.DWC_CB_Saturday = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.DWC_CB_Sunday = new Guna.UI2.WinForms.Guna2CheckBox();
             this.guna2Separator4 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator5 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label13 = new System.Windows.Forms.Label();
-            this.guna2Separator6 = new Guna.UI2.WinForms.Guna2Separator();
+            this.LeapCounterPage = new System.Windows.Forms.TabPage();
             this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -111,8 +100,13 @@
             this.LC_DatePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2Separator8 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator9 = new Guna.UI2.WinForms.Guna2Separator();
+            this.TimeConverterPage = new System.Windows.Forms.TabPage();
             this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
+            this.TC_Combo_Right = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.TC_Combo_Left = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.TC_NumLeft = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.label19 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.guna2Separator10 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
@@ -120,13 +114,21 @@
             this.TC_FinalValue = new System.Windows.Forms.Label();
             this.guna2Separator11 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator12 = new Guna.UI2.WinForms.Guna2Separator();
-            this.label24 = new System.Windows.Forms.Label();
-            this.TC_NumLeft = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.TC_Combo_Left = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.TC_Combo_Right = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.BirthdayInformerPage = new System.Windows.Forms.TabPage();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.CategoryLabel = new System.Windows.Forms.Label();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelTimestamp = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs2)).BeginInit();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel12.SuspendLayout();
@@ -136,22 +138,20 @@
             this.guna2Panel5.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             this.DateWorkingCounterPage.SuspendLayout();
+            this.guna2Panel13.SuspendLayout();
+            this.guna2Panel14.SuspendLayout();
             this.LeapCounterPage.SuspendLayout();
+            this.guna2Panel15.SuspendLayout();
+            this.guna2Panel16.SuspendLayout();
             this.TimeConverterPage.SuspendLayout();
+            this.guna2Panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TC_NumLeft)).BeginInit();
+            this.guna2Panel18.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs1)).BeginInit();
-            this.guna2Panel13.SuspendLayout();
-            this.guna2Panel14.SuspendLayout();
-            this.guna2Panel15.SuspendLayout();
-            this.guna2Panel16.SuspendLayout();
-            this.guna2Panel17.SuspendLayout();
-            this.guna2Panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TC_NumLeft)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuTabControl
@@ -227,6 +227,52 @@
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(620, 449);
             this.guna2Panel3.TabIndex = 3;
+            // 
+            // DC_NumMs1
+            // 
+            this.DC_NumMs1.BackColor = System.Drawing.Color.Transparent;
+            this.DC_NumMs1.BorderRadius = 10;
+            this.DC_NumMs1.BorderThickness = 0;
+            this.DC_NumMs1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.DC_NumMs1.FillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DC_NumMs1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs1.Location = new System.Drawing.Point(147, 66);
+            this.DC_NumMs1.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.DC_NumMs1.Name = "DC_NumMs1";
+            this.DC_NumMs1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.DC_NumMs1.Size = new System.Drawing.Size(100, 31);
+            this.DC_NumMs1.TabIndex = 13;
+            this.DC_NumMs1.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs1.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs1.ValueChanged += new System.EventHandler(this.DC_NumMs1_ValueChanged);
+            // 
+            // DC_NumMs2
+            // 
+            this.DC_NumMs2.BackColor = System.Drawing.Color.Transparent;
+            this.DC_NumMs2.BorderRadius = 10;
+            this.DC_NumMs2.BorderThickness = 0;
+            this.DC_NumMs2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.DC_NumMs2.FillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.DC_NumMs2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs2.Location = new System.Drawing.Point(373, 66);
+            this.DC_NumMs2.Maximum = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            this.DC_NumMs2.Name = "DC_NumMs2";
+            this.DC_NumMs2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.DC_NumMs2.Size = new System.Drawing.Size(100, 31);
+            this.DC_NumMs2.TabIndex = 13;
+            this.DC_NumMs2.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
+            this.DC_NumMs2.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
+            this.DC_NumMs2.ValueChanged += new System.EventHandler(this.DC_NumMs2_ValueChanged);
             // 
             // label5
             // 
@@ -639,6 +685,14 @@
             this.guna2Separator2.Size = new System.Drawing.Size(537, 10);
             this.guna2Separator2.TabIndex = 8;
             // 
+            // guna2Separator6
+            // 
+            this.guna2Separator6.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator6.Location = new System.Drawing.Point(258, 27);
+            this.guna2Separator6.Name = "guna2Separator6";
+            this.guna2Separator6.Size = new System.Drawing.Size(108, 40);
+            this.guna2Separator6.TabIndex = 14;
+            // 
             // DateWorkingCounterPage
             // 
             this.DateWorkingCounterPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
@@ -649,202 +703,6 @@
             this.DateWorkingCounterPage.Size = new System.Drawing.Size(633, 455);
             this.DateWorkingCounterPage.TabIndex = 1;
             this.DateWorkingCounterPage.Text = "2Date Working Counter";
-            // 
-            // LeapCounterPage
-            // 
-            this.LeapCounterPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
-            this.LeapCounterPage.Controls.Add(this.guna2Panel15);
-            this.LeapCounterPage.Location = new System.Drawing.Point(224, 4);
-            this.LeapCounterPage.Name = "LeapCounterPage";
-            this.LeapCounterPage.Size = new System.Drawing.Size(633, 455);
-            this.LeapCounterPage.TabIndex = 2;
-            this.LeapCounterPage.Text = "LeapCounter";
-            // 
-            // TimeConverterPage
-            // 
-            this.TimeConverterPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
-            this.TimeConverterPage.Controls.Add(this.guna2Panel17);
-            this.TimeConverterPage.Location = new System.Drawing.Point(224, 4);
-            this.TimeConverterPage.Name = "TimeConverterPage";
-            this.TimeConverterPage.Size = new System.Drawing.Size(633, 455);
-            this.TimeConverterPage.TabIndex = 3;
-            this.TimeConverterPage.Text = "TimeConverter";
-            // 
-            // BirthdayInformerPage
-            // 
-            this.BirthdayInformerPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
-            this.BirthdayInformerPage.Location = new System.Drawing.Point(224, 4);
-            this.BirthdayInformerPage.Name = "BirthdayInformerPage";
-            this.BirthdayInformerPage.Size = new System.Drawing.Size(633, 455);
-            this.BirthdayInformerPage.TabIndex = 4;
-            this.BirthdayInformerPage.Text = "Birthday Informer";
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel2.Controls.Add(this.CategoryLabel);
-            this.guna2Panel2.Controls.Add(this.guna2Panel4);
-            this.guna2Panel2.Controls.Add(this.guna2Panel1);
-            this.guna2Panel2.Controls.Add(this.label1);
-            this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(861, 55);
-            this.guna2Panel2.TabIndex = 5;
-            // 
-            // CategoryLabel
-            // 
-            this.CategoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.CategoryLabel.BackColor = System.Drawing.Color.Transparent;
-            this.CategoryLabel.Font = new System.Drawing.Font("BigNoodleTooOblique", 30F);
-            this.CategoryLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.CategoryLabel.Location = new System.Drawing.Point(247, 9);
-            this.CategoryLabel.Name = "CategoryLabel";
-            this.CategoryLabel.Size = new System.Drawing.Size(508, 37);
-            this.CategoryLabel.TabIndex = 7;
-            this.CategoryLabel.Text = "2Date Comparer";
-            this.CategoryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.AutoSize = true;
-            this.guna2Panel4.BackColor = System.Drawing.Color.SteelBlue;
-            this.guna2Panel4.Controls.Add(this.guna2CircleButton1);
-            this.guna2Panel4.Controls.Add(this.guna2PictureBox2);
-            this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(220, 58);
-            this.guna2Panel4.TabIndex = 6;
-            this.guna2Panel4.Click += new System.EventHandler(this.guna2Panel4_Click);
-            this.guna2Panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
-            // 
-            // guna2CircleButton1
-            // 
-            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Image = global::DateTimeCalculator.Properties.Resources.MenuIcon;
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(32, 24);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(3, 3);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(48, 46);
-            this.guna2CircleButton1.TabIndex = 2;
-            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Enabled = false;
-            this.guna2PictureBox2.Image = global::DateTimeCalculator.Properties.Resources.DateTimeCalculator_Logo_text;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(84, 2);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(98, 50);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 0;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.AutoSize = true;
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderRadius = 5;
-            this.guna2Panel1.BorderThickness = 2;
-            this.guna2Panel1.Controls.Add(this.labelTimestamp);
-            this.guna2Panel1.FillColor = System.Drawing.Color.SteelBlue;
-            this.guna2Panel1.Location = new System.Drawing.Point(771, 12);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(79, 34);
-            this.guna2Panel1.TabIndex = 1;
-            // 
-            // labelTimestamp
-            // 
-            this.labelTimestamp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelTimestamp.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTimestamp.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelTimestamp.Location = new System.Drawing.Point(0, 0);
-            this.labelTimestamp.Name = "labelTimestamp";
-            this.labelTimestamp.Size = new System.Drawing.Size(79, 34);
-            this.labelTimestamp.TabIndex = 0;
-            this.labelTimestamp.Text = "0000";
-            this.labelTimestamp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(503, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 21);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Date && Time Calculator";
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.Image = global::DateTimeCalculator.Properties.Resources.DateIcon;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(465, 73);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 2;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
-            // 
-            // DC_NumMs2
-            // 
-            this.DC_NumMs2.BackColor = System.Drawing.Color.Transparent;
-            this.DC_NumMs2.BorderRadius = 10;
-            this.DC_NumMs2.BorderThickness = 0;
-            this.DC_NumMs2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DC_NumMs2.FillColor = System.Drawing.Color.SteelBlue;
-            this.DC_NumMs2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DC_NumMs2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.DC_NumMs2.Location = new System.Drawing.Point(373, 66);
-            this.DC_NumMs2.Maximum = new decimal(new int[] {
-            999,
-            0,
-            0,
-            0});
-            this.DC_NumMs2.Name = "DC_NumMs2";
-            this.DC_NumMs2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.DC_NumMs2.Size = new System.Drawing.Size(100, 31);
-            this.DC_NumMs2.TabIndex = 13;
-            this.DC_NumMs2.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
-            this.DC_NumMs2.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
-            this.DC_NumMs2.ValueChanged += new System.EventHandler(this.DC_NumMs2_ValueChanged);
-            // 
-            // DC_NumMs1
-            // 
-            this.DC_NumMs1.BackColor = System.Drawing.Color.Transparent;
-            this.DC_NumMs1.BorderRadius = 10;
-            this.DC_NumMs1.BorderThickness = 0;
-            this.DC_NumMs1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DC_NumMs1.FillColor = System.Drawing.Color.SteelBlue;
-            this.DC_NumMs1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DC_NumMs1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.DC_NumMs1.Location = new System.Drawing.Point(147, 66);
-            this.DC_NumMs1.Maximum = new decimal(new int[] {
-            999,
-            0,
-            0,
-            0});
-            this.DC_NumMs1.Name = "DC_NumMs1";
-            this.DC_NumMs1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.DC_NumMs1.Size = new System.Drawing.Size(100, 31);
-            this.DC_NumMs1.TabIndex = 13;
-            this.DC_NumMs1.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
-            this.DC_NumMs1.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
-            this.DC_NumMs1.ValueChanged += new System.EventHandler(this.DC_NumMs1_ValueChanged);
             // 
             // guna2Panel13
             // 
@@ -872,6 +730,146 @@
             this.guna2Panel13.Size = new System.Drawing.Size(620, 449);
             this.guna2Panel13.TabIndex = 4;
             // 
+            // DWC_CB_Sunday
+            // 
+            this.DWC_CB_Sunday.AutoSize = true;
+            this.DWC_CB_Sunday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Sunday.CheckedState.BorderRadius = 0;
+            this.DWC_CB_Sunday.CheckedState.BorderThickness = 0;
+            this.DWC_CB_Sunday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Sunday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DWC_CB_Sunday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DWC_CB_Sunday.Location = new System.Drawing.Point(326, 228);
+            this.DWC_CB_Sunday.Name = "DWC_CB_Sunday";
+            this.DWC_CB_Sunday.Size = new System.Drawing.Size(85, 29);
+            this.DWC_CB_Sunday.TabIndex = 12;
+            this.DWC_CB_Sunday.Text = "Sunday";
+            this.DWC_CB_Sunday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Sunday.UncheckedState.BorderRadius = 0;
+            this.DWC_CB_Sunday.UncheckedState.BorderThickness = 0;
+            this.DWC_CB_Sunday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Sunday.CheckedChanged += new System.EventHandler(this.DWC_CB_Sunday_CheckedChanged);
+            // 
+            // DWC_CB_Saturday
+            // 
+            this.DWC_CB_Saturday.AutoSize = true;
+            this.DWC_CB_Saturday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Saturday.CheckedState.BorderRadius = 0;
+            this.DWC_CB_Saturday.CheckedState.BorderThickness = 0;
+            this.DWC_CB_Saturday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Saturday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DWC_CB_Saturday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DWC_CB_Saturday.Location = new System.Drawing.Point(179, 228);
+            this.DWC_CB_Saturday.Name = "DWC_CB_Saturday";
+            this.DWC_CB_Saturday.Size = new System.Drawing.Size(101, 29);
+            this.DWC_CB_Saturday.TabIndex = 12;
+            this.DWC_CB_Saturday.Text = "Saturday";
+            this.DWC_CB_Saturday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Saturday.UncheckedState.BorderRadius = 0;
+            this.DWC_CB_Saturday.UncheckedState.BorderThickness = 0;
+            this.DWC_CB_Saturday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Saturday.CheckedChanged += new System.EventHandler(this.DWC_CB_Saturday_CheckedChanged);
+            // 
+            // DWC_CB_Friday
+            // 
+            this.DWC_CB_Friday.AutoSize = true;
+            this.DWC_CB_Friday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Friday.CheckedState.BorderRadius = 0;
+            this.DWC_CB_Friday.CheckedState.BorderThickness = 0;
+            this.DWC_CB_Friday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Friday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DWC_CB_Friday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DWC_CB_Friday.Location = new System.Drawing.Point(501, 193);
+            this.DWC_CB_Friday.Name = "DWC_CB_Friday";
+            this.DWC_CB_Friday.Size = new System.Drawing.Size(78, 29);
+            this.DWC_CB_Friday.TabIndex = 12;
+            this.DWC_CB_Friday.Text = "Friday";
+            this.DWC_CB_Friday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Friday.UncheckedState.BorderRadius = 0;
+            this.DWC_CB_Friday.UncheckedState.BorderThickness = 0;
+            this.DWC_CB_Friday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Friday.CheckedChanged += new System.EventHandler(this.DWC_CB_Friday_CheckedChanged);
+            // 
+            // DWC_CB_Thursday
+            // 
+            this.DWC_CB_Thursday.AutoSize = true;
+            this.DWC_CB_Thursday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Thursday.CheckedState.BorderRadius = 0;
+            this.DWC_CB_Thursday.CheckedState.BorderThickness = 0;
+            this.DWC_CB_Thursday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Thursday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DWC_CB_Thursday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DWC_CB_Thursday.Location = new System.Drawing.Point(384, 193);
+            this.DWC_CB_Thursday.Name = "DWC_CB_Thursday";
+            this.DWC_CB_Thursday.Size = new System.Drawing.Size(101, 29);
+            this.DWC_CB_Thursday.TabIndex = 12;
+            this.DWC_CB_Thursday.Text = "Thursday";
+            this.DWC_CB_Thursday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Thursday.UncheckedState.BorderRadius = 0;
+            this.DWC_CB_Thursday.UncheckedState.BorderThickness = 0;
+            this.DWC_CB_Thursday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Thursday.CheckedChanged += new System.EventHandler(this.DWC_CB_Thursday_CheckedChanged);
+            // 
+            // DWC_CB_Wednesday
+            // 
+            this.DWC_CB_Wednesday.AutoSize = true;
+            this.DWC_CB_Wednesday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Wednesday.CheckedState.BorderRadius = 0;
+            this.DWC_CB_Wednesday.CheckedState.BorderThickness = 0;
+            this.DWC_CB_Wednesday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Wednesday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DWC_CB_Wednesday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DWC_CB_Wednesday.Location = new System.Drawing.Point(255, 193);
+            this.DWC_CB_Wednesday.Name = "DWC_CB_Wednesday";
+            this.DWC_CB_Wednesday.Size = new System.Drawing.Size(113, 29);
+            this.DWC_CB_Wednesday.TabIndex = 12;
+            this.DWC_CB_Wednesday.Text = "Wednesday";
+            this.DWC_CB_Wednesday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Wednesday.UncheckedState.BorderRadius = 0;
+            this.DWC_CB_Wednesday.UncheckedState.BorderThickness = 0;
+            this.DWC_CB_Wednesday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Wednesday.CheckedChanged += new System.EventHandler(this.DWC_CB_Wednesday_CheckedChanged);
+            // 
+            // DWC_CB_Tuesday
+            // 
+            this.DWC_CB_Tuesday.AutoSize = true;
+            this.DWC_CB_Tuesday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Tuesday.CheckedState.BorderRadius = 0;
+            this.DWC_CB_Tuesday.CheckedState.BorderThickness = 0;
+            this.DWC_CB_Tuesday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Tuesday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DWC_CB_Tuesday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DWC_CB_Tuesday.Location = new System.Drawing.Point(149, 193);
+            this.DWC_CB_Tuesday.Name = "DWC_CB_Tuesday";
+            this.DWC_CB_Tuesday.Size = new System.Drawing.Size(90, 29);
+            this.DWC_CB_Tuesday.TabIndex = 12;
+            this.DWC_CB_Tuesday.Text = "Tuesday";
+            this.DWC_CB_Tuesday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Tuesday.UncheckedState.BorderRadius = 0;
+            this.DWC_CB_Tuesday.UncheckedState.BorderThickness = 0;
+            this.DWC_CB_Tuesday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Tuesday.CheckedChanged += new System.EventHandler(this.DWC_CB_Tuesday_CheckedChanged);
+            // 
+            // DWC_CB_Monday
+            // 
+            this.DWC_CB_Monday.AutoSize = true;
+            this.DWC_CB_Monday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Monday.CheckedState.BorderRadius = 0;
+            this.DWC_CB_Monday.CheckedState.BorderThickness = 0;
+            this.DWC_CB_Monday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
+            this.DWC_CB_Monday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DWC_CB_Monday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DWC_CB_Monday.Location = new System.Drawing.Point(45, 193);
+            this.DWC_CB_Monday.Name = "DWC_CB_Monday";
+            this.DWC_CB_Monday.Size = new System.Drawing.Size(88, 29);
+            this.DWC_CB_Monday.TabIndex = 12;
+            this.DWC_CB_Monday.Text = "Monday";
+            this.DWC_CB_Monday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Monday.UncheckedState.BorderRadius = 0;
+            this.DWC_CB_Monday.UncheckedState.BorderThickness = 0;
+            this.DWC_CB_Monday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DWC_CB_Monday.CheckedChanged += new System.EventHandler(this.DWC_CB_Monday_CheckedChanged);
+            // 
             // label9
             // 
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -884,6 +882,19 @@
             this.label9.TabIndex = 11;
             this.label9.Text = "select working days:";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label13.Location = new System.Drawing.Point(452, -269);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(10, 55);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "date";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
@@ -993,146 +1004,6 @@
             this.DWC_DatePicker2.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
             this.DWC_DatePicker2.ValueChanged += new System.EventHandler(this.DWC_DatePicker2_ValueChanged);
             // 
-            // DWC_CB_Monday
-            // 
-            this.DWC_CB_Monday.AutoSize = true;
-            this.DWC_CB_Monday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Monday.CheckedState.BorderRadius = 0;
-            this.DWC_CB_Monday.CheckedState.BorderThickness = 0;
-            this.DWC_CB_Monday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Monday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DWC_CB_Monday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Monday.Location = new System.Drawing.Point(45, 193);
-            this.DWC_CB_Monday.Name = "DWC_CB_Monday";
-            this.DWC_CB_Monday.Size = new System.Drawing.Size(88, 29);
-            this.DWC_CB_Monday.TabIndex = 12;
-            this.DWC_CB_Monday.Text = "Monday";
-            this.DWC_CB_Monday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Monday.UncheckedState.BorderRadius = 0;
-            this.DWC_CB_Monday.UncheckedState.BorderThickness = 0;
-            this.DWC_CB_Monday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Monday.CheckedChanged += new System.EventHandler(this.DWC_CB_Monday_CheckedChanged);
-            // 
-            // DWC_CB_Tuesday
-            // 
-            this.DWC_CB_Tuesday.AutoSize = true;
-            this.DWC_CB_Tuesday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Tuesday.CheckedState.BorderRadius = 0;
-            this.DWC_CB_Tuesday.CheckedState.BorderThickness = 0;
-            this.DWC_CB_Tuesday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Tuesday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DWC_CB_Tuesday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Tuesday.Location = new System.Drawing.Point(149, 193);
-            this.DWC_CB_Tuesday.Name = "DWC_CB_Tuesday";
-            this.DWC_CB_Tuesday.Size = new System.Drawing.Size(90, 29);
-            this.DWC_CB_Tuesday.TabIndex = 12;
-            this.DWC_CB_Tuesday.Text = "Tuesday";
-            this.DWC_CB_Tuesday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Tuesday.UncheckedState.BorderRadius = 0;
-            this.DWC_CB_Tuesday.UncheckedState.BorderThickness = 0;
-            this.DWC_CB_Tuesday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Tuesday.CheckedChanged += new System.EventHandler(this.DWC_CB_Tuesday_CheckedChanged);
-            // 
-            // DWC_CB_Wednesday
-            // 
-            this.DWC_CB_Wednesday.AutoSize = true;
-            this.DWC_CB_Wednesday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Wednesday.CheckedState.BorderRadius = 0;
-            this.DWC_CB_Wednesday.CheckedState.BorderThickness = 0;
-            this.DWC_CB_Wednesday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Wednesday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DWC_CB_Wednesday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Wednesday.Location = new System.Drawing.Point(255, 193);
-            this.DWC_CB_Wednesday.Name = "DWC_CB_Wednesday";
-            this.DWC_CB_Wednesday.Size = new System.Drawing.Size(113, 29);
-            this.DWC_CB_Wednesday.TabIndex = 12;
-            this.DWC_CB_Wednesday.Text = "Wednesday";
-            this.DWC_CB_Wednesday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Wednesday.UncheckedState.BorderRadius = 0;
-            this.DWC_CB_Wednesday.UncheckedState.BorderThickness = 0;
-            this.DWC_CB_Wednesday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Wednesday.CheckedChanged += new System.EventHandler(this.DWC_CB_Wednesday_CheckedChanged);
-            // 
-            // DWC_CB_Thursday
-            // 
-            this.DWC_CB_Thursday.AutoSize = true;
-            this.DWC_CB_Thursday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Thursday.CheckedState.BorderRadius = 0;
-            this.DWC_CB_Thursday.CheckedState.BorderThickness = 0;
-            this.DWC_CB_Thursday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Thursday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DWC_CB_Thursday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Thursday.Location = new System.Drawing.Point(384, 193);
-            this.DWC_CB_Thursday.Name = "DWC_CB_Thursday";
-            this.DWC_CB_Thursday.Size = new System.Drawing.Size(101, 29);
-            this.DWC_CB_Thursday.TabIndex = 12;
-            this.DWC_CB_Thursday.Text = "Thursday";
-            this.DWC_CB_Thursday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Thursday.UncheckedState.BorderRadius = 0;
-            this.DWC_CB_Thursday.UncheckedState.BorderThickness = 0;
-            this.DWC_CB_Thursday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Thursday.CheckedChanged += new System.EventHandler(this.DWC_CB_Thursday_CheckedChanged);
-            // 
-            // DWC_CB_Friday
-            // 
-            this.DWC_CB_Friday.AutoSize = true;
-            this.DWC_CB_Friday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Friday.CheckedState.BorderRadius = 0;
-            this.DWC_CB_Friday.CheckedState.BorderThickness = 0;
-            this.DWC_CB_Friday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Friday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DWC_CB_Friday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Friday.Location = new System.Drawing.Point(501, 193);
-            this.DWC_CB_Friday.Name = "DWC_CB_Friday";
-            this.DWC_CB_Friday.Size = new System.Drawing.Size(78, 29);
-            this.DWC_CB_Friday.TabIndex = 12;
-            this.DWC_CB_Friday.Text = "Friday";
-            this.DWC_CB_Friday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Friday.UncheckedState.BorderRadius = 0;
-            this.DWC_CB_Friday.UncheckedState.BorderThickness = 0;
-            this.DWC_CB_Friday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Friday.CheckedChanged += new System.EventHandler(this.DWC_CB_Friday_CheckedChanged);
-            // 
-            // DWC_CB_Saturday
-            // 
-            this.DWC_CB_Saturday.AutoSize = true;
-            this.DWC_CB_Saturday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Saturday.CheckedState.BorderRadius = 0;
-            this.DWC_CB_Saturday.CheckedState.BorderThickness = 0;
-            this.DWC_CB_Saturday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Saturday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DWC_CB_Saturday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Saturday.Location = new System.Drawing.Point(179, 228);
-            this.DWC_CB_Saturday.Name = "DWC_CB_Saturday";
-            this.DWC_CB_Saturday.Size = new System.Drawing.Size(101, 29);
-            this.DWC_CB_Saturday.TabIndex = 12;
-            this.DWC_CB_Saturday.Text = "Saturday";
-            this.DWC_CB_Saturday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Saturday.UncheckedState.BorderRadius = 0;
-            this.DWC_CB_Saturday.UncheckedState.BorderThickness = 0;
-            this.DWC_CB_Saturday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Saturday.CheckedChanged += new System.EventHandler(this.DWC_CB_Saturday_CheckedChanged);
-            // 
-            // DWC_CB_Sunday
-            // 
-            this.DWC_CB_Sunday.AutoSize = true;
-            this.DWC_CB_Sunday.CheckedState.BorderColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Sunday.CheckedState.BorderRadius = 0;
-            this.DWC_CB_Sunday.CheckedState.BorderThickness = 0;
-            this.DWC_CB_Sunday.CheckedState.FillColor = System.Drawing.Color.SteelBlue;
-            this.DWC_CB_Sunday.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DWC_CB_Sunday.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DWC_CB_Sunday.Location = new System.Drawing.Point(326, 228);
-            this.DWC_CB_Sunday.Name = "DWC_CB_Sunday";
-            this.DWC_CB_Sunday.Size = new System.Drawing.Size(85, 29);
-            this.DWC_CB_Sunday.TabIndex = 12;
-            this.DWC_CB_Sunday.Text = "Sunday";
-            this.DWC_CB_Sunday.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Sunday.UncheckedState.BorderRadius = 0;
-            this.DWC_CB_Sunday.UncheckedState.BorderThickness = 0;
-            this.DWC_CB_Sunday.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DWC_CB_Sunday.CheckedChanged += new System.EventHandler(this.DWC_CB_Sunday_CheckedChanged);
-            // 
             // guna2Separator4
             // 
             this.guna2Separator4.FillColor = System.Drawing.Color.SlateGray;
@@ -1149,26 +1020,15 @@
             this.guna2Separator5.Size = new System.Drawing.Size(108, 40);
             this.guna2Separator5.TabIndex = 13;
             // 
-            // label13
+            // LeapCounterPage
             // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label13.Location = new System.Drawing.Point(452, -269);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(10, 55);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "date";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Separator6
-            // 
-            this.guna2Separator6.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator6.Location = new System.Drawing.Point(258, 27);
-            this.guna2Separator6.Name = "guna2Separator6";
-            this.guna2Separator6.Size = new System.Drawing.Size(108, 40);
-            this.guna2Separator6.TabIndex = 14;
+            this.LeapCounterPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
+            this.LeapCounterPage.Controls.Add(this.guna2Panel15);
+            this.LeapCounterPage.Location = new System.Drawing.Point(224, 4);
+            this.LeapCounterPage.Name = "LeapCounterPage";
+            this.LeapCounterPage.Size = new System.Drawing.Size(633, 455);
+            this.LeapCounterPage.TabIndex = 2;
+            this.LeapCounterPage.Text = "LeapCounter";
             // 
             // guna2Panel15
             // 
@@ -1325,6 +1185,16 @@
             this.guna2Separator9.Size = new System.Drawing.Size(108, 40);
             this.guna2Separator9.TabIndex = 13;
             // 
+            // TimeConverterPage
+            // 
+            this.TimeConverterPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
+            this.TimeConverterPage.Controls.Add(this.guna2Panel17);
+            this.TimeConverterPage.Location = new System.Drawing.Point(224, 4);
+            this.TimeConverterPage.Name = "TimeConverterPage";
+            this.TimeConverterPage.Size = new System.Drawing.Size(633, 455);
+            this.TimeConverterPage.TabIndex = 3;
+            this.TimeConverterPage.Text = "TimeConverter";
+            // 
             // guna2Panel17
             // 
             this.guna2Panel17.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -1344,6 +1214,88 @@
             this.guna2Panel17.Size = new System.Drawing.Size(620, 449);
             this.guna2Panel17.TabIndex = 6;
             // 
+            // TC_Combo_Right
+            // 
+            this.TC_Combo_Right.BackColor = System.Drawing.Color.Transparent;
+            this.TC_Combo_Right.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Right.BorderRadius = 10;
+            this.TC_Combo_Right.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.TC_Combo_Right.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.TC_Combo_Right.FillColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Right.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Right.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Right.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.TC_Combo_Right.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_Combo_Right.ItemHeight = 30;
+            this.TC_Combo_Right.Items.AddRange(new object[] {
+            "Years",
+            "Months",
+            "Days",
+            "Hours",
+            "Minutes",
+            "Seconds"});
+            this.TC_Combo_Right.Location = new System.Drawing.Point(413, 125);
+            this.TC_Combo_Right.Name = "TC_Combo_Right";
+            this.TC_Combo_Right.Size = new System.Drawing.Size(121, 36);
+            this.TC_Combo_Right.StartIndex = 0;
+            this.TC_Combo_Right.TabIndex = 15;
+            this.TC_Combo_Right.SelectedIndexChanged += new System.EventHandler(this.TC_Combo_Right_SelectedIndexChanged);
+            // 
+            // TC_Combo_Left
+            // 
+            this.TC_Combo_Left.BackColor = System.Drawing.Color.Transparent;
+            this.TC_Combo_Left.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Left.BorderRadius = 10;
+            this.TC_Combo_Left.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.TC_Combo_Left.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.TC_Combo_Left.FillColor = System.Drawing.Color.SteelBlue;
+            this.TC_Combo_Left.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Left.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TC_Combo_Left.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.TC_Combo_Left.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_Combo_Left.ItemHeight = 30;
+            this.TC_Combo_Left.Items.AddRange(new object[] {
+            "Years",
+            "Months",
+            "Days",
+            "Hours",
+            "Minutes",
+            "Seconds"});
+            this.TC_Combo_Left.Location = new System.Drawing.Point(179, 125);
+            this.TC_Combo_Left.Name = "TC_Combo_Left";
+            this.TC_Combo_Left.Size = new System.Drawing.Size(121, 36);
+            this.TC_Combo_Left.StartIndex = 0;
+            this.TC_Combo_Left.TabIndex = 15;
+            this.TC_Combo_Left.SelectedIndexChanged += new System.EventHandler(this.TC_Combo_Left_SelectedIndexChanged);
+            // 
+            // TC_NumLeft
+            // 
+            this.TC_NumLeft.BackColor = System.Drawing.Color.Transparent;
+            this.TC_NumLeft.BorderRadius = 10;
+            this.TC_NumLeft.BorderThickness = 0;
+            this.TC_NumLeft.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TC_NumLeft.FillColor = System.Drawing.Color.SteelBlue;
+            this.TC_NumLeft.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TC_NumLeft.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_NumLeft.Location = new System.Drawing.Point(90, 125);
+            this.TC_NumLeft.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.TC_NumLeft.Name = "TC_NumLeft";
+            this.TC_NumLeft.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.TC_NumLeft.Size = new System.Drawing.Size(83, 36);
+            this.TC_NumLeft.TabIndex = 14;
+            this.TC_NumLeft.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
+            this.TC_NumLeft.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TC_NumLeft.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.TC_NumLeft.ValueChanged += new System.EventHandler(this.TC_NumLeft_ValueChanged);
+            // 
             // label19
             // 
             this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -1356,6 +1308,19 @@
             this.label19.TabIndex = 11;
             this.label19.Text = "date";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label24
+            // 
+            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label24.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label24.Location = new System.Drawing.Point(315, 131);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(84, 25);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "Convert to";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label25
             // 
@@ -1384,32 +1349,33 @@
             this.guna2Panel18.Controls.Add(this.TC_FinalValue_Type);
             this.guna2Panel18.Controls.Add(this.TC_FinalValue);
             this.guna2Panel18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel18.Location = new System.Drawing.Point(249, 221);
+            this.guna2Panel18.Location = new System.Drawing.Point(90, 220);
             this.guna2Panel18.Name = "guna2Panel18";
-            this.guna2Panel18.Size = new System.Drawing.Size(122, 122);
+            this.guna2Panel18.Size = new System.Drawing.Size(444, 122);
             this.guna2Panel18.TabIndex = 5;
             // 
             // TC_FinalValue_Type
             // 
-            this.TC_FinalValue_Type.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.TC_FinalValue_Type.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.TC_FinalValue_Type.BackColor = System.Drawing.Color.Transparent;
             this.TC_FinalValue_Type.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
             this.TC_FinalValue_Type.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TC_FinalValue_Type.Location = new System.Drawing.Point(0, 81);
             this.TC_FinalValue_Type.Name = "TC_FinalValue_Type";
-            this.TC_FinalValue_Type.Size = new System.Drawing.Size(122, 25);
+            this.TC_FinalValue_Type.Size = new System.Drawing.Size(444, 25);
             this.TC_FinalValue_Type.TabIndex = 3;
             this.TC_FinalValue_Type.Text = "years";
             this.TC_FinalValue_Type.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TC_FinalValue
             // 
+            this.TC_FinalValue.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.TC_FinalValue.BackColor = System.Drawing.Color.Transparent;
             this.TC_FinalValue.Font = new System.Drawing.Font("BigNoodleTooOblique", 40F);
             this.TC_FinalValue.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.TC_FinalValue.Location = new System.Drawing.Point(0, 9);
             this.TC_FinalValue.Name = "TC_FinalValue";
-            this.TC_FinalValue.Size = new System.Drawing.Size(122, 87);
+            this.TC_FinalValue.Size = new System.Drawing.Size(444, 87);
             this.TC_FinalValue.TabIndex = 3;
             this.TC_FinalValue.Text = "30";
             this.TC_FinalValue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1430,99 +1396,135 @@
             this.guna2Separator12.Size = new System.Drawing.Size(100, 40);
             this.guna2Separator12.TabIndex = 13;
             // 
-            // label24
+            // BirthdayInformerPage
             // 
-            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.label24.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label24.Location = new System.Drawing.Point(315, 131);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(84, 25);
-            this.label24.TabIndex = 11;
-            this.label24.Text = "Convert to";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BirthdayInformerPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(82)))));
+            this.BirthdayInformerPage.Location = new System.Drawing.Point(224, 4);
+            this.BirthdayInformerPage.Name = "BirthdayInformerPage";
+            this.BirthdayInformerPage.Size = new System.Drawing.Size(633, 455);
+            this.BirthdayInformerPage.TabIndex = 4;
+            this.BirthdayInformerPage.Text = "Birthday Informer";
             // 
-            // TC_NumLeft
+            // guna2Panel2
             // 
-            this.TC_NumLeft.BackColor = System.Drawing.Color.Transparent;
-            this.TC_NumLeft.BorderRadius = 10;
-            this.TC_NumLeft.BorderThickness = 0;
-            this.TC_NumLeft.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TC_NumLeft.FillColor = System.Drawing.Color.SteelBlue;
-            this.TC_NumLeft.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.TC_NumLeft.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.TC_NumLeft.Location = new System.Drawing.Point(90, 125);
-            this.TC_NumLeft.Maximum = new decimal(new int[] {
-            999999,
-            0,
-            0,
-            0});
-            this.TC_NumLeft.Name = "TC_NumLeft";
-            this.TC_NumLeft.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.TC_NumLeft.Size = new System.Drawing.Size(83, 36);
-            this.TC_NumLeft.TabIndex = 14;
-            this.TC_NumLeft.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
-            this.TC_NumLeft.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
-            this.TC_NumLeft.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel2.Controls.Add(this.CategoryLabel);
+            this.guna2Panel2.Controls.Add(this.guna2Panel4);
+            this.guna2Panel2.Controls.Add(this.guna2Panel1);
+            this.guna2Panel2.Controls.Add(this.label1);
+            this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(861, 55);
+            this.guna2Panel2.TabIndex = 5;
             // 
-            // TC_Combo_Left
+            // CategoryLabel
             // 
-            this.TC_Combo_Left.BackColor = System.Drawing.Color.Transparent;
-            this.TC_Combo_Left.BorderColor = System.Drawing.Color.SteelBlue;
-            this.TC_Combo_Left.BorderRadius = 10;
-            this.TC_Combo_Left.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.TC_Combo_Left.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.TC_Combo_Left.FillColor = System.Drawing.Color.SteelBlue;
-            this.TC_Combo_Left.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TC_Combo_Left.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TC_Combo_Left.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.TC_Combo_Left.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.TC_Combo_Left.ItemHeight = 30;
-            this.TC_Combo_Left.Items.AddRange(new object[] {
-            "Years",
-            "Months",
-            "Days",
-            "Hours",
-            "Minutes",
-            "Seconds"});
-            this.TC_Combo_Left.Location = new System.Drawing.Point(179, 125);
-            this.TC_Combo_Left.Name = "TC_Combo_Left";
-            this.TC_Combo_Left.Size = new System.Drawing.Size(121, 36);
-            this.TC_Combo_Left.StartIndex = 0;
-            this.TC_Combo_Left.TabIndex = 15;
-            this.TC_Combo_Left.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
+            this.CategoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.CategoryLabel.BackColor = System.Drawing.Color.Transparent;
+            this.CategoryLabel.Font = new System.Drawing.Font("BigNoodleTooOblique", 30F);
+            this.CategoryLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.CategoryLabel.Location = new System.Drawing.Point(247, 9);
+            this.CategoryLabel.Name = "CategoryLabel";
+            this.CategoryLabel.Size = new System.Drawing.Size(508, 37);
+            this.CategoryLabel.TabIndex = 7;
+            this.CategoryLabel.Text = "2Date Comparer";
+            this.CategoryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TC_Combo_Right
+            // guna2Panel4
             // 
-            this.TC_Combo_Right.BackColor = System.Drawing.Color.Transparent;
-            this.TC_Combo_Right.BorderColor = System.Drawing.Color.SteelBlue;
-            this.TC_Combo_Right.BorderRadius = 10;
-            this.TC_Combo_Right.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.TC_Combo_Right.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.TC_Combo_Right.FillColor = System.Drawing.Color.SteelBlue;
-            this.TC_Combo_Right.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TC_Combo_Right.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TC_Combo_Right.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.TC_Combo_Right.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.TC_Combo_Right.ItemHeight = 30;
-            this.TC_Combo_Right.Items.AddRange(new object[] {
-            "Years",
-            "Months",
-            "Days",
-            "Hours",
-            "Minutes",
-            "Seconds"});
-            this.TC_Combo_Right.Location = new System.Drawing.Point(413, 125);
-            this.TC_Combo_Right.Name = "TC_Combo_Right";
-            this.TC_Combo_Right.Size = new System.Drawing.Size(121, 36);
-            this.TC_Combo_Right.StartIndex = 0;
-            this.TC_Combo_Right.TabIndex = 15;
-            this.TC_Combo_Right.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
+            this.guna2Panel4.AutoSize = true;
+            this.guna2Panel4.BackColor = System.Drawing.Color.SteelBlue;
+            this.guna2Panel4.Controls.Add(this.guna2CircleButton1);
+            this.guna2Panel4.Controls.Add(this.guna2PictureBox2);
+            this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(220, 58);
+            this.guna2Panel4.TabIndex = 6;
+            this.guna2Panel4.Click += new System.EventHandler(this.guna2Panel4_Click);
+            this.guna2Panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Image = global::DateTimeCalculator.Properties.Resources.MenuIcon;
+            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(32, 24);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(3, 3);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(48, 46);
+            this.guna2CircleButton1.TabIndex = 2;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Enabled = false;
+            this.guna2PictureBox2.Image = global::DateTimeCalculator.Properties.Resources.DateTimeCalculator_Logo_text;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(84, 2);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(98, 50);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 0;
+            this.guna2PictureBox2.TabStop = false;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.AutoSize = true;
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BorderRadius = 5;
+            this.guna2Panel1.BorderThickness = 2;
+            this.guna2Panel1.Controls.Add(this.labelTimestamp);
+            this.guna2Panel1.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2Panel1.Location = new System.Drawing.Point(771, 12);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(79, 34);
+            this.guna2Panel1.TabIndex = 1;
+            // 
+            // labelTimestamp
+            // 
+            this.labelTimestamp.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelTimestamp.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTimestamp.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelTimestamp.Location = new System.Drawing.Point(0, 0);
+            this.labelTimestamp.Name = "labelTimestamp";
+            this.labelTimestamp.Size = new System.Drawing.Size(79, 34);
+            this.labelTimestamp.TabIndex = 0;
+            this.labelTimestamp.Text = "0000";
+            this.labelTimestamp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Location = new System.Drawing.Point(503, 84);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(188, 21);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Date && Time Calculator";
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::DateTimeCalculator.Properties.Resources.DateIcon;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(465, 73);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 2;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // Form1
             // 
@@ -1541,6 +1543,8 @@
             this.MenuTabControl.ResumeLayout(false);
             this.DateComparerPage.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs2)).EndInit();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel7.ResumeLayout(false);
             this.guna2Panel12.ResumeLayout(false);
@@ -1550,24 +1554,22 @@
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel6.ResumeLayout(false);
             this.DateWorkingCounterPage.ResumeLayout(false);
+            this.guna2Panel13.ResumeLayout(false);
+            this.guna2Panel13.PerformLayout();
+            this.guna2Panel14.ResumeLayout(false);
             this.LeapCounterPage.ResumeLayout(false);
+            this.guna2Panel15.ResumeLayout(false);
+            this.guna2Panel16.ResumeLayout(false);
             this.TimeConverterPage.ResumeLayout(false);
+            this.guna2Panel17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.TC_NumLeft)).EndInit();
+            this.guna2Panel18.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DC_NumMs1)).EndInit();
-            this.guna2Panel13.ResumeLayout(false);
-            this.guna2Panel13.PerformLayout();
-            this.guna2Panel14.ResumeLayout(false);
-            this.guna2Panel15.ResumeLayout(false);
-            this.guna2Panel16.ResumeLayout(false);
-            this.guna2Panel17.ResumeLayout(false);
-            this.guna2Panel18.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.TC_NumLeft)).EndInit();
             this.ResumeLayout(false);
 
         }
