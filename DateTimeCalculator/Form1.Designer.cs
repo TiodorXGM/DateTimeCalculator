@@ -1270,6 +1270,7 @@
             this.LC_DatePicker1.Size = new System.Drawing.Size(205, 36);
             this.LC_DatePicker1.TabIndex = 2;
             this.LC_DatePicker1.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            this.LC_DatePicker1.ValueChanged += new System.EventHandler(this.LC_DatePicker1_ValueChanged);
             // 
             // LC_DatePicker2
             // 
@@ -1288,6 +1289,7 @@
             this.LC_DatePicker2.Size = new System.Drawing.Size(207, 36);
             this.LC_DatePicker2.TabIndex = 2;
             this.LC_DatePicker2.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            this.LC_DatePicker2.ValueChanged += new System.EventHandler(this.LC_DatePicker2_ValueChanged);
             // 
             // guna2Separator8
             // 

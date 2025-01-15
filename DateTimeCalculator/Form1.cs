@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace DateTimeCalculator
 {
-   
+
 
     public partial class Form1 : Form
     {
@@ -87,6 +87,7 @@ namespace DateTimeCalculator
                     break;
                 case 2:
                     CategoryLabel.Text = "Leap Counter";
+                    LeapCounter();
                     break;
                 case 3:
                     CategoryLabel.Text = "Time Converter";
@@ -136,17 +137,17 @@ namespace DateTimeCalculator
 
             TimeSpan difference = date2 - date1;
 
-          
+
             long totalMilliseconds1 = (long)(date1 - DateTime.MinValue).TotalMilliseconds + ms1;
             long totalMilliseconds2 = (long)(date2 - DateTime.MinValue).TotalMilliseconds + ms2;
 
-           
+
             long totalDifference = totalMilliseconds2 - totalMilliseconds1;
 
             int years = (int)(totalDifference / (365L * 24 * 60 * 60 * 1000));
             totalDifference %= (365L * 24 * 60 * 60 * 1000);
 
-            int months = (int)(totalDifference / (30L * 24 * 60 * 60 * 1000)); 
+            int months = (int)(totalDifference / (30L * 24 * 60 * 60 * 1000));
             totalDifference %= (30L * 24 * 60 * 60 * 1000);
 
             int days = (int)(totalDifference / (24L * 60 * 60 * 1000));
@@ -183,7 +184,7 @@ namespace DateTimeCalculator
             DateComparer(TimePicker1.Value, TimePicker2.Value);
         }
 
-   
+
 
         private void DC_NumMs1_ValueChanged(object sender, EventArgs e)
         {
@@ -199,7 +200,7 @@ namespace DateTimeCalculator
         void DateWoringCounter()
         {
             var date1 = DWC_DatePicker1.Value;
-            var date2 = DWC_DatePicker2.Value;        
+            var date2 = DWC_DatePicker2.Value;
 
             int count = 0;
 
@@ -209,31 +210,31 @@ namespace DateTimeCalculator
                 date1 = date2;
                 date2 = tempDate;
 
-               
+
             }
 
             for (DateTime date = date1; date <= date2; date = date.AddDays(1))
             {
                 if (DWC_CB_Monday.Checked)
                 {
-                    if (date.DayOfWeek == DayOfWeek.Monday) count++; 
+                    if (date.DayOfWeek == DayOfWeek.Monday) count++;
                 }
                 if (DWC_CB_Tuesday.Checked)
                 {
-                    if (date.DayOfWeek == DayOfWeek.Tuesday) count++; 
+                    if (date.DayOfWeek == DayOfWeek.Tuesday) count++;
                 }
                 if (DWC_CB_Wednesday.Checked)
                 {
                     if (date.DayOfWeek == DayOfWeek.Wednesday) count++;
                 }
-                if ( DWC_CB_Thursday.Checked)
+                if (DWC_CB_Thursday.Checked)
                 {
-                    if (date.DayOfWeek == DayOfWeek.Thursday) count++; 
+                    if (date.DayOfWeek == DayOfWeek.Thursday) count++;
                 }
                 if (DWC_CB_Friday.Checked)
                 {
-                    if (date.DayOfWeek == DayOfWeek.Friday) count++; 
-                }  
+                    if (date.DayOfWeek == DayOfWeek.Friday) count++;
+                }
                 if (DWC_CB_Saturday.Checked)
                 {
                     if (date.DayOfWeek == DayOfWeek.Saturday) count++;
@@ -294,7 +295,38 @@ namespace DateTimeCalculator
             DateWoringCounter();
         }
 
-        
+
+        void LeapCounter()
+        {
+            var date1 = LC_DatePicker1.Value;
+            var date2 = LC_DatePicker2.Value;
+
+            if (date1 > date2 || (date1 == date2))
+            {
+                var tempDate = date1;
+                date1 = date2;
+                date2 = tempDate;
+            }
+
+            int count = 0;
+
+            for (int year = date1.Year; year <= date2.Year; year++)
+            {
+                if (DateTime.IsLeapYear(year)) count++;
+            }
+
+            LC_LeapYears.Text = count.ToString();
+        }
+
+        private void LC_DatePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            LeapCounter();
+        }
+
+        private void LC_DatePicker2_ValueChanged(object sender, EventArgs e)
+        {
+            LeapCounter();
+        }
     }
 }
 
