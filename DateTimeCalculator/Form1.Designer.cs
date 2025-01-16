@@ -204,6 +204,8 @@
             this.guna2Panel40 = new Guna.UI2.WinForms.Guna2Panel();
             this.label73 = new System.Windows.Forms.Label();
             this.BI_18_MSeconds = new System.Windows.Forms.Label();
+            this.TimerIndicator = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2Panel41 = new Guna.UI2.WinForms.Guna2Panel();
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -256,6 +258,7 @@
             this.guna2Panel38.SuspendLayout();
             this.guna2Panel39.SuspendLayout();
             this.guna2Panel40.SuspendLayout();
+            this.guna2Panel41.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuTabControl
@@ -1514,6 +1517,7 @@
             // 
             this.guna2Panel19.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2Panel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel19.Controls.Add(this.guna2Panel41);
             this.guna2Panel19.Controls.Add(this.guna2VSeparator2);
             this.guna2Panel19.Controls.Add(this.guna2VSeparator1);
             this.guna2Panel19.Controls.Add(this.label48);
@@ -1586,6 +1590,7 @@
             0,
             0,
             0});
+            this.BI_Num_Year.ValueChanged += new System.EventHandler(this.BI_Num_Year_ValueChanged_1);
             // 
             // BI_Button
             // 
@@ -1852,12 +1857,12 @@
             this.label48.BackColor = System.Drawing.Color.Transparent;
             this.label48.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
             this.label48.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label48.Location = new System.Drawing.Point(38, 155);
+            this.label48.Location = new System.Drawing.Point(42, 155);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(165, 30);
+            this.label48.Size = new System.Drawing.Size(159, 30);
             this.label48.TabIndex = 26;
             this.label48.Text = "lives for so long";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // guna2Panel27
             // 
@@ -2105,12 +2110,12 @@
             this.BI_Label_NYears.BackColor = System.Drawing.Color.Transparent;
             this.BI_Label_NYears.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
             this.BI_Label_NYears.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.BI_Label_NYears.Location = new System.Drawing.Point(412, 155);
+            this.BI_Label_NYears.Location = new System.Drawing.Point(396, 155);
             this.BI_Label_NYears.Name = "BI_Label_NYears";
-            this.BI_Label_NYears.Size = new System.Drawing.Size(165, 30);
+            this.BI_Label_NYears.Size = new System.Drawing.Size(181, 30);
             this.BI_Label_NYears.TabIndex = 26;
             this.BI_Label_NYears.Text = "Turned 33 so long ago";
-            this.BI_Label_NYears.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.BI_Label_NYears.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // guna2VSeparator1
             // 
@@ -2668,6 +2673,30 @@
             this.BI_18_MSeconds.Text = "1000";
             this.BI_18_MSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // TimerIndicator
+            // 
+            this.TimerIndicator.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.TimerIndicator.FillColor = System.Drawing.Color.LawnGreen;
+            this.TimerIndicator.Location = new System.Drawing.Point(8, 7);
+            this.TimerIndicator.Name = "TimerIndicator";
+            this.TimerIndicator.PolygonSkip = 1;
+            this.TimerIndicator.Rotate = 0F;
+            this.TimerIndicator.Shape = Guna.UI2.WinForms.Enums.ShapeType.Ellipse;
+            this.TimerIndicator.Size = new System.Drawing.Size(24, 24);
+            this.TimerIndicator.TabIndex = 28;
+            this.TimerIndicator.Text = "guna2Shapes1";
+            this.TimerIndicator.Zoom = 80;
+            // 
+            // guna2Panel41
+            // 
+            this.guna2Panel41.BorderRadius = 15;
+            this.guna2Panel41.Controls.Add(this.TimerIndicator);
+            this.guna2Panel41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel41.Location = new System.Drawing.Point(537, 13);
+            this.guna2Panel41.Name = "guna2Panel41";
+            this.guna2Panel41.Size = new System.Drawing.Size(40, 40);
+            this.guna2Panel41.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2736,6 +2765,7 @@
             this.guna2Panel38.ResumeLayout(false);
             this.guna2Panel39.ResumeLayout(false);
             this.guna2Panel40.ResumeLayout(false);
+            this.guna2Panel41.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2916,6 +2946,8 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel21;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label BI_N_Months;
+        private Guna.UI2.WinForms.Guna2Shapes TimerIndicator;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel41;
     }
 }
 

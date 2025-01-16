@@ -402,8 +402,10 @@ namespace DateTimeCalculator
         {
             BirthdayTimer = new Timer();
             BirthdayTimer.Interval = 1000;
-            BirthdayTimer.Tick += OnBirthdayTimerTick;              
+            BirthdayTimer.Tick += OnBirthdayTimerTick;
+            UpdateIndicator(false);
         }
+       
 
         void OnBirthdayTimerTick(object sender, EventArgs e)
         {
@@ -412,6 +414,7 @@ namespace DateTimeCalculator
 
         void BirthdayInformerInit()
         {
+            BI_DatePicker.MaxDate = DateTime.Now;
             BI_Live_Years.Text = "-";
             BI_Live_Months.Text = "-";
             BI_Live_Days.Text = "-";
@@ -436,9 +439,10 @@ namespace DateTimeCalculator
             BI_N_Seconds.Text = "-";
             BI_N_MSeconds.Text = "-";
 
-            BI_Label_18Years.Text = "Turned 18 so long ago";
+            BI_Label_18Years.Text = "-";
             int NumYear = (int)BI_Num_Year.Value;
             BI_Label_NYears.Text = $"Turned {NumYear} so long ago";
+            UpdateIndicator(false);
         }
 
         void BirthdayInformer()
@@ -451,11 +455,13 @@ namespace DateTimeCalculator
             {
                 var result = CalculateTimeDifference(eighteenYearsDate, now);
                 BI_18_Result(result.years, result.months, result.days, result.hours, result.minutes, result.seconds, result.milliseconds);
+                BI_Label_18Years.Text = "Turned 18 so long ago";
             }
             else
             {
                 var result = CalculateTimeDifference(now, eighteenYearsDate);
                 BI_18_Result(result.years, result.months, result.days, result.hours, result.minutes, result.seconds, result.milliseconds);
+                BI_Label_18Years.Text = "Turn 18 in";
             }
 
             var liveResult = CalculateTimeDifference(birthDate, now);
@@ -468,9 +474,9 @@ namespace DateTimeCalculator
 
         }
 
+        
 
-
-        private void BI_Live_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
+        void BI_Live_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
         {
             BI_Live_Years.Text = years.ToString();
             BI_Live_Months.Text = months.ToString();
@@ -481,7 +487,7 @@ namespace DateTimeCalculator
             BI_Live_MSeconds.Text = milliseconds.ToString();
         }
 
-        private void BI_18_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
+        void BI_18_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
         {
             BI_18_Years.Text = years.ToString();
             BI_18_Months.Text = months.ToString();
@@ -492,7 +498,7 @@ namespace DateTimeCalculator
             BI_18_MSeconds.Text = milliseconds.ToString();
         }
 
-        private void BI_N_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
+        void BI_N_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
         {
             BI_N_Years.Text = years.ToString();
             BI_N_Months.Text = months.ToString();
@@ -503,20 +509,26 @@ namespace DateTimeCalculator
             BI_N_MSeconds.Text = milliseconds.ToString();
         }
 
-        private void BI_Button_Click(object sender, EventArgs e)
+        Color color = new Color();
+        void BI_Button_Click(object sender, EventArgs e)
         {
             if (BirthdayTimer == null)
             {
-                BirthdayInformerInit();
                 InitializeBirthdayTimer();
-                BirthdayTimer.Start();      
+            }
+
+            if (BirthdayTimer.Enabled)
+            {
+               
+                BirthdayTimer.Stop();
+                BirthdayInformerInit();
+                UpdateIndicator(false); 
             }
             else
             {
-                BirthdayInformerInit();
-                BirthdayTimer.Stop();              
-                InitializeBirthdayTimer();
+                
                 BirthdayTimer.Start();
+                UpdateIndicator(true); 
             }
 
         }
@@ -552,8 +564,46 @@ namespace DateTimeCalculator
 
         private void BI_DatePicker_ValueChanged(object sender, EventArgs e)
         {
+            HandleInputChange();
+        }
+
+        private void BI_Num_Year_ValueChanged(object sender, EventArgs e)
+        {
+            HandleInputChange();
+        }
+
+        private void HandleInputChange()
+        {
             BirthdayInformerInit();
-            BirthdayTimer.Stop();
+            if (BirthdayTimer != null && BirthdayTimer.Enabled)
+            {
+                BirthdayTimer.Stop();
+                UpdateIndicator(false);
+                //MessageBox.Show("Таймер остановлен из-за изменения данных.");
+            }
+        }
+
+        void UpdateIndicator(bool isRunning)
+        {
+            if (isRunning)
+            {
+                TimerIndicator.FillColor = Color.LawnGreen;
+                BI_Button.FillColor = Color.Crimson;
+                BI_Button.Text = "STOP";
+
+            }
+            else
+            {
+                TimerIndicator.FillColor = Color.Crimson;
+                BI_Button.FillColor = Color.FromArgb(43, 188, 105);
+                BI_Button.Text = "OK";
+            }
+        }
+
+        private void BI_Num_Year_ValueChanged_1(object sender, EventArgs e)
+        {
+            HandleInputChange();
+            BI_Num_Year.Focus();
         }
     }
 }
