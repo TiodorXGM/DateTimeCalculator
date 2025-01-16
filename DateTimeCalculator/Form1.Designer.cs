@@ -1620,6 +1620,7 @@
             this.BI_DatePicker.Size = new System.Drawing.Size(119, 40);
             this.BI_DatePicker.TabIndex = 14;
             this.BI_DatePicker.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            this.BI_DatePicker.ValueChanged += new System.EventHandler(this.BI_DatePicker_ValueChanged);
             // 
             // label26
             // 

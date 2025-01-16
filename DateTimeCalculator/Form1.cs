@@ -402,10 +402,7 @@ namespace DateTimeCalculator
         {
             BirthdayTimer = new Timer();
             BirthdayTimer.Interval = 1000;
-            BirthdayTimer.Tick += OnBirthdayTimerTick;
-           
-
-
+            BirthdayTimer.Tick += OnBirthdayTimerTick;              
         }
 
         void OnBirthdayTimerTick(object sender, EventArgs e)
@@ -440,20 +437,95 @@ namespace DateTimeCalculator
             BI_N_MSeconds.Text = "-";
 
             BI_Label_18Years.Text = "Turned 18 so long ago";
-            BI_Label_NYears.Text = "Turned 33 so long ago";
+            int NumYear = (int)BI_Num_Year.Value;
+            BI_Label_NYears.Text = $"Turned {NumYear} so long ago";
         }
 
         void BirthdayInformer()
         {
             DateTime birthDate = BI_DatePicker.Value;
             DateTime now = DateTime.Now;
-            DateTime eighteenYearsDate = birthDate.AddYears(18);
+            DateTime eighteenYearsDate = birthDate.AddYears(18);          
+
+            if (now >= eighteenYearsDate)
+            {
+                var result = CalculateTimeDifference(eighteenYearsDate, now);
+                BI_18_Result(result.years, result.months, result.days, result.hours, result.minutes, result.seconds, result.milliseconds);
+            }
+            else
+            {
+                var result = CalculateTimeDifference(now, eighteenYearsDate);
+                BI_18_Result(result.years, result.months, result.days, result.hours, result.minutes, result.seconds, result.milliseconds);
+            }
+
+            var liveResult = CalculateTimeDifference(birthDate, now);
+            BI_Live_Result (liveResult.years, liveResult.months, liveResult.days, liveResult.hours, liveResult.minutes, liveResult.seconds, liveResult.milliseconds);
+
+            DateTime NYearsDate = birthDate.AddYears((int)BI_Num_Year.Value);
+        
+            var NResult = CalculateTimeDifference(now, NYearsDate);
+            BI_N_Result(NResult.years, NResult.months, NResult.days, NResult.hours, NResult.minutes, NResult.seconds, NResult.milliseconds);
+
+        }
 
 
-            TimeSpan difference = birthDate - now;
 
-            long totalMilliseconds1 = (long)(birthDate - DateTime.MinValue).TotalMilliseconds;
-            long totalMilliseconds2 = (long)(now - DateTime.MinValue).TotalMilliseconds;
+        private void BI_Live_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
+        {
+            BI_Live_Years.Text = years.ToString();
+            BI_Live_Months.Text = months.ToString();
+            BI_Live_Days.Text = days.ToString();
+            BI_Live_Hours.Text = hours.ToString();
+            BI_Live_Minutes.Text = minutes.ToString();
+            BI_Live_Seconds.Text = seconds.ToString();
+            BI_Live_MSeconds.Text = milliseconds.ToString();
+        }
+
+        private void BI_18_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
+        {
+            BI_18_Years.Text = years.ToString();
+            BI_18_Months.Text = months.ToString();
+            BI_18_Days.Text = days.ToString();
+            BI_18_Hours.Text = hours.ToString();
+            BI_18_Minutes.Text = minutes.ToString();
+            BI_18_Seconds.Text = seconds.ToString();
+            BI_18_MSeconds.Text = milliseconds.ToString();
+        }
+
+        private void BI_N_Result(int years, int months, int days, int hours, int minutes, int seconds, int milliseconds)
+        {
+            BI_N_Years.Text = years.ToString();
+            BI_N_Months.Text = months.ToString();
+            BI_N_Days.Text = days.ToString();
+            BI_N_Hours.Text = hours.ToString();
+            BI_N_Minutes.Text = minutes.ToString();
+            BI_N_Seconds.Text = seconds.ToString();
+            BI_N_MSeconds.Text = milliseconds.ToString();
+        }
+
+        private void BI_Button_Click(object sender, EventArgs e)
+        {
+            if (BirthdayTimer == null)
+            {
+                BirthdayInformerInit();
+                InitializeBirthdayTimer();
+                BirthdayTimer.Start();      
+            }
+            else
+            {
+                BirthdayInformerInit();
+                BirthdayTimer.Stop();              
+                InitializeBirthdayTimer();
+                BirthdayTimer.Start();
+            }
+
+        }
+
+        (int years, int months, int days, int hours, int minutes, int seconds, int milliseconds) CalculateTimeDifference(DateTime fromDate, DateTime toDate)
+        {               
+
+            long totalMilliseconds1 = (long)(fromDate - DateTime.MinValue).TotalMilliseconds;
+            long totalMilliseconds2 = (long)(toDate - DateTime.MinValue).TotalMilliseconds;
 
             long totalDifference = totalMilliseconds2 - totalMilliseconds1;
 
@@ -475,36 +547,14 @@ namespace DateTimeCalculator
             int seconds = (int)(totalDifference / 1000);
             int milliseconds = Math.Abs((int)(totalDifference % 1000));
 
-            BI_Live_Years.Text = (now.Year - birthDate.Year).ToString();
-            BI_Live_Months.Text = months.ToString();
-            BI_Live_Days.Text = days.ToString();
-            BI_Live_Hours.Text = hours.ToString();
-            BI_Live_Minutes.Text = minutes.ToString();
-            BI_Live_Seconds.Text = seconds.ToString();
-            BI_Live_MSeconds.Text = milliseconds.ToString();
-
-
-
-        }
-        private void BI_Button_Click(object sender, EventArgs e)
-        {    
-            if (BirthdayTimer == null)
-            {
-                InitializeBirthdayTimer();
-                BirthdayTimer.Start();        
-            }
-            else if (!BirthdayTimer.Enabled)
-            {
-                BirthdayTimer.Start();                
-            }
-            else
-            {
-                MessageBox.Show("Таймер уже запущен.");
-            }
-
+            return (years, months, days, hours, minutes, seconds, milliseconds);
         }
 
-
+        private void BI_DatePicker_ValueChanged(object sender, EventArgs e)
+        {
+            BirthdayInformerInit();
+            BirthdayTimer.Stop();
+        }
     }
 }
 
