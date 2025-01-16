@@ -75,6 +75,11 @@ namespace DateTimeCalculator
         {
             int selectedIndex = MenuTabControl.SelectedIndex;
 
+            if (BirthdayTimer != null && BirthdayTimer.Enabled)
+            {
+                BirthdayTimer.Stop();
+            }
+
             switch (selectedIndex)
             {
                 case 0:
@@ -94,7 +99,8 @@ namespace DateTimeCalculator
                     TimeConverter();
                     break;
                 case 4:
-                    CategoryLabel.Text = "Birthday Informer";
+                    CategoryLabel.Text = "Birthday Informer";                   
+                    BirthdayInformerInit();
                     break;
 
             }
@@ -389,6 +395,116 @@ namespace DateTimeCalculator
         {
             TimeConverter();
         }
+
+        Timer BirthdayTimer;
+
+        void InitializeBirthdayTimer()
+        {
+            BirthdayTimer = new Timer();
+            BirthdayTimer.Interval = 1000;
+            BirthdayTimer.Tick += OnBirthdayTimerTick;
+           
+
+
+        }
+
+        void OnBirthdayTimerTick(object sender, EventArgs e)
+        {
+            BirthdayInformer();
+        }
+
+        void BirthdayInformerInit()
+        {
+            BI_Live_Years.Text = "-";
+            BI_Live_Months.Text = "-";
+            BI_Live_Days.Text = "-";
+            BI_Live_Hours.Text = "-";
+            BI_Live_Minutes.Text = "-";
+            BI_Live_Seconds.Text = "-";
+            BI_Live_MSeconds.Text = "-";
+
+            BI_18_Years.Text = "-";
+            BI_18_Months.Text = "-";
+            BI_18_Days.Text = "-";
+            BI_18_Hours.Text = "-";
+            BI_18_Minutes.Text = "-";
+            BI_18_Seconds.Text = "-";
+            BI_18_MSeconds.Text = "-";
+
+            BI_N_Years.Text = "-";
+            BI_N_Months.Text = "-";
+            BI_N_Days.Text = "-";
+            BI_N_Hours.Text = "-";
+            BI_N_Minutes.Text = "-";
+            BI_N_Seconds.Text = "-";
+            BI_N_MSeconds.Text = "-";
+
+            BI_Label_18Years.Text = "Turned 18 so long ago";
+            BI_Label_NYears.Text = "Turned 33 so long ago";
+        }
+
+        void BirthdayInformer()
+        {
+            DateTime birthDate = BI_DatePicker.Value;
+            DateTime now = DateTime.Now;
+            DateTime eighteenYearsDate = birthDate.AddYears(18);
+
+
+            TimeSpan difference = birthDate - now;
+
+            long totalMilliseconds1 = (long)(birthDate - DateTime.MinValue).TotalMilliseconds;
+            long totalMilliseconds2 = (long)(now - DateTime.MinValue).TotalMilliseconds;
+
+            long totalDifference = totalMilliseconds2 - totalMilliseconds1;
+
+            int years = (int)(totalDifference / (365L * 24 * 60 * 60 * 1000));
+            totalDifference %= (365L * 24 * 60 * 60 * 1000);
+
+            int months = (int)(totalDifference / (30L * 24 * 60 * 60 * 1000));
+            totalDifference %= (30L * 24 * 60 * 60 * 1000);
+
+            int days = (int)(totalDifference / (24L * 60 * 60 * 1000));
+            totalDifference %= (24L * 60 * 60 * 1000);
+
+            int hours = (int)(totalDifference / (60L * 60 * 1000));
+            totalDifference %= (60L * 60 * 1000);
+
+            int minutes = (int)(totalDifference / (60L * 1000));
+            totalDifference %= (60L * 1000);
+
+            int seconds = (int)(totalDifference / 1000);
+            int milliseconds = Math.Abs((int)(totalDifference % 1000));
+
+            BI_Live_Years.Text = (now.Year - birthDate.Year).ToString();
+            BI_Live_Months.Text = months.ToString();
+            BI_Live_Days.Text = days.ToString();
+            BI_Live_Hours.Text = hours.ToString();
+            BI_Live_Minutes.Text = minutes.ToString();
+            BI_Live_Seconds.Text = seconds.ToString();
+            BI_Live_MSeconds.Text = milliseconds.ToString();
+
+
+
+        }
+        private void BI_Button_Click(object sender, EventArgs e)
+        {    
+            if (BirthdayTimer == null)
+            {
+                InitializeBirthdayTimer();
+                BirthdayTimer.Start();        
+            }
+            else if (!BirthdayTimer.Enabled)
+            {
+                BirthdayTimer.Start();                
+            }
+            else
+            {
+                MessageBox.Show("Таймер уже запущен.");
+            }
+
+        }
+
+
     }
 }
 
