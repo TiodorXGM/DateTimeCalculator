@@ -16,47 +16,31 @@ namespace DateTimeCalculator
 
     public partial class Form1 : Form
     {
-        private Timer timer;
-
+        private Timer unixTimer;
         public Form1()
         {
             InitializeComponent();
             InitializeTimer();
-
             TimePicker1.Value = DateTime.Now;
             TimePicker2.Value = DateTime.Now;
-
             DWC_DatePicker1.Value = DateTime.Now;
             DWC_DatePicker2.Value = DateTime.Now;
 
-
             DateComparer(TimePicker1.Value, TimePicker2.Value);
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        }          
 
         void InitializeTimer()
         {
-            timer = new Timer();
-            timer.Interval = 1000;
-            timer.Tick += OnTimerTick;
-            timer.Start();
+            unixTimer = new Timer();
+            unixTimer.Interval = 1000;
+            unixTimer.Tick += OnTimerTick;
+            unixTimer.Start();
         }
 
         void OnTimerTick(object sender, EventArgs e)
         {
             long unixTimestamp = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
             labelTimestamp.Text = $"{unixTimestamp}";
-        }
-
-
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
@@ -102,27 +86,13 @@ namespace DateTimeCalculator
                     CategoryLabel.Text = "Birthday Informer";                   
                     BirthdayInformerInit();
                     break;
-
             }
         }
-
-        private void guna2Panel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void guna2Panel4_Click(object sender, EventArgs e)
         {
             guna2CircleButton1.PerformClick();
             guna2CircleButton1.Focus();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
+        }           
         void DateComparer(DateTime date1, DateTime date2)
         {
             date1 = date1.AddMilliseconds(-date1.Millisecond);
@@ -141,13 +111,10 @@ namespace DateTimeCalculator
                 ms1 = ms2;
                 ms2 = tempMs;
             }
-
             TimeSpan difference = date2 - date1;
-
 
             long totalMilliseconds1 = (long)(date1 - DateTime.MinValue).TotalMilliseconds + ms1;
             long totalMilliseconds2 = (long)(date2 - DateTime.MinValue).TotalMilliseconds + ms2;
-
 
             long totalDifference = totalMilliseconds2 - totalMilliseconds1;
 
@@ -177,8 +144,6 @@ namespace DateTimeCalculator
             DC_Sec_Value.Text       = seconds.ToString();
             DC_Ms_Value.Text        = milliseconds.ToString();
             DC_TotalDays_Value.Text = difference.Days.ToString();
-
-
         }
 
         private void TimePicker1_ValueChanged(object sender, EventArgs e)
@@ -191,8 +156,6 @@ namespace DateTimeCalculator
             DateComparer(TimePicker1.Value, TimePicker2.Value);
         }
 
-
-
         private void DC_NumMs1_ValueChanged(object sender, EventArgs e)
         {
             DateComparer(TimePicker1.Value, TimePicker2.Value);
@@ -202,7 +165,6 @@ namespace DateTimeCalculator
         {
             DateComparer(TimePicker1.Value, TimePicker2.Value);
         }
-
 
         void DateWoringCounter()
         {
@@ -216,8 +178,6 @@ namespace DateTimeCalculator
                 var tempDate = date1;
                 date1 = date2;
                 date2 = tempDate;
-
-
             }
 
             for (DateTime date = date1; date <= date2; date = date.AddDays(1))
@@ -250,11 +210,9 @@ namespace DateTimeCalculator
                 {
                     if (date.DayOfWeek == DayOfWeek.Sunday) count++;
                 }
-
             }
 
             DWC_Label_WorkingDays.Text = count.ToString();
-
         }
 
         private void DWC_DatePicker1_ValueChanged(object sender, EventArgs e)
@@ -361,24 +319,18 @@ namespace DateTimeCalculator
             string valueType = TC_Combo_Right.Items[TC_Combo_Right.StartIndex].ToString();
 
             TimeType rightType = (TimeType)TC_Combo_Right.SelectedIndex;
-
-            TimeType leftType = (TimeType)TC_Combo_Left.SelectedIndex;           
-
-            valueType = rightType.ToString();
-
+            TimeType leftType = (TimeType)TC_Combo_Left.SelectedIndex; 
+       
             decimal leftFactor = GetTimeFactor(leftType);
             decimal rightFactor = GetTimeFactor(rightType);
 
             decimal time = (TC_NumLeft.Value * leftFactor / rightFactor);
 
-            string formattedTime = (time % 1 == 0)
-                                  ? time.ToString("F0") 
-                                  : time.ToString("F8"); 
+            TC_FinalValue.Text = (time % 1 == 0)
+                               ? time.ToString("F0")
+                               : time.ToString("F8");
 
-            TC_FinalValue.Text = formattedTime.ToString();
-
-
-            TC_FinalValue_Type.Text = valueType;
+            TC_FinalValue_Type.Text = rightType.ToString(); ;
         }
 
         private void TC_NumLeft_ValueChanged(object sender, EventArgs e)
@@ -471,7 +423,6 @@ namespace DateTimeCalculator
         
             var NResult = CalculateTimeDifference(now, NYearsDate);
             BI_N_Result(NResult.years, NResult.months, NResult.days, NResult.hours, NResult.minutes, NResult.seconds, NResult.milliseconds);
-
         }
 
         
@@ -530,7 +481,6 @@ namespace DateTimeCalculator
                 BirthdayTimer.Start();
                 UpdateIndicator(true); 
             }
-
         }
 
         (int years, int months, int days, int hours, int minutes, int seconds, int milliseconds) CalculateTimeDifference(DateTime fromDate, DateTime toDate)
@@ -578,8 +528,7 @@ namespace DateTimeCalculator
             if (BirthdayTimer != null && BirthdayTimer.Enabled)
             {
                 BirthdayTimer.Stop();
-                UpdateIndicator(false);
-                //MessageBox.Show("Таймер остановлен из-за изменения данных.");
+                UpdateIndicator(false);                
             }
         }
 
