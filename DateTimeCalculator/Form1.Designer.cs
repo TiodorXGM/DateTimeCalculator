@@ -199,15 +199,15 @@
             this.guna2Separator14 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator15 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.UnixTS_Panel = new Guna.UI2.WinForms.Guna2Panel();
+            this.labelTimestamp = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
             this.CategoryLabel = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.UnixTS_Panel = new Guna.UI2.WinForms.Guna2Panel();
-            this.labelTimestamp = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label30 = new System.Windows.Forms.Label();
             this.guna2Transition = new Guna.UI2.WinForms.Guna2Transition();
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
@@ -258,9 +258,9 @@
             this.guna2Panel20.SuspendLayout();
             this.guna2Panel26.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            this.UnixTS_Panel.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            this.UnixTS_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1471,7 +1471,6 @@
             this.TC_NumLeft.Size = new System.Drawing.Size(83, 36);
             this.TC_NumLeft.TabIndex = 14;
             this.TC_NumLeft.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
-            this.TC_NumLeft.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
             this.TC_NumLeft.Value = new decimal(new int[] {
             1,
             0,
@@ -1755,7 +1754,6 @@
             this.BI_Num_Year.Size = new System.Drawing.Size(81, 36);
             this.BI_Num_Year.TabIndex = 24;
             this.BI_Num_Year.UpDownButtonFillColor = System.Drawing.Color.SteelBlue;
-            this.BI_Num_Year.UpDownButtonForeColor = System.Drawing.SystemColors.ControlLight;
             this.BI_Num_Year.Value = new decimal(new int[] {
             33,
             0,
@@ -2758,6 +2756,49 @@
             this.guna2Panel2.Size = new System.Drawing.Size(861, 55);
             this.guna2Panel2.TabIndex = 5;
             // 
+            // UnixTS_Panel
+            // 
+            this.UnixTS_Panel.AutoSize = true;
+            this.UnixTS_Panel.BackColor = System.Drawing.Color.Transparent;
+            this.UnixTS_Panel.BorderColor = System.Drawing.Color.Transparent;
+            this.UnixTS_Panel.BorderRadius = 5;
+            this.UnixTS_Panel.BorderThickness = 2;
+            this.UnixTS_Panel.Controls.Add(this.labelTimestamp);
+            this.UnixTS_Panel.Controls.Add(this.label30);
+            this.guna2Transition.SetDecoration(this.UnixTS_Panel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.UnixTS_Panel.FillColor = System.Drawing.Color.SteelBlue;
+            this.UnixTS_Panel.Location = new System.Drawing.Point(729, 12);
+            this.UnixTS_Panel.Name = "UnixTS_Panel";
+            this.UnixTS_Panel.Size = new System.Drawing.Size(126, 34);
+            this.UnixTS_Panel.TabIndex = 1;
+            // 
+            // labelTimestamp
+            // 
+            this.guna2Transition.SetDecoration(this.labelTimestamp, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.labelTimestamp.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelTimestamp.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTimestamp.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelTimestamp.Location = new System.Drawing.Point(58, 0);
+            this.labelTimestamp.Name = "labelTimestamp";
+            this.labelTimestamp.Size = new System.Drawing.Size(68, 34);
+            this.labelTimestamp.TabIndex = 0;
+            this.labelTimestamp.Text = "0000";
+            this.labelTimestamp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label30
+            // 
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label30, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label30.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.label30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label30.Location = new System.Drawing.Point(0, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(58, 34);
+            this.label30.TabIndex = 11;
+            this.label30.Text = "Unix TS:";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // CategoryLabel
             // 
             this.CategoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -2818,35 +2859,6 @@
             this.guna2PictureBox2.TabIndex = 0;
             this.guna2PictureBox2.TabStop = false;
             // 
-            // UnixTS_Panel
-            // 
-            this.UnixTS_Panel.AutoSize = true;
-            this.UnixTS_Panel.BackColor = System.Drawing.Color.Transparent;
-            this.UnixTS_Panel.BorderColor = System.Drawing.Color.Transparent;
-            this.UnixTS_Panel.BorderRadius = 5;
-            this.UnixTS_Panel.BorderThickness = 2;
-            this.UnixTS_Panel.Controls.Add(this.labelTimestamp);
-            this.UnixTS_Panel.Controls.Add(this.label30);
-            this.guna2Transition.SetDecoration(this.UnixTS_Panel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.UnixTS_Panel.FillColor = System.Drawing.Color.SteelBlue;
-            this.UnixTS_Panel.Location = new System.Drawing.Point(729, 12);
-            this.UnixTS_Panel.Name = "UnixTS_Panel";
-            this.UnixTS_Panel.Size = new System.Drawing.Size(126, 34);
-            this.UnixTS_Panel.TabIndex = 1;
-            // 
-            // labelTimestamp
-            // 
-            this.guna2Transition.SetDecoration(this.labelTimestamp, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.labelTimestamp.Dock = System.Windows.Forms.DockStyle.Right;
-            this.labelTimestamp.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTimestamp.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelTimestamp.Location = new System.Drawing.Point(58, 0);
-            this.labelTimestamp.Name = "labelTimestamp";
-            this.labelTimestamp.Size = new System.Drawing.Size(68, 34);
-            this.labelTimestamp.TabIndex = 0;
-            this.labelTimestamp.Text = "0000";
-            this.labelTimestamp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -2871,20 +2883,6 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 2;
             this.guna2PictureBox1.TabStop = false;
-            // 
-            // label30
-            // 
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label30, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label30.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label30.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.label30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label30.Location = new System.Drawing.Point(0, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(58, 34);
-            this.label30.TabIndex = 11;
-            this.label30.Text = "Unix TS:";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2Transition
             // 
@@ -2920,7 +2918,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Datetime";
+            this.Text = "DateTimeCalculator";
             this.MenuTabControl.ResumeLayout(false);
             this.DateComparerPage.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
@@ -2972,9 +2970,9 @@
             this.guna2Panel26.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            this.UnixTS_Panel.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            this.UnixTS_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
