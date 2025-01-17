@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.MenuTabControl = new Guna.UI2.WinForms.Guna2TabControl();
             this.DateComparerPage = new System.Windows.Forms.TabPage();
@@ -118,96 +118,97 @@
             this.guna2Separator12 = new Guna.UI2.WinForms.Guna2Separator();
             this.BirthdayInformerPage = new System.Windows.Forms.TabPage();
             this.guna2Panel19 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel41 = new Guna.UI2.WinForms.Guna2Panel();
+            this.TimerIndicator = new Guna.UI2.WinForms.Guna2Shapes();
+            this.guna2VSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.label48 = new System.Windows.Forms.Label();
+            this.BI_Label_NYears = new System.Windows.Forms.Label();
+            this.BI_Label_18Years = new System.Windows.Forms.Label();
             this.BI_Num_Year = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.guna2Panel40 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label73 = new System.Windows.Forms.Label();
+            this.BI_18_MSeconds = new System.Windows.Forms.Label();
+            this.guna2Panel33 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label45 = new System.Windows.Forms.Label();
+            this.BI_N_MSeconds = new System.Windows.Forms.Label();
+            this.guna2Panel31 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label57 = new System.Windows.Forms.Label();
+            this.BI_Live_MSeconds = new System.Windows.Forms.Label();
+            this.guna2Panel39 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label71 = new System.Windows.Forms.Label();
+            this.BI_18_Seconds = new System.Windows.Forms.Label();
+            this.guna2Panel32 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label43 = new System.Windows.Forms.Label();
+            this.BI_N_Seconds = new System.Windows.Forms.Label();
+            this.guna2Panel30 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label55 = new System.Windows.Forms.Label();
+            this.BI_Live_Seconds = new System.Windows.Forms.Label();
+            this.guna2Panel38 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label69 = new System.Windows.Forms.Label();
+            this.BI_18_Minutes = new System.Windows.Forms.Label();
+            this.guna2Panel25 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label40 = new System.Windows.Forms.Label();
+            this.BI_N_Minutes = new System.Windows.Forms.Label();
+            this.guna2Panel29 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.BI_Live_Minutes = new System.Windows.Forms.Label();
+            this.guna2Panel37 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label67 = new System.Windows.Forms.Label();
+            this.BI_18_Hours = new System.Windows.Forms.Label();
+            this.guna2Panel24 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.BI_N_Hours = new System.Windows.Forms.Label();
+            this.guna2Panel28 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label51 = new System.Windows.Forms.Label();
+            this.BI_Live_Hours = new System.Windows.Forms.Label();
+            this.guna2Panel36 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label65 = new System.Windows.Forms.Label();
+            this.BI_18_Days = new System.Windows.Forms.Label();
+            this.guna2Panel23 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label36 = new System.Windows.Forms.Label();
+            this.BI_N_Days = new System.Windows.Forms.Label();
+            this.guna2Panel27 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label49 = new System.Windows.Forms.Label();
+            this.BI_Live_Days = new System.Windows.Forms.Label();
+            this.guna2Panel35 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label63 = new System.Windows.Forms.Label();
+            this.BI_18_Years = new System.Windows.Forms.Label();
+            this.guna2Panel34 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label61 = new System.Windows.Forms.Label();
+            this.BI_18_Months = new System.Windows.Forms.Label();
+            this.guna2Panel22 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.BI_N_Years = new System.Windows.Forms.Label();
+            this.guna2Panel21 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label32 = new System.Windows.Forms.Label();
+            this.BI_N_Months = new System.Windows.Forms.Label();
+            this.guna2Panel20 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.BI_Live_Years = new System.Windows.Forms.Label();
+            this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label46 = new System.Windows.Forms.Label();
+            this.BI_Live_Months = new System.Windows.Forms.Label();
             this.BI_Button = new Guna.UI2.WinForms.Guna2Button();
             this.BI_DatePicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label26 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.guna2Separator13 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2Separator14 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator15 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.CategoryLabel = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.UnixTS_Panel = new Guna.UI2.WinForms.Guna2Panel();
             this.labelTimestamp = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.BI_Label_18Years = new System.Windows.Forms.Label();
-            this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label46 = new System.Windows.Forms.Label();
-            this.BI_Live_Months = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.guna2Panel27 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label49 = new System.Windows.Forms.Label();
-            this.BI_Live_Days = new System.Windows.Forms.Label();
-            this.guna2Panel28 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label51 = new System.Windows.Forms.Label();
-            this.BI_Live_Hours = new System.Windows.Forms.Label();
-            this.guna2Panel29 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label53 = new System.Windows.Forms.Label();
-            this.BI_Live_Minutes = new System.Windows.Forms.Label();
-            this.guna2Panel30 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label55 = new System.Windows.Forms.Label();
-            this.BI_Live_Seconds = new System.Windows.Forms.Label();
-            this.guna2Panel31 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label57 = new System.Windows.Forms.Label();
-            this.BI_Live_MSeconds = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.guna2Panel20 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.BI_Live_Years = new System.Windows.Forms.Label();
-            this.BI_Label_NYears = new System.Windows.Forms.Label();
-            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.guna2VSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
-            this.guna2Separator14 = new Guna.UI2.WinForms.Guna2Separator();
-            this.guna2Panel21 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label32 = new System.Windows.Forms.Label();
-            this.BI_N_Months = new System.Windows.Forms.Label();
-            this.guna2Panel22 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label34 = new System.Windows.Forms.Label();
-            this.BI_N_Years = new System.Windows.Forms.Label();
-            this.guna2Panel23 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label36 = new System.Windows.Forms.Label();
-            this.BI_N_Days = new System.Windows.Forms.Label();
-            this.guna2Panel24 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label38 = new System.Windows.Forms.Label();
-            this.BI_N_Hours = new System.Windows.Forms.Label();
-            this.guna2Panel25 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label40 = new System.Windows.Forms.Label();
-            this.BI_N_Minutes = new System.Windows.Forms.Label();
-            this.guna2Panel32 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label43 = new System.Windows.Forms.Label();
-            this.BI_N_Seconds = new System.Windows.Forms.Label();
-            this.guna2Panel33 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label45 = new System.Windows.Forms.Label();
-            this.BI_N_MSeconds = new System.Windows.Forms.Label();
-            this.guna2Panel34 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label61 = new System.Windows.Forms.Label();
-            this.BI_18_Months = new System.Windows.Forms.Label();
-            this.guna2Panel35 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label63 = new System.Windows.Forms.Label();
-            this.BI_18_Years = new System.Windows.Forms.Label();
-            this.guna2Panel36 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label65 = new System.Windows.Forms.Label();
-            this.BI_18_Days = new System.Windows.Forms.Label();
-            this.guna2Panel37 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label67 = new System.Windows.Forms.Label();
-            this.BI_18_Hours = new System.Windows.Forms.Label();
-            this.guna2Panel38 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label69 = new System.Windows.Forms.Label();
-            this.BI_18_Minutes = new System.Windows.Forms.Label();
-            this.guna2Panel39 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label71 = new System.Windows.Forms.Label();
-            this.BI_18_Seconds = new System.Windows.Forms.Label();
-            this.guna2Panel40 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label73 = new System.Windows.Forms.Label();
-            this.BI_18_MSeconds = new System.Windows.Forms.Label();
-            this.TimerIndicator = new Guna.UI2.WinForms.Guna2Shapes();
-            this.guna2Panel41 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Transition = new Guna.UI2.WinForms.Guna2Transition();
+            this.label30 = new System.Windows.Forms.Label();
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -233,34 +234,34 @@
             this.guna2Panel18.SuspendLayout();
             this.BirthdayInformerPage.SuspendLayout();
             this.guna2Panel19.SuspendLayout();
+            this.guna2Panel41.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BI_Num_Year)).BeginInit();
+            this.guna2Panel40.SuspendLayout();
+            this.guna2Panel33.SuspendLayout();
+            this.guna2Panel31.SuspendLayout();
+            this.guna2Panel39.SuspendLayout();
+            this.guna2Panel32.SuspendLayout();
+            this.guna2Panel30.SuspendLayout();
+            this.guna2Panel38.SuspendLayout();
+            this.guna2Panel25.SuspendLayout();
+            this.guna2Panel29.SuspendLayout();
+            this.guna2Panel37.SuspendLayout();
+            this.guna2Panel24.SuspendLayout();
+            this.guna2Panel28.SuspendLayout();
+            this.guna2Panel36.SuspendLayout();
+            this.guna2Panel23.SuspendLayout();
+            this.guna2Panel27.SuspendLayout();
+            this.guna2Panel35.SuspendLayout();
+            this.guna2Panel34.SuspendLayout();
+            this.guna2Panel22.SuspendLayout();
+            this.guna2Panel21.SuspendLayout();
+            this.guna2Panel20.SuspendLayout();
+            this.guna2Panel26.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            this.guna2Panel1.SuspendLayout();
+            this.UnixTS_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.guna2Panel26.SuspendLayout();
-            this.guna2Panel27.SuspendLayout();
-            this.guna2Panel28.SuspendLayout();
-            this.guna2Panel29.SuspendLayout();
-            this.guna2Panel30.SuspendLayout();
-            this.guna2Panel31.SuspendLayout();
-            this.guna2Panel20.SuspendLayout();
-            this.guna2Panel21.SuspendLayout();
-            this.guna2Panel22.SuspendLayout();
-            this.guna2Panel23.SuspendLayout();
-            this.guna2Panel24.SuspendLayout();
-            this.guna2Panel25.SuspendLayout();
-            this.guna2Panel32.SuspendLayout();
-            this.guna2Panel33.SuspendLayout();
-            this.guna2Panel34.SuspendLayout();
-            this.guna2Panel35.SuspendLayout();
-            this.guna2Panel36.SuspendLayout();
-            this.guna2Panel37.SuspendLayout();
-            this.guna2Panel38.SuspendLayout();
-            this.guna2Panel39.SuspendLayout();
-            this.guna2Panel40.SuspendLayout();
-            this.guna2Panel41.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuTabControl
@@ -273,7 +274,7 @@
             this.MenuTabControl.Controls.Add(this.BirthdayInformerPage);
             this.guna2Transition.SetDecoration(this.MenuTabControl, Guna.UI2.AnimatorNS.DecorationType.None);
             this.MenuTabControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MenuTabControl.ItemSize = new System.Drawing.Size(220, 60);
+            this.MenuTabControl.ItemSize = new System.Drawing.Size(220, 91);
             this.MenuTabControl.Location = new System.Drawing.Point(0, 55);
             this.MenuTabControl.Name = "MenuTabControl";
             this.MenuTabControl.SelectedIndex = 0;
@@ -293,7 +294,7 @@
             this.MenuTabControl.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.MenuTabControl.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
             this.MenuTabControl.TabButtonSelectedState.InnerColor = System.Drawing.Color.SteelBlue;
-            this.MenuTabControl.TabButtonSize = new System.Drawing.Size(220, 60);
+            this.MenuTabControl.TabButtonSize = new System.Drawing.Size(220, 91);
             this.MenuTabControl.TabButtonTextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.MenuTabControl.TabIndex = 3;
             this.MenuTabControl.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
@@ -335,7 +336,7 @@
             this.guna2Panel3.Controls.Add(this.guna2Separator2);
             this.guna2Panel3.Controls.Add(this.guna2Separator6);
             this.guna2Transition.SetDecoration(this.guna2Panel3, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel3.Location = new System.Drawing.Point(6, 6);
+            this.guna2Panel3.Location = new System.Drawing.Point(26, 6);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(620, 449);
             this.guna2Panel3.TabIndex = 3;
@@ -558,7 +559,6 @@
             this.label12.TabIndex = 3;
             this.label12.Text = "milliseconds ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            
             // 
             // DC_Ms_Value
             // 
@@ -600,7 +600,6 @@
             this.label10.TabIndex = 3;
             this.label10.Text = "seconds ";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-          
             // 
             // DC_Sec_Value
             // 
@@ -642,7 +641,6 @@
             this.label8.TabIndex = 3;
             this.label8.Text = "minutes";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            
             // 
             // DC_Minutes_Value
             // 
@@ -684,7 +682,6 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "hours";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-           
             // 
             // DC_Hours_Value
             // 
@@ -1649,6 +1646,89 @@
             this.guna2Panel19.Size = new System.Drawing.Size(620, 449);
             this.guna2Panel19.TabIndex = 7;
             // 
+            // guna2Panel41
+            // 
+            this.guna2Panel41.BorderRadius = 15;
+            this.guna2Panel41.Controls.Add(this.TimerIndicator);
+            this.guna2Transition.SetDecoration(this.guna2Panel41, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel41.Location = new System.Drawing.Point(537, 13);
+            this.guna2Panel41.Name = "guna2Panel41";
+            this.guna2Panel41.Size = new System.Drawing.Size(40, 40);
+            this.guna2Panel41.TabIndex = 29;
+            // 
+            // TimerIndicator
+            // 
+            this.TimerIndicator.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2Transition.SetDecoration(this.TimerIndicator, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.TimerIndicator.FillColor = System.Drawing.Color.LawnGreen;
+            this.TimerIndicator.Location = new System.Drawing.Point(8, 7);
+            this.TimerIndicator.Name = "TimerIndicator";
+            this.TimerIndicator.PolygonSkip = 1;
+            this.TimerIndicator.Rotate = 0F;
+            this.TimerIndicator.Shape = Guna.UI2.WinForms.Enums.ShapeType.Ellipse;
+            this.TimerIndicator.Size = new System.Drawing.Size(24, 24);
+            this.TimerIndicator.TabIndex = 28;
+            this.TimerIndicator.Text = "guna2Shapes1";
+            this.TimerIndicator.Zoom = 80;
+            // 
+            // guna2VSeparator2
+            // 
+            this.guna2Transition.SetDecoration(this.guna2VSeparator2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2VSeparator2.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2VSeparator2.Location = new System.Drawing.Point(396, 194);
+            this.guna2VSeparator2.Name = "guna2VSeparator2";
+            this.guna2VSeparator2.Size = new System.Drawing.Size(10, 243);
+            this.guna2VSeparator2.TabIndex = 27;
+            // 
+            // guna2VSeparator1
+            // 
+            this.guna2Transition.SetDecoration(this.guna2VSeparator1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2VSeparator1.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2VSeparator1.Location = new System.Drawing.Point(209, 194);
+            this.guna2VSeparator1.Name = "guna2VSeparator1";
+            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 243);
+            this.guna2VSeparator1.TabIndex = 27;
+            // 
+            // label48
+            // 
+            this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label48.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label48.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label48.Location = new System.Drawing.Point(42, 155);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(159, 30);
+            this.label48.TabIndex = 26;
+            this.label48.Text = "lives for so long";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // BI_Label_NYears
+            // 
+            this.BI_Label_NYears.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Label_NYears, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Label_NYears.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.BI_Label_NYears.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.BI_Label_NYears.Location = new System.Drawing.Point(396, 155);
+            this.BI_Label_NYears.Name = "BI_Label_NYears";
+            this.BI_Label_NYears.Size = new System.Drawing.Size(181, 30);
+            this.BI_Label_NYears.TabIndex = 26;
+            this.BI_Label_NYears.Text = "Turned 33 so long ago";
+            this.BI_Label_NYears.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // BI_Label_18Years
+            // 
+            this.BI_Label_18Years.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Label_18Years, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Label_18Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.BI_Label_18Years.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.BI_Label_18Years.Location = new System.Drawing.Point(225, 155);
+            this.BI_Label_18Years.Name = "BI_Label_18Years";
+            this.BI_Label_18Years.Size = new System.Drawing.Size(165, 30);
+            this.BI_Label_18Years.TabIndex = 26;
+            this.BI_Label_18Years.Text = "Turned 18 so long ago";
+            this.BI_Label_18Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // BI_Num_Year
             // 
             this.BI_Num_Year.BackColor = System.Drawing.Color.Transparent;
@@ -1682,1133 +1762,6 @@
             0,
             0});
             this.BI_Num_Year.ValueChanged += new System.EventHandler(this.BI_Num_Year_ValueChanged_1);
-            // 
-            // BI_Button
-            // 
-            this.BI_Button.BorderRadius = 15;
-            this.guna2Transition.SetDecoration(this.BI_Button, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.BI_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BI_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BI_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BI_Button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(188)))), ((int)(((byte)(105)))));
-            this.BI_Button.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BI_Button.ForeColor = System.Drawing.Color.White;
-            this.BI_Button.Location = new System.Drawing.Point(432, 13);
-            this.BI_Button.Name = "BI_Button";
-            this.BI_Button.Size = new System.Drawing.Size(102, 40);
-            this.BI_Button.TabIndex = 15;
-            this.BI_Button.Text = "OK";
-            this.BI_Button.Click += new System.EventHandler(this.BI_Button_Click);
-           
-            // 
-            // BI_DatePicker
-            // 
-            this.BI_DatePicker.BorderRadius = 15;
-            this.BI_DatePicker.Checked = true;
-            this.BI_DatePicker.CustomFormat = "";
-            this.guna2Transition.SetDecoration(this.BI_DatePicker, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_DatePicker.FillColor = System.Drawing.Color.SteelBlue;
-            this.BI_DatePicker.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BI_DatePicker.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.BI_DatePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.BI_DatePicker.Location = new System.Drawing.Point(307, 13);
-            this.BI_DatePicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.BI_DatePicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.BI_DatePicker.Name = "BI_DatePicker";
-            this.BI_DatePicker.Size = new System.Drawing.Size(119, 40);
-            this.BI_DatePicker.TabIndex = 14;
-            this.BI_DatePicker.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
-            this.BI_DatePicker.ValueChanged += new System.EventHandler(this.BI_DatePicker_ValueChanged);
-            // 
-            // label26
-            // 
-            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label26, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label26.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.label26.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label26.Location = new System.Drawing.Point(452, -269);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(10, 55);
-            this.label26.TabIndex = 11;
-            this.label26.Text = "date";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label27
-            // 
-            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label27, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label27.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.label27.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label27.Location = new System.Drawing.Point(107, 22);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(114, 25);
-            this.label27.TabIndex = 11;
-            this.label27.Text = "Your Birthday";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label28
-            // 
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label28, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label28.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label28.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.label28.Location = new System.Drawing.Point(62, 62);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(500, 46);
-            this.label28.TabIndex = 10;
-            this.label28.Text = resources.GetString("label28.Text");
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Separator13
-            // 
-            this.guna2Transition.SetDecoration(this.guna2Separator13, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Separator13.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator13.Location = new System.Drawing.Point(42, 69);
-            this.guna2Separator13.Name = "guna2Separator13";
-            this.guna2Separator13.Size = new System.Drawing.Size(537, 10);
-            this.guna2Separator13.TabIndex = 8;
-            // 
-            // guna2Separator15
-            // 
-            this.guna2Transition.SetDecoration(this.guna2Separator15, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Separator15.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator15.Location = new System.Drawing.Point(41, 13);
-            this.guna2Separator15.Name = "guna2Separator15";
-            this.guna2Separator15.Size = new System.Drawing.Size(251, 40);
-            this.guna2Separator15.TabIndex = 13;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel2.Controls.Add(this.CategoryLabel);
-            this.guna2Panel2.Controls.Add(this.guna2Panel4);
-            this.guna2Panel2.Controls.Add(this.guna2Panel1);
-            this.guna2Panel2.Controls.Add(this.label1);
-            this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
-            this.guna2Transition.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(861, 55);
-            this.guna2Panel2.TabIndex = 5;
-            // 
-            // CategoryLabel
-            // 
-            this.CategoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.CategoryLabel.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.CategoryLabel, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.CategoryLabel.Font = new System.Drawing.Font("BigNoodleTooOblique", 30F);
-            this.CategoryLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.CategoryLabel.Location = new System.Drawing.Point(247, 9);
-            this.CategoryLabel.Name = "CategoryLabel";
-            this.CategoryLabel.Size = new System.Drawing.Size(508, 37);
-            this.CategoryLabel.TabIndex = 7;
-            this.CategoryLabel.Text = "2Date Comparer";
-            this.CategoryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.AutoSize = true;
-            this.guna2Panel4.BackColor = System.Drawing.Color.SteelBlue;
-            this.guna2Panel4.Controls.Add(this.guna2CircleButton1);
-            this.guna2Panel4.Controls.Add(this.guna2PictureBox2);
-            this.guna2Transition.SetDecoration(this.guna2Panel4, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(220, 58);
-            this.guna2Panel4.TabIndex = 6;
-            this.guna2Panel4.Click += new System.EventHandler(this.guna2Panel4_Click);
-           
-            // 
-            // guna2CircleButton1
-            // 
-            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.guna2CircleButton1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Image = global::DateTimeCalculator.Properties.Resources.MenuIcon;
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(32, 24);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(3, 3);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(48, 46);
-            this.guna2CircleButton1.TabIndex = 2;
-            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2Transition.SetDecoration(this.guna2PictureBox2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox2.Enabled = false;
-            this.guna2PictureBox2.Image = global::DateTimeCalculator.Properties.Resources.DateTimeCalculator_Logo_text;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(84, 2);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(98, 50);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 0;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.AutoSize = true;
-            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BorderRadius = 5;
-            this.guna2Panel1.BorderThickness = 2;
-            this.guna2Panel1.Controls.Add(this.labelTimestamp);
-            this.guna2Transition.SetDecoration(this.guna2Panel1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel1.FillColor = System.Drawing.Color.SteelBlue;
-            this.guna2Panel1.Location = new System.Drawing.Point(771, 12);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(79, 34);
-            this.guna2Panel1.TabIndex = 1;
-            // 
-            // labelTimestamp
-            // 
-            this.guna2Transition.SetDecoration(this.labelTimestamp, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.labelTimestamp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelTimestamp.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelTimestamp.ForeColor = System.Drawing.SystemColors.Control;
-            this.labelTimestamp.Location = new System.Drawing.Point(0, 0);
-            this.labelTimestamp.Name = "labelTimestamp";
-            this.labelTimestamp.Size = new System.Drawing.Size(79, 34);
-            this.labelTimestamp.TabIndex = 0;
-            this.labelTimestamp.Text = "0000";
-            this.labelTimestamp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(503, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 21);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Date && Time Calculator";
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2Transition.SetDecoration(this.guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2PictureBox1.Image = global::DateTimeCalculator.Properties.Resources.DateIcon;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(465, 73);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 2;
-            this.guna2PictureBox1.TabStop = false;
-            
-            // 
-            // BI_Label_18Years
-            // 
-            this.BI_Label_18Years.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Label_18Years, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Label_18Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.BI_Label_18Years.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.BI_Label_18Years.Location = new System.Drawing.Point(225, 155);
-            this.BI_Label_18Years.Name = "BI_Label_18Years";
-            this.BI_Label_18Years.Size = new System.Drawing.Size(165, 30);
-            this.BI_Label_18Years.TabIndex = 26;
-            this.BI_Label_18Years.Text = "Turned 18 so long ago";
-            this.BI_Label_18Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel26
-            // 
-            this.guna2Panel26.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel26.BorderRadius = 10;
-            this.guna2Panel26.Controls.Add(this.label46);
-            this.guna2Panel26.Controls.Add(this.BI_Live_Months);
-            this.guna2Transition.SetDecoration(this.guna2Panel26, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel26.Location = new System.Drawing.Point(41, 229);
-            this.guna2Panel26.Name = "guna2Panel26";
-            this.guna2Panel26.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel26.TabIndex = 16;
-            // 
-            // label46
-            // 
-            this.label46.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label46, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label46.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label46.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label46.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label46.Location = new System.Drawing.Point(0, 0);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(77, 32);
-            this.label46.TabIndex = 3;
-            this.label46.Text = "months";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Live_Months
-            // 
-            this.BI_Live_Months.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Live_Months, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Live_Months.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_Live_Months.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_Live_Months.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_Live_Months.Location = new System.Drawing.Point(83, 0);
-            this.BI_Live_Months.Name = "BI_Live_Months";
-            this.BI_Live_Months.Size = new System.Drawing.Size(77, 32);
-            this.BI_Live_Months.TabIndex = 3;
-            this.BI_Live_Months.Text = "1000";
-            this.BI_Live_Months.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label48
-            // 
-            this.label48.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label48, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label48.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.label48.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label48.Location = new System.Drawing.Point(42, 155);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(159, 30);
-            this.label48.TabIndex = 26;
-            this.label48.Text = "lives for so long";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // guna2Panel27
-            // 
-            this.guna2Panel27.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel27.BorderRadius = 10;
-            this.guna2Panel27.Controls.Add(this.label49);
-            this.guna2Panel27.Controls.Add(this.BI_Live_Days);
-            this.guna2Transition.SetDecoration(this.guna2Panel27, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel27.Location = new System.Drawing.Point(41, 264);
-            this.guna2Panel27.Name = "guna2Panel27";
-            this.guna2Panel27.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel27.TabIndex = 16;
-            // 
-            // label49
-            // 
-            this.label49.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label49, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label49.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label49.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label49.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label49.Location = new System.Drawing.Point(0, 0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(77, 32);
-            this.label49.TabIndex = 3;
-            this.label49.Text = "days";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Live_Days
-            // 
-            this.BI_Live_Days.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Live_Days, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Live_Days.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_Live_Days.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_Live_Days.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_Live_Days.Location = new System.Drawing.Point(83, 0);
-            this.BI_Live_Days.Name = "BI_Live_Days";
-            this.BI_Live_Days.Size = new System.Drawing.Size(77, 32);
-            this.BI_Live_Days.TabIndex = 3;
-            this.BI_Live_Days.Text = "1000";
-            this.BI_Live_Days.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel28
-            // 
-            this.guna2Panel28.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel28.BorderRadius = 10;
-            this.guna2Panel28.Controls.Add(this.label51);
-            this.guna2Panel28.Controls.Add(this.BI_Live_Hours);
-            this.guna2Transition.SetDecoration(this.guna2Panel28, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel28.Location = new System.Drawing.Point(41, 299);
-            this.guna2Panel28.Name = "guna2Panel28";
-            this.guna2Panel28.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel28.TabIndex = 16;
-            // 
-            // label51
-            // 
-            this.label51.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label51, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label51.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label51.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label51.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label51.Location = new System.Drawing.Point(0, 0);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(77, 32);
-            this.label51.TabIndex = 3;
-            this.label51.Text = "hours";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Live_Hours
-            // 
-            this.BI_Live_Hours.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Live_Hours, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Live_Hours.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_Live_Hours.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_Live_Hours.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_Live_Hours.Location = new System.Drawing.Point(83, 0);
-            this.BI_Live_Hours.Name = "BI_Live_Hours";
-            this.BI_Live_Hours.Size = new System.Drawing.Size(77, 32);
-            this.BI_Live_Hours.TabIndex = 3;
-            this.BI_Live_Hours.Text = "1000";
-            this.BI_Live_Hours.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel29
-            // 
-            this.guna2Panel29.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel29.BorderRadius = 10;
-            this.guna2Panel29.Controls.Add(this.label53);
-            this.guna2Panel29.Controls.Add(this.BI_Live_Minutes);
-            this.guna2Transition.SetDecoration(this.guna2Panel29, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel29.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel29.Location = new System.Drawing.Point(41, 334);
-            this.guna2Panel29.Name = "guna2Panel29";
-            this.guna2Panel29.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel29.TabIndex = 16;
-            // 
-            // label53
-            // 
-            this.label53.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label53, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label53.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label53.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label53.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label53.Location = new System.Drawing.Point(0, 0);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(77, 32);
-            this.label53.TabIndex = 3;
-            this.label53.Text = "minutes";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Live_Minutes
-            // 
-            this.BI_Live_Minutes.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Live_Minutes, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Live_Minutes.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_Live_Minutes.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_Live_Minutes.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_Live_Minutes.Location = new System.Drawing.Point(83, 0);
-            this.BI_Live_Minutes.Name = "BI_Live_Minutes";
-            this.BI_Live_Minutes.Size = new System.Drawing.Size(77, 32);
-            this.BI_Live_Minutes.TabIndex = 3;
-            this.BI_Live_Minutes.Text = "1000";
-            this.BI_Live_Minutes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel30
-            // 
-            this.guna2Panel30.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel30.BorderRadius = 10;
-            this.guna2Panel30.Controls.Add(this.label55);
-            this.guna2Panel30.Controls.Add(this.BI_Live_Seconds);
-            this.guna2Transition.SetDecoration(this.guna2Panel30, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel30.Location = new System.Drawing.Point(41, 369);
-            this.guna2Panel30.Name = "guna2Panel30";
-            this.guna2Panel30.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel30.TabIndex = 16;
-            // 
-            // label55
-            // 
-            this.label55.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label55, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label55.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label55.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label55.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label55.Location = new System.Drawing.Point(0, 0);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(77, 32);
-            this.label55.TabIndex = 3;
-            this.label55.Text = "seconds";
-            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Live_Seconds
-            // 
-            this.BI_Live_Seconds.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Live_Seconds, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Live_Seconds.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_Live_Seconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_Live_Seconds.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_Live_Seconds.Location = new System.Drawing.Point(83, 0);
-            this.BI_Live_Seconds.Name = "BI_Live_Seconds";
-            this.BI_Live_Seconds.Size = new System.Drawing.Size(77, 32);
-            this.BI_Live_Seconds.TabIndex = 3;
-            this.BI_Live_Seconds.Text = "1000";
-            this.BI_Live_Seconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel31
-            // 
-            this.guna2Panel31.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel31.BorderRadius = 10;
-            this.guna2Panel31.Controls.Add(this.label57);
-            this.guna2Panel31.Controls.Add(this.BI_Live_MSeconds);
-            this.guna2Transition.SetDecoration(this.guna2Panel31, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel31.Location = new System.Drawing.Point(41, 404);
-            this.guna2Panel31.Name = "guna2Panel31";
-            this.guna2Panel31.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel31.TabIndex = 16;
-            // 
-            // label57
-            // 
-            this.label57.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label57, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label57.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label57.Font = new System.Drawing.Font("BigNoodleTooOblique", 12F);
-            this.label57.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label57.Location = new System.Drawing.Point(0, 0);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(86, 32);
-            this.label57.TabIndex = 3;
-            this.label57.Text = "milliseconds ";
-            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Live_MSeconds
-            // 
-            this.BI_Live_MSeconds.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Live_MSeconds, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Live_MSeconds.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_Live_MSeconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_Live_MSeconds.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_Live_MSeconds.Location = new System.Drawing.Point(83, 0);
-            this.BI_Live_MSeconds.Name = "BI_Live_MSeconds";
-            this.BI_Live_MSeconds.Size = new System.Drawing.Size(77, 32);
-            this.BI_Live_MSeconds.TabIndex = 3;
-            this.BI_Live_MSeconds.Text = "1000";
-            this.BI_Live_MSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label59
-            // 
-            this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label59.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label59, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label59.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.label59.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label59.Location = new System.Drawing.Point(186, 118);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(306, 25);
-            this.label59.TabIndex = 11;
-            this.label59.Text = "How long will it take to turn N years old?";
-            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // guna2Panel20
-            // 
-            this.guna2Panel20.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel20.BorderRadius = 10;
-            this.guna2Panel20.Controls.Add(this.label29);
-            this.guna2Panel20.Controls.Add(this.BI_Live_Years);
-            this.guna2Transition.SetDecoration(this.guna2Panel20, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel20.Location = new System.Drawing.Point(41, 194);
-            this.guna2Panel20.Name = "guna2Panel20";
-            this.guna2Panel20.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel20.TabIndex = 16;
-            // 
-            // label29
-            // 
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label29, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label29.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label29.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label29.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label29.Location = new System.Drawing.Point(0, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(77, 32);
-            this.label29.TabIndex = 3;
-            this.label29.Text = "years";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Live_Years
-            // 
-            this.BI_Live_Years.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Live_Years, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Live_Years.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_Live_Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_Live_Years.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_Live_Years.Location = new System.Drawing.Point(83, 0);
-            this.BI_Live_Years.Name = "BI_Live_Years";
-            this.BI_Live_Years.Size = new System.Drawing.Size(77, 32);
-            this.BI_Live_Years.TabIndex = 3;
-            this.BI_Live_Years.Text = "1000";
-            this.BI_Live_Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_Label_NYears
-            // 
-            this.BI_Label_NYears.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_Label_NYears, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_Label_NYears.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
-            this.BI_Label_NYears.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.BI_Label_NYears.Location = new System.Drawing.Point(396, 155);
-            this.BI_Label_NYears.Name = "BI_Label_NYears";
-            this.BI_Label_NYears.Size = new System.Drawing.Size(181, 30);
-            this.BI_Label_NYears.TabIndex = 26;
-            this.BI_Label_NYears.Text = "Turned 33 so long ago";
-            this.BI_Label_NYears.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // guna2VSeparator1
-            // 
-            this.guna2Transition.SetDecoration(this.guna2VSeparator1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2VSeparator1.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2VSeparator1.Location = new System.Drawing.Point(209, 194);
-            this.guna2VSeparator1.Name = "guna2VSeparator1";
-            this.guna2VSeparator1.Size = new System.Drawing.Size(10, 243);
-            this.guna2VSeparator1.TabIndex = 27;
-            // 
-            // guna2VSeparator2
-            // 
-            this.guna2Transition.SetDecoration(this.guna2VSeparator2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2VSeparator2.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2VSeparator2.Location = new System.Drawing.Point(396, 194);
-            this.guna2VSeparator2.Name = "guna2VSeparator2";
-            this.guna2VSeparator2.Size = new System.Drawing.Size(10, 243);
-            this.guna2VSeparator2.TabIndex = 27;
-            // 
-            // guna2Separator14
-            // 
-            this.guna2Transition.SetDecoration(this.guna2Separator14, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Separator14.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Separator14.Location = new System.Drawing.Point(41, 110);
-            this.guna2Separator14.Name = "guna2Separator14";
-            this.guna2Separator14.Size = new System.Drawing.Size(451, 40);
-            this.guna2Separator14.TabIndex = 13;
-            // 
-            // guna2Panel21
-            // 
-            this.guna2Panel21.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel21.BorderRadius = 10;
-            this.guna2Panel21.Controls.Add(this.label32);
-            this.guna2Panel21.Controls.Add(this.BI_N_Months);
-            this.guna2Transition.SetDecoration(this.guna2Panel21, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel21.Location = new System.Drawing.Point(419, 229);
-            this.guna2Panel21.Name = "guna2Panel21";
-            this.guna2Panel21.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel21.TabIndex = 16;
-            // 
-            // label32
-            // 
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label32, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label32.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label32.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label32.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label32.Location = new System.Drawing.Point(0, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(77, 32);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "months";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_N_Months
-            // 
-            this.BI_N_Months.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_N_Months, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_N_Months.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_N_Months.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_N_Months.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_N_Months.Location = new System.Drawing.Point(83, 0);
-            this.BI_N_Months.Name = "BI_N_Months";
-            this.BI_N_Months.Size = new System.Drawing.Size(77, 32);
-            this.BI_N_Months.TabIndex = 3;
-            this.BI_N_Months.Text = "1000";
-            this.BI_N_Months.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel22
-            // 
-            this.guna2Panel22.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel22.BorderRadius = 10;
-            this.guna2Panel22.Controls.Add(this.label34);
-            this.guna2Panel22.Controls.Add(this.BI_N_Years);
-            this.guna2Transition.SetDecoration(this.guna2Panel22, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel22.Location = new System.Drawing.Point(419, 194);
-            this.guna2Panel22.Name = "guna2Panel22";
-            this.guna2Panel22.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel22.TabIndex = 16;
-            // 
-            // label34
-            // 
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label34, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label34.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label34.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label34.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label34.Location = new System.Drawing.Point(0, 0);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(77, 32);
-            this.label34.TabIndex = 3;
-            this.label34.Text = "years";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_N_Years
-            // 
-            this.BI_N_Years.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_N_Years, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_N_Years.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_N_Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_N_Years.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_N_Years.Location = new System.Drawing.Point(83, 0);
-            this.BI_N_Years.Name = "BI_N_Years";
-            this.BI_N_Years.Size = new System.Drawing.Size(77, 32);
-            this.BI_N_Years.TabIndex = 3;
-            this.BI_N_Years.Text = "1000";
-            this.BI_N_Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel23
-            // 
-            this.guna2Panel23.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel23.BorderRadius = 10;
-            this.guna2Panel23.Controls.Add(this.label36);
-            this.guna2Panel23.Controls.Add(this.BI_N_Days);
-            this.guna2Transition.SetDecoration(this.guna2Panel23, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel23.Location = new System.Drawing.Point(419, 264);
-            this.guna2Panel23.Name = "guna2Panel23";
-            this.guna2Panel23.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel23.TabIndex = 16;
-            // 
-            // label36
-            // 
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label36, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label36.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label36.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label36.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label36.Location = new System.Drawing.Point(0, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(77, 32);
-            this.label36.TabIndex = 3;
-            this.label36.Text = "days";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_N_Days
-            // 
-            this.BI_N_Days.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_N_Days, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_N_Days.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_N_Days.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_N_Days.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_N_Days.Location = new System.Drawing.Point(83, 0);
-            this.BI_N_Days.Name = "BI_N_Days";
-            this.BI_N_Days.Size = new System.Drawing.Size(77, 32);
-            this.BI_N_Days.TabIndex = 3;
-            this.BI_N_Days.Text = "1000";
-            this.BI_N_Days.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel24
-            // 
-            this.guna2Panel24.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel24.BorderRadius = 10;
-            this.guna2Panel24.Controls.Add(this.label38);
-            this.guna2Panel24.Controls.Add(this.BI_N_Hours);
-            this.guna2Transition.SetDecoration(this.guna2Panel24, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel24.Location = new System.Drawing.Point(419, 299);
-            this.guna2Panel24.Name = "guna2Panel24";
-            this.guna2Panel24.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel24.TabIndex = 16;
-            // 
-            // label38
-            // 
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label38, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label38.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label38.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label38.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label38.Location = new System.Drawing.Point(0, 0);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(77, 32);
-            this.label38.TabIndex = 3;
-            this.label38.Text = "hours";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_N_Hours
-            // 
-            this.BI_N_Hours.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_N_Hours, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_N_Hours.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_N_Hours.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_N_Hours.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_N_Hours.Location = new System.Drawing.Point(83, 0);
-            this.BI_N_Hours.Name = "BI_N_Hours";
-            this.BI_N_Hours.Size = new System.Drawing.Size(77, 32);
-            this.BI_N_Hours.TabIndex = 3;
-            this.BI_N_Hours.Text = "1000";
-            this.BI_N_Hours.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel25
-            // 
-            this.guna2Panel25.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel25.BorderRadius = 10;
-            this.guna2Panel25.Controls.Add(this.label40);
-            this.guna2Panel25.Controls.Add(this.BI_N_Minutes);
-            this.guna2Transition.SetDecoration(this.guna2Panel25, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel25.Location = new System.Drawing.Point(419, 334);
-            this.guna2Panel25.Name = "guna2Panel25";
-            this.guna2Panel25.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel25.TabIndex = 16;
-            // 
-            // label40
-            // 
-            this.label40.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label40, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label40.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label40.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label40.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label40.Location = new System.Drawing.Point(0, 0);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(77, 32);
-            this.label40.TabIndex = 3;
-            this.label40.Text = "minutes";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_N_Minutes
-            // 
-            this.BI_N_Minutes.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_N_Minutes, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_N_Minutes.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_N_Minutes.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_N_Minutes.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_N_Minutes.Location = new System.Drawing.Point(83, 0);
-            this.BI_N_Minutes.Name = "BI_N_Minutes";
-            this.BI_N_Minutes.Size = new System.Drawing.Size(77, 32);
-            this.BI_N_Minutes.TabIndex = 3;
-            this.BI_N_Minutes.Text = "1000";
-            this.BI_N_Minutes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel32
-            // 
-            this.guna2Panel32.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel32.BorderRadius = 10;
-            this.guna2Panel32.Controls.Add(this.label43);
-            this.guna2Panel32.Controls.Add(this.BI_N_Seconds);
-            this.guna2Transition.SetDecoration(this.guna2Panel32, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel32.Location = new System.Drawing.Point(419, 369);
-            this.guna2Panel32.Name = "guna2Panel32";
-            this.guna2Panel32.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel32.TabIndex = 16;
-            // 
-            // label43
-            // 
-            this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label43.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label43.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label43.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label43.Location = new System.Drawing.Point(0, 0);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(77, 32);
-            this.label43.TabIndex = 3;
-            this.label43.Text = "seconds";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_N_Seconds
-            // 
-            this.BI_N_Seconds.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_N_Seconds, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_N_Seconds.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_N_Seconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_N_Seconds.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_N_Seconds.Location = new System.Drawing.Point(83, 0);
-            this.BI_N_Seconds.Name = "BI_N_Seconds";
-            this.BI_N_Seconds.Size = new System.Drawing.Size(77, 32);
-            this.BI_N_Seconds.TabIndex = 3;
-            this.BI_N_Seconds.Text = "1000";
-            this.BI_N_Seconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel33
-            // 
-            this.guna2Panel33.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel33.BorderRadius = 10;
-            this.guna2Panel33.Controls.Add(this.label45);
-            this.guna2Panel33.Controls.Add(this.BI_N_MSeconds);
-            this.guna2Transition.SetDecoration(this.guna2Panel33, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel33.Location = new System.Drawing.Point(419, 404);
-            this.guna2Panel33.Name = "guna2Panel33";
-            this.guna2Panel33.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel33.TabIndex = 16;
-            // 
-            // label45
-            // 
-            this.label45.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label45, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label45.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label45.Font = new System.Drawing.Font("BigNoodleTooOblique", 12F);
-            this.label45.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label45.Location = new System.Drawing.Point(0, 0);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(86, 32);
-            this.label45.TabIndex = 3;
-            this.label45.Text = "milliseconds ";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_N_MSeconds
-            // 
-            this.BI_N_MSeconds.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_N_MSeconds, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_N_MSeconds.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_N_MSeconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_N_MSeconds.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_N_MSeconds.Location = new System.Drawing.Point(83, 0);
-            this.BI_N_MSeconds.Name = "BI_N_MSeconds";
-            this.BI_N_MSeconds.Size = new System.Drawing.Size(77, 32);
-            this.BI_N_MSeconds.TabIndex = 3;
-            this.BI_N_MSeconds.Text = "1000";
-            this.BI_N_MSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel34
-            // 
-            this.guna2Panel34.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel34.BorderRadius = 10;
-            this.guna2Panel34.Controls.Add(this.label61);
-            this.guna2Panel34.Controls.Add(this.BI_18_Months);
-            this.guna2Transition.SetDecoration(this.guna2Panel34, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel34.Location = new System.Drawing.Point(230, 229);
-            this.guna2Panel34.Name = "guna2Panel34";
-            this.guna2Panel34.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel34.TabIndex = 16;
-            // 
-            // label61
-            // 
-            this.label61.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label61, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label61.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label61.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label61.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label61.Location = new System.Drawing.Point(0, 0);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(77, 32);
-            this.label61.TabIndex = 3;
-            this.label61.Text = "months";
-            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_18_Months
-            // 
-            this.BI_18_Months.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_18_Months, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_18_Months.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_18_Months.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_18_Months.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_18_Months.Location = new System.Drawing.Point(83, 0);
-            this.BI_18_Months.Name = "BI_18_Months";
-            this.BI_18_Months.Size = new System.Drawing.Size(77, 32);
-            this.BI_18_Months.TabIndex = 3;
-            this.BI_18_Months.Text = "1000";
-            this.BI_18_Months.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel35
-            // 
-            this.guna2Panel35.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel35.BorderRadius = 10;
-            this.guna2Panel35.Controls.Add(this.label63);
-            this.guna2Panel35.Controls.Add(this.BI_18_Years);
-            this.guna2Transition.SetDecoration(this.guna2Panel35, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel35.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel35.Location = new System.Drawing.Point(230, 194);
-            this.guna2Panel35.Name = "guna2Panel35";
-            this.guna2Panel35.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel35.TabIndex = 16;
-            // 
-            // label63
-            // 
-            this.label63.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label63.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label63.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label63.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label63.Location = new System.Drawing.Point(0, 0);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(77, 32);
-            this.label63.TabIndex = 3;
-            this.label63.Text = "years";
-            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_18_Years
-            // 
-            this.BI_18_Years.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_18_Years, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_18_Years.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_18_Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_18_Years.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_18_Years.Location = new System.Drawing.Point(83, 0);
-            this.BI_18_Years.Name = "BI_18_Years";
-            this.BI_18_Years.Size = new System.Drawing.Size(77, 32);
-            this.BI_18_Years.TabIndex = 3;
-            this.BI_18_Years.Text = "1000";
-            this.BI_18_Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel36
-            // 
-            this.guna2Panel36.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel36.BorderRadius = 10;
-            this.guna2Panel36.Controls.Add(this.label65);
-            this.guna2Panel36.Controls.Add(this.BI_18_Days);
-            this.guna2Transition.SetDecoration(this.guna2Panel36, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel36.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel36.Location = new System.Drawing.Point(230, 264);
-            this.guna2Panel36.Name = "guna2Panel36";
-            this.guna2Panel36.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel36.TabIndex = 16;
-            // 
-            // label65
-            // 
-            this.label65.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label65, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label65.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label65.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label65.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label65.Location = new System.Drawing.Point(0, 0);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(77, 32);
-            this.label65.TabIndex = 3;
-            this.label65.Text = "days";
-            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_18_Days
-            // 
-            this.BI_18_Days.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_18_Days, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_18_Days.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_18_Days.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_18_Days.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_18_Days.Location = new System.Drawing.Point(83, 0);
-            this.BI_18_Days.Name = "BI_18_Days";
-            this.BI_18_Days.Size = new System.Drawing.Size(77, 32);
-            this.BI_18_Days.TabIndex = 3;
-            this.BI_18_Days.Text = "1000";
-            this.BI_18_Days.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel37
-            // 
-            this.guna2Panel37.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel37.BorderRadius = 10;
-            this.guna2Panel37.Controls.Add(this.label67);
-            this.guna2Panel37.Controls.Add(this.BI_18_Hours);
-            this.guna2Transition.SetDecoration(this.guna2Panel37, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel37.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel37.Location = new System.Drawing.Point(230, 299);
-            this.guna2Panel37.Name = "guna2Panel37";
-            this.guna2Panel37.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel37.TabIndex = 16;
-            // 
-            // label67
-            // 
-            this.label67.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label67, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label67.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label67.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label67.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label67.Location = new System.Drawing.Point(0, 0);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(77, 32);
-            this.label67.TabIndex = 3;
-            this.label67.Text = "hours";
-            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_18_Hours
-            // 
-            this.BI_18_Hours.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_18_Hours, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_18_Hours.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_18_Hours.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_18_Hours.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_18_Hours.Location = new System.Drawing.Point(83, 0);
-            this.BI_18_Hours.Name = "BI_18_Hours";
-            this.BI_18_Hours.Size = new System.Drawing.Size(77, 32);
-            this.BI_18_Hours.TabIndex = 3;
-            this.BI_18_Hours.Text = "1000";
-            this.BI_18_Hours.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel38
-            // 
-            this.guna2Panel38.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel38.BorderRadius = 10;
-            this.guna2Panel38.Controls.Add(this.label69);
-            this.guna2Panel38.Controls.Add(this.BI_18_Minutes);
-            this.guna2Transition.SetDecoration(this.guna2Panel38, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel38.Location = new System.Drawing.Point(230, 334);
-            this.guna2Panel38.Name = "guna2Panel38";
-            this.guna2Panel38.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel38.TabIndex = 16;
-            // 
-            // label69
-            // 
-            this.label69.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label69, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label69.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label69.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label69.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label69.Location = new System.Drawing.Point(0, 0);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(77, 32);
-            this.label69.TabIndex = 3;
-            this.label69.Text = "minutes";
-            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_18_Minutes
-            // 
-            this.BI_18_Minutes.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_18_Minutes, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_18_Minutes.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_18_Minutes.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_18_Minutes.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_18_Minutes.Location = new System.Drawing.Point(83, 0);
-            this.BI_18_Minutes.Name = "BI_18_Minutes";
-            this.BI_18_Minutes.Size = new System.Drawing.Size(77, 32);
-            this.BI_18_Minutes.TabIndex = 3;
-            this.BI_18_Minutes.Text = "1000";
-            this.BI_18_Minutes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2Panel39
-            // 
-            this.guna2Panel39.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel39.BorderRadius = 10;
-            this.guna2Panel39.Controls.Add(this.label71);
-            this.guna2Panel39.Controls.Add(this.BI_18_Seconds);
-            this.guna2Transition.SetDecoration(this.guna2Panel39, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel39.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel39.Location = new System.Drawing.Point(230, 369);
-            this.guna2Panel39.Name = "guna2Panel39";
-            this.guna2Panel39.Size = new System.Drawing.Size(160, 32);
-            this.guna2Panel39.TabIndex = 16;
-            // 
-            // label71
-            // 
-            this.label71.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.label71, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label71.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label71.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label71.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label71.Location = new System.Drawing.Point(0, 0);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(77, 32);
-            this.label71.TabIndex = 3;
-            this.label71.Text = "seconds";
-            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // BI_18_Seconds
-            // 
-            this.BI_18_Seconds.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition.SetDecoration(this.BI_18_Seconds, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.BI_18_Seconds.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BI_18_Seconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
-            this.BI_18_Seconds.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.BI_18_Seconds.Location = new System.Drawing.Point(83, 0);
-            this.BI_18_Seconds.Name = "BI_18_Seconds";
-            this.BI_18_Seconds.Size = new System.Drawing.Size(77, 32);
-            this.BI_18_Seconds.TabIndex = 3;
-            this.BI_18_Seconds.Text = "1000";
-            this.BI_18_Seconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2Panel40
             // 
@@ -2851,51 +1804,1107 @@
             this.BI_18_MSeconds.Text = "1000";
             this.BI_18_MSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TimerIndicator
+            // guna2Panel33
             // 
-            this.TimerIndicator.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Transition.SetDecoration(this.TimerIndicator, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.TimerIndicator.FillColor = System.Drawing.Color.LawnGreen;
-            this.TimerIndicator.Location = new System.Drawing.Point(8, 7);
-            this.TimerIndicator.Name = "TimerIndicator";
-            this.TimerIndicator.PolygonSkip = 1;
-            this.TimerIndicator.Rotate = 0F;
-            this.TimerIndicator.Shape = Guna.UI2.WinForms.Enums.ShapeType.Ellipse;
-            this.TimerIndicator.Size = new System.Drawing.Size(24, 24);
-            this.TimerIndicator.TabIndex = 28;
-            this.TimerIndicator.Text = "guna2Shapes1";
-            this.TimerIndicator.Zoom = 80;
+            this.guna2Panel33.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel33.BorderRadius = 10;
+            this.guna2Panel33.Controls.Add(this.label45);
+            this.guna2Panel33.Controls.Add(this.BI_N_MSeconds);
+            this.guna2Transition.SetDecoration(this.guna2Panel33, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel33.Location = new System.Drawing.Point(419, 404);
+            this.guna2Panel33.Name = "guna2Panel33";
+            this.guna2Panel33.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel33.TabIndex = 16;
             // 
-            // guna2Panel41
+            // label45
             // 
-            this.guna2Panel41.BorderRadius = 15;
-            this.guna2Panel41.Controls.Add(this.TimerIndicator);
-            this.guna2Transition.SetDecoration(this.guna2Panel41, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2Panel41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2Panel41.Location = new System.Drawing.Point(537, 13);
-            this.guna2Panel41.Name = "guna2Panel41";
-            this.guna2Panel41.Size = new System.Drawing.Size(40, 40);
-            this.guna2Panel41.TabIndex = 29;
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label45, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label45.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label45.Font = new System.Drawing.Font("BigNoodleTooOblique", 12F);
+            this.label45.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label45.Location = new System.Drawing.Point(0, 0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(86, 32);
+            this.label45.TabIndex = 3;
+            this.label45.Text = "milliseconds ";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_N_MSeconds
+            // 
+            this.BI_N_MSeconds.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_N_MSeconds, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_N_MSeconds.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_N_MSeconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_N_MSeconds.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_N_MSeconds.Location = new System.Drawing.Point(83, 0);
+            this.BI_N_MSeconds.Name = "BI_N_MSeconds";
+            this.BI_N_MSeconds.Size = new System.Drawing.Size(77, 32);
+            this.BI_N_MSeconds.TabIndex = 3;
+            this.BI_N_MSeconds.Text = "1000";
+            this.BI_N_MSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel31
+            // 
+            this.guna2Panel31.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel31.BorderRadius = 10;
+            this.guna2Panel31.Controls.Add(this.label57);
+            this.guna2Panel31.Controls.Add(this.BI_Live_MSeconds);
+            this.guna2Transition.SetDecoration(this.guna2Panel31, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel31.Location = new System.Drawing.Point(41, 404);
+            this.guna2Panel31.Name = "guna2Panel31";
+            this.guna2Panel31.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel31.TabIndex = 16;
+            // 
+            // label57
+            // 
+            this.label57.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label57, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label57.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label57.Font = new System.Drawing.Font("BigNoodleTooOblique", 12F);
+            this.label57.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label57.Location = new System.Drawing.Point(0, 0);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(86, 32);
+            this.label57.TabIndex = 3;
+            this.label57.Text = "milliseconds ";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Live_MSeconds
+            // 
+            this.BI_Live_MSeconds.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Live_MSeconds, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Live_MSeconds.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_Live_MSeconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_Live_MSeconds.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_Live_MSeconds.Location = new System.Drawing.Point(83, 0);
+            this.BI_Live_MSeconds.Name = "BI_Live_MSeconds";
+            this.BI_Live_MSeconds.Size = new System.Drawing.Size(77, 32);
+            this.BI_Live_MSeconds.TabIndex = 3;
+            this.BI_Live_MSeconds.Text = "1000";
+            this.BI_Live_MSeconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel39
+            // 
+            this.guna2Panel39.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel39.BorderRadius = 10;
+            this.guna2Panel39.Controls.Add(this.label71);
+            this.guna2Panel39.Controls.Add(this.BI_18_Seconds);
+            this.guna2Transition.SetDecoration(this.guna2Panel39, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel39.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel39.Location = new System.Drawing.Point(230, 369);
+            this.guna2Panel39.Name = "guna2Panel39";
+            this.guna2Panel39.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel39.TabIndex = 16;
+            // 
+            // label71
+            // 
+            this.label71.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label71, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label71.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label71.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label71.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label71.Location = new System.Drawing.Point(0, 0);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(77, 32);
+            this.label71.TabIndex = 3;
+            this.label71.Text = "seconds";
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_18_Seconds
+            // 
+            this.BI_18_Seconds.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_18_Seconds, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_18_Seconds.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_18_Seconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_18_Seconds.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_18_Seconds.Location = new System.Drawing.Point(83, 0);
+            this.BI_18_Seconds.Name = "BI_18_Seconds";
+            this.BI_18_Seconds.Size = new System.Drawing.Size(77, 32);
+            this.BI_18_Seconds.TabIndex = 3;
+            this.BI_18_Seconds.Text = "1000";
+            this.BI_18_Seconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel32
+            // 
+            this.guna2Panel32.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel32.BorderRadius = 10;
+            this.guna2Panel32.Controls.Add(this.label43);
+            this.guna2Panel32.Controls.Add(this.BI_N_Seconds);
+            this.guna2Transition.SetDecoration(this.guna2Panel32, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel32.Location = new System.Drawing.Point(419, 369);
+            this.guna2Panel32.Name = "guna2Panel32";
+            this.guna2Panel32.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel32.TabIndex = 16;
+            // 
+            // label43
+            // 
+            this.label43.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label43, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label43.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label43.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label43.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label43.Location = new System.Drawing.Point(0, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(77, 32);
+            this.label43.TabIndex = 3;
+            this.label43.Text = "seconds";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_N_Seconds
+            // 
+            this.BI_N_Seconds.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_N_Seconds, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_N_Seconds.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_N_Seconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_N_Seconds.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_N_Seconds.Location = new System.Drawing.Point(83, 0);
+            this.BI_N_Seconds.Name = "BI_N_Seconds";
+            this.BI_N_Seconds.Size = new System.Drawing.Size(77, 32);
+            this.BI_N_Seconds.TabIndex = 3;
+            this.BI_N_Seconds.Text = "1000";
+            this.BI_N_Seconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel30
+            // 
+            this.guna2Panel30.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel30.BorderRadius = 10;
+            this.guna2Panel30.Controls.Add(this.label55);
+            this.guna2Panel30.Controls.Add(this.BI_Live_Seconds);
+            this.guna2Transition.SetDecoration(this.guna2Panel30, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel30.Location = new System.Drawing.Point(41, 369);
+            this.guna2Panel30.Name = "guna2Panel30";
+            this.guna2Panel30.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel30.TabIndex = 16;
+            // 
+            // label55
+            // 
+            this.label55.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label55, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label55.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label55.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label55.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label55.Location = new System.Drawing.Point(0, 0);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(77, 32);
+            this.label55.TabIndex = 3;
+            this.label55.Text = "seconds";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Live_Seconds
+            // 
+            this.BI_Live_Seconds.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Live_Seconds, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Live_Seconds.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_Live_Seconds.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_Live_Seconds.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_Live_Seconds.Location = new System.Drawing.Point(83, 0);
+            this.BI_Live_Seconds.Name = "BI_Live_Seconds";
+            this.BI_Live_Seconds.Size = new System.Drawing.Size(77, 32);
+            this.BI_Live_Seconds.TabIndex = 3;
+            this.BI_Live_Seconds.Text = "1000";
+            this.BI_Live_Seconds.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel38
+            // 
+            this.guna2Panel38.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel38.BorderRadius = 10;
+            this.guna2Panel38.Controls.Add(this.label69);
+            this.guna2Panel38.Controls.Add(this.BI_18_Minutes);
+            this.guna2Transition.SetDecoration(this.guna2Panel38, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel38.Location = new System.Drawing.Point(230, 334);
+            this.guna2Panel38.Name = "guna2Panel38";
+            this.guna2Panel38.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel38.TabIndex = 16;
+            // 
+            // label69
+            // 
+            this.label69.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label69, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label69.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label69.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label69.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label69.Location = new System.Drawing.Point(0, 0);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(77, 32);
+            this.label69.TabIndex = 3;
+            this.label69.Text = "minutes";
+            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_18_Minutes
+            // 
+            this.BI_18_Minutes.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_18_Minutes, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_18_Minutes.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_18_Minutes.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_18_Minutes.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_18_Minutes.Location = new System.Drawing.Point(83, 0);
+            this.BI_18_Minutes.Name = "BI_18_Minutes";
+            this.BI_18_Minutes.Size = new System.Drawing.Size(77, 32);
+            this.BI_18_Minutes.TabIndex = 3;
+            this.BI_18_Minutes.Text = "1000";
+            this.BI_18_Minutes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel25
+            // 
+            this.guna2Panel25.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel25.BorderRadius = 10;
+            this.guna2Panel25.Controls.Add(this.label40);
+            this.guna2Panel25.Controls.Add(this.BI_N_Minutes);
+            this.guna2Transition.SetDecoration(this.guna2Panel25, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel25.Location = new System.Drawing.Point(419, 334);
+            this.guna2Panel25.Name = "guna2Panel25";
+            this.guna2Panel25.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel25.TabIndex = 16;
+            // 
+            // label40
+            // 
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label40, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label40.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label40.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label40.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label40.Location = new System.Drawing.Point(0, 0);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(77, 32);
+            this.label40.TabIndex = 3;
+            this.label40.Text = "minutes";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_N_Minutes
+            // 
+            this.BI_N_Minutes.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_N_Minutes, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_N_Minutes.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_N_Minutes.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_N_Minutes.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_N_Minutes.Location = new System.Drawing.Point(83, 0);
+            this.BI_N_Minutes.Name = "BI_N_Minutes";
+            this.BI_N_Minutes.Size = new System.Drawing.Size(77, 32);
+            this.BI_N_Minutes.TabIndex = 3;
+            this.BI_N_Minutes.Text = "1000";
+            this.BI_N_Minutes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel29
+            // 
+            this.guna2Panel29.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel29.BorderRadius = 10;
+            this.guna2Panel29.Controls.Add(this.label53);
+            this.guna2Panel29.Controls.Add(this.BI_Live_Minutes);
+            this.guna2Transition.SetDecoration(this.guna2Panel29, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel29.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel29.Location = new System.Drawing.Point(41, 334);
+            this.guna2Panel29.Name = "guna2Panel29";
+            this.guna2Panel29.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel29.TabIndex = 16;
+            // 
+            // label53
+            // 
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label53, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label53.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label53.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label53.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label53.Location = new System.Drawing.Point(0, 0);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(77, 32);
+            this.label53.TabIndex = 3;
+            this.label53.Text = "minutes";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Live_Minutes
+            // 
+            this.BI_Live_Minutes.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Live_Minutes, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Live_Minutes.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_Live_Minutes.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_Live_Minutes.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_Live_Minutes.Location = new System.Drawing.Point(83, 0);
+            this.BI_Live_Minutes.Name = "BI_Live_Minutes";
+            this.BI_Live_Minutes.Size = new System.Drawing.Size(77, 32);
+            this.BI_Live_Minutes.TabIndex = 3;
+            this.BI_Live_Minutes.Text = "1000";
+            this.BI_Live_Minutes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel37
+            // 
+            this.guna2Panel37.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel37.BorderRadius = 10;
+            this.guna2Panel37.Controls.Add(this.label67);
+            this.guna2Panel37.Controls.Add(this.BI_18_Hours);
+            this.guna2Transition.SetDecoration(this.guna2Panel37, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel37.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel37.Location = new System.Drawing.Point(230, 299);
+            this.guna2Panel37.Name = "guna2Panel37";
+            this.guna2Panel37.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel37.TabIndex = 16;
+            // 
+            // label67
+            // 
+            this.label67.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label67, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label67.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label67.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label67.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label67.Location = new System.Drawing.Point(0, 0);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(77, 32);
+            this.label67.TabIndex = 3;
+            this.label67.Text = "hours";
+            this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_18_Hours
+            // 
+            this.BI_18_Hours.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_18_Hours, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_18_Hours.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_18_Hours.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_18_Hours.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_18_Hours.Location = new System.Drawing.Point(83, 0);
+            this.BI_18_Hours.Name = "BI_18_Hours";
+            this.BI_18_Hours.Size = new System.Drawing.Size(77, 32);
+            this.BI_18_Hours.TabIndex = 3;
+            this.BI_18_Hours.Text = "1000";
+            this.BI_18_Hours.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel24
+            // 
+            this.guna2Panel24.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel24.BorderRadius = 10;
+            this.guna2Panel24.Controls.Add(this.label38);
+            this.guna2Panel24.Controls.Add(this.BI_N_Hours);
+            this.guna2Transition.SetDecoration(this.guna2Panel24, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel24.Location = new System.Drawing.Point(419, 299);
+            this.guna2Panel24.Name = "guna2Panel24";
+            this.guna2Panel24.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel24.TabIndex = 16;
+            // 
+            // label38
+            // 
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label38, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label38.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label38.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label38.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label38.Location = new System.Drawing.Point(0, 0);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(77, 32);
+            this.label38.TabIndex = 3;
+            this.label38.Text = "hours";
+            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_N_Hours
+            // 
+            this.BI_N_Hours.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_N_Hours, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_N_Hours.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_N_Hours.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_N_Hours.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_N_Hours.Location = new System.Drawing.Point(83, 0);
+            this.BI_N_Hours.Name = "BI_N_Hours";
+            this.BI_N_Hours.Size = new System.Drawing.Size(77, 32);
+            this.BI_N_Hours.TabIndex = 3;
+            this.BI_N_Hours.Text = "1000";
+            this.BI_N_Hours.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel28
+            // 
+            this.guna2Panel28.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel28.BorderRadius = 10;
+            this.guna2Panel28.Controls.Add(this.label51);
+            this.guna2Panel28.Controls.Add(this.BI_Live_Hours);
+            this.guna2Transition.SetDecoration(this.guna2Panel28, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel28.Location = new System.Drawing.Point(41, 299);
+            this.guna2Panel28.Name = "guna2Panel28";
+            this.guna2Panel28.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel28.TabIndex = 16;
+            // 
+            // label51
+            // 
+            this.label51.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label51, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label51.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label51.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label51.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label51.Location = new System.Drawing.Point(0, 0);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(77, 32);
+            this.label51.TabIndex = 3;
+            this.label51.Text = "hours";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Live_Hours
+            // 
+            this.BI_Live_Hours.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Live_Hours, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Live_Hours.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_Live_Hours.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_Live_Hours.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_Live_Hours.Location = new System.Drawing.Point(83, 0);
+            this.BI_Live_Hours.Name = "BI_Live_Hours";
+            this.BI_Live_Hours.Size = new System.Drawing.Size(77, 32);
+            this.BI_Live_Hours.TabIndex = 3;
+            this.BI_Live_Hours.Text = "1000";
+            this.BI_Live_Hours.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel36
+            // 
+            this.guna2Panel36.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel36.BorderRadius = 10;
+            this.guna2Panel36.Controls.Add(this.label65);
+            this.guna2Panel36.Controls.Add(this.BI_18_Days);
+            this.guna2Transition.SetDecoration(this.guna2Panel36, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel36.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel36.Location = new System.Drawing.Point(230, 264);
+            this.guna2Panel36.Name = "guna2Panel36";
+            this.guna2Panel36.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel36.TabIndex = 16;
+            // 
+            // label65
+            // 
+            this.label65.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label65, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label65.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label65.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label65.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label65.Location = new System.Drawing.Point(0, 0);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(77, 32);
+            this.label65.TabIndex = 3;
+            this.label65.Text = "days";
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_18_Days
+            // 
+            this.BI_18_Days.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_18_Days, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_18_Days.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_18_Days.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_18_Days.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_18_Days.Location = new System.Drawing.Point(83, 0);
+            this.BI_18_Days.Name = "BI_18_Days";
+            this.BI_18_Days.Size = new System.Drawing.Size(77, 32);
+            this.BI_18_Days.TabIndex = 3;
+            this.BI_18_Days.Text = "1000";
+            this.BI_18_Days.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel23
+            // 
+            this.guna2Panel23.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel23.BorderRadius = 10;
+            this.guna2Panel23.Controls.Add(this.label36);
+            this.guna2Panel23.Controls.Add(this.BI_N_Days);
+            this.guna2Transition.SetDecoration(this.guna2Panel23, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel23.Location = new System.Drawing.Point(419, 264);
+            this.guna2Panel23.Name = "guna2Panel23";
+            this.guna2Panel23.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel23.TabIndex = 16;
+            // 
+            // label36
+            // 
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label36, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label36.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label36.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label36.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label36.Location = new System.Drawing.Point(0, 0);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(77, 32);
+            this.label36.TabIndex = 3;
+            this.label36.Text = "days";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_N_Days
+            // 
+            this.BI_N_Days.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_N_Days, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_N_Days.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_N_Days.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_N_Days.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_N_Days.Location = new System.Drawing.Point(83, 0);
+            this.BI_N_Days.Name = "BI_N_Days";
+            this.BI_N_Days.Size = new System.Drawing.Size(77, 32);
+            this.BI_N_Days.TabIndex = 3;
+            this.BI_N_Days.Text = "1000";
+            this.BI_N_Days.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel27
+            // 
+            this.guna2Panel27.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel27.BorderRadius = 10;
+            this.guna2Panel27.Controls.Add(this.label49);
+            this.guna2Panel27.Controls.Add(this.BI_Live_Days);
+            this.guna2Transition.SetDecoration(this.guna2Panel27, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel27.Location = new System.Drawing.Point(41, 264);
+            this.guna2Panel27.Name = "guna2Panel27";
+            this.guna2Panel27.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel27.TabIndex = 16;
+            // 
+            // label49
+            // 
+            this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label49, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label49.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label49.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label49.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label49.Location = new System.Drawing.Point(0, 0);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(77, 32);
+            this.label49.TabIndex = 3;
+            this.label49.Text = "days";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Live_Days
+            // 
+            this.BI_Live_Days.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Live_Days, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Live_Days.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_Live_Days.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_Live_Days.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_Live_Days.Location = new System.Drawing.Point(83, 0);
+            this.BI_Live_Days.Name = "BI_Live_Days";
+            this.BI_Live_Days.Size = new System.Drawing.Size(77, 32);
+            this.BI_Live_Days.TabIndex = 3;
+            this.BI_Live_Days.Text = "1000";
+            this.BI_Live_Days.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel35
+            // 
+            this.guna2Panel35.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel35.BorderRadius = 10;
+            this.guna2Panel35.Controls.Add(this.label63);
+            this.guna2Panel35.Controls.Add(this.BI_18_Years);
+            this.guna2Transition.SetDecoration(this.guna2Panel35, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel35.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel35.Location = new System.Drawing.Point(230, 194);
+            this.guna2Panel35.Name = "guna2Panel35";
+            this.guna2Panel35.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel35.TabIndex = 16;
+            // 
+            // label63
+            // 
+            this.label63.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label63, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label63.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label63.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label63.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label63.Location = new System.Drawing.Point(0, 0);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(77, 32);
+            this.label63.TabIndex = 3;
+            this.label63.Text = "years";
+            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_18_Years
+            // 
+            this.BI_18_Years.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_18_Years, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_18_Years.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_18_Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_18_Years.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_18_Years.Location = new System.Drawing.Point(83, 0);
+            this.BI_18_Years.Name = "BI_18_Years";
+            this.BI_18_Years.Size = new System.Drawing.Size(77, 32);
+            this.BI_18_Years.TabIndex = 3;
+            this.BI_18_Years.Text = "1000";
+            this.BI_18_Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel34
+            // 
+            this.guna2Panel34.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel34.BorderRadius = 10;
+            this.guna2Panel34.Controls.Add(this.label61);
+            this.guna2Panel34.Controls.Add(this.BI_18_Months);
+            this.guna2Transition.SetDecoration(this.guna2Panel34, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel34.Location = new System.Drawing.Point(230, 229);
+            this.guna2Panel34.Name = "guna2Panel34";
+            this.guna2Panel34.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel34.TabIndex = 16;
+            // 
+            // label61
+            // 
+            this.label61.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label61, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label61.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label61.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label61.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label61.Location = new System.Drawing.Point(0, 0);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(77, 32);
+            this.label61.TabIndex = 3;
+            this.label61.Text = "months";
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_18_Months
+            // 
+            this.BI_18_Months.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_18_Months, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_18_Months.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_18_Months.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_18_Months.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_18_Months.Location = new System.Drawing.Point(83, 0);
+            this.BI_18_Months.Name = "BI_18_Months";
+            this.BI_18_Months.Size = new System.Drawing.Size(77, 32);
+            this.BI_18_Months.TabIndex = 3;
+            this.BI_18_Months.Text = "1000";
+            this.BI_18_Months.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel22
+            // 
+            this.guna2Panel22.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel22.BorderRadius = 10;
+            this.guna2Panel22.Controls.Add(this.label34);
+            this.guna2Panel22.Controls.Add(this.BI_N_Years);
+            this.guna2Transition.SetDecoration(this.guna2Panel22, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel22.Location = new System.Drawing.Point(419, 194);
+            this.guna2Panel22.Name = "guna2Panel22";
+            this.guna2Panel22.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel22.TabIndex = 16;
+            // 
+            // label34
+            // 
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label34, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label34.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label34.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label34.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label34.Location = new System.Drawing.Point(0, 0);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(77, 32);
+            this.label34.TabIndex = 3;
+            this.label34.Text = "years";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_N_Years
+            // 
+            this.BI_N_Years.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_N_Years, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_N_Years.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_N_Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_N_Years.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_N_Years.Location = new System.Drawing.Point(83, 0);
+            this.BI_N_Years.Name = "BI_N_Years";
+            this.BI_N_Years.Size = new System.Drawing.Size(77, 32);
+            this.BI_N_Years.TabIndex = 3;
+            this.BI_N_Years.Text = "1000";
+            this.BI_N_Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel21
+            // 
+            this.guna2Panel21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel21.BorderRadius = 10;
+            this.guna2Panel21.Controls.Add(this.label32);
+            this.guna2Panel21.Controls.Add(this.BI_N_Months);
+            this.guna2Transition.SetDecoration(this.guna2Panel21, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel21.Location = new System.Drawing.Point(419, 229);
+            this.guna2Panel21.Name = "guna2Panel21";
+            this.guna2Panel21.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel21.TabIndex = 16;
+            // 
+            // label32
+            // 
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label32, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label32.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label32.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label32.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label32.Location = new System.Drawing.Point(0, 0);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(77, 32);
+            this.label32.TabIndex = 3;
+            this.label32.Text = "months";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_N_Months
+            // 
+            this.BI_N_Months.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_N_Months, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_N_Months.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_N_Months.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_N_Months.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_N_Months.Location = new System.Drawing.Point(83, 0);
+            this.BI_N_Months.Name = "BI_N_Months";
+            this.BI_N_Months.Size = new System.Drawing.Size(77, 32);
+            this.BI_N_Months.TabIndex = 3;
+            this.BI_N_Months.Text = "1000";
+            this.BI_N_Months.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel20
+            // 
+            this.guna2Panel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel20.BorderRadius = 10;
+            this.guna2Panel20.Controls.Add(this.label29);
+            this.guna2Panel20.Controls.Add(this.BI_Live_Years);
+            this.guna2Transition.SetDecoration(this.guna2Panel20, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel20.Location = new System.Drawing.Point(41, 194);
+            this.guna2Panel20.Name = "guna2Panel20";
+            this.guna2Panel20.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel20.TabIndex = 16;
+            // 
+            // label29
+            // 
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label29, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label29.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label29.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label29.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label29.Location = new System.Drawing.Point(0, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(77, 32);
+            this.label29.TabIndex = 3;
+            this.label29.Text = "years";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Live_Years
+            // 
+            this.BI_Live_Years.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Live_Years, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Live_Years.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_Live_Years.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_Live_Years.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_Live_Years.Location = new System.Drawing.Point(83, 0);
+            this.BI_Live_Years.Name = "BI_Live_Years";
+            this.BI_Live_Years.Size = new System.Drawing.Size(77, 32);
+            this.BI_Live_Years.TabIndex = 3;
+            this.BI_Live_Years.Text = "1000";
+            this.BI_Live_Years.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel26
+            // 
+            this.guna2Panel26.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel26.BorderRadius = 10;
+            this.guna2Panel26.Controls.Add(this.label46);
+            this.guna2Panel26.Controls.Add(this.BI_Live_Months);
+            this.guna2Transition.SetDecoration(this.guna2Panel26, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel26.Location = new System.Drawing.Point(41, 229);
+            this.guna2Panel26.Name = "guna2Panel26";
+            this.guna2Panel26.Size = new System.Drawing.Size(160, 32);
+            this.guna2Panel26.TabIndex = 16;
+            // 
+            // label46
+            // 
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label46, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label46.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label46.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
+            this.label46.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label46.Location = new System.Drawing.Point(0, 0);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(77, 32);
+            this.label46.TabIndex = 3;
+            this.label46.Text = "months";
+            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Live_Months
+            // 
+            this.BI_Live_Months.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.BI_Live_Months, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Live_Months.Dock = System.Windows.Forms.DockStyle.Right;
+            this.BI_Live_Months.Font = new System.Drawing.Font("BigNoodleTooOblique", 18F);
+            this.BI_Live_Months.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.BI_Live_Months.Location = new System.Drawing.Point(83, 0);
+            this.BI_Live_Months.Name = "BI_Live_Months";
+            this.BI_Live_Months.Size = new System.Drawing.Size(77, 32);
+            this.BI_Live_Months.TabIndex = 3;
+            this.BI_Live_Months.Text = "1000";
+            this.BI_Live_Months.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BI_Button
+            // 
+            this.BI_Button.BorderRadius = 15;
+            this.guna2Transition.SetDecoration(this.BI_Button, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BI_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BI_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BI_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BI_Button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(188)))), ((int)(((byte)(105)))));
+            this.BI_Button.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BI_Button.ForeColor = System.Drawing.Color.White;
+            this.BI_Button.Location = new System.Drawing.Point(432, 13);
+            this.BI_Button.Name = "BI_Button";
+            this.BI_Button.Size = new System.Drawing.Size(102, 40);
+            this.BI_Button.TabIndex = 15;
+            this.BI_Button.Text = "OK";
+            this.BI_Button.Click += new System.EventHandler(this.BI_Button_Click);
+            // 
+            // BI_DatePicker
+            // 
+            this.BI_DatePicker.BorderRadius = 15;
+            this.BI_DatePicker.Checked = true;
+            this.BI_DatePicker.CustomFormat = "";
+            this.guna2Transition.SetDecoration(this.BI_DatePicker, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.BI_DatePicker.FillColor = System.Drawing.Color.SteelBlue;
+            this.BI_DatePicker.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BI_DatePicker.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.BI_DatePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.BI_DatePicker.Location = new System.Drawing.Point(307, 13);
+            this.BI_DatePicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.BI_DatePicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.BI_DatePicker.Name = "BI_DatePicker";
+            this.BI_DatePicker.Size = new System.Drawing.Size(119, 40);
+            this.BI_DatePicker.TabIndex = 14;
+            this.BI_DatePicker.Value = new System.DateTime(2025, 1, 13, 19, 11, 44, 996);
+            this.BI_DatePicker.ValueChanged += new System.EventHandler(this.BI_DatePicker_ValueChanged);
+            // 
+            // label26
+            // 
+            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label26.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label26, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label26.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label26.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label26.Location = new System.Drawing.Point(452, -269);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(10, 55);
+            this.label26.TabIndex = 11;
+            this.label26.Text = "date";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label59
+            // 
+            this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label59.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label59, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label59.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label59.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label59.Location = new System.Drawing.Point(186, 118);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(306, 25);
+            this.label59.TabIndex = 11;
+            this.label59.Text = "How long will it take to turn N years old?";
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label27
+            // 
+            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label27, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label27.Font = new System.Drawing.Font("BigNoodleTooOblique", 16F);
+            this.label27.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label27.Location = new System.Drawing.Point(107, 22);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(114, 25);
+            this.label27.TabIndex = 11;
+            this.label27.Text = "Your Birthday";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label28
+            // 
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label28, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label28.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.label28.Location = new System.Drawing.Point(62, 62);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(500, 46);
+            this.label28.TabIndex = 10;
+            this.label28.Text = resources.GetString("label28.Text");
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Separator13
+            // 
+            this.guna2Transition.SetDecoration(this.guna2Separator13, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Separator13.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator13.Location = new System.Drawing.Point(42, 69);
+            this.guna2Separator13.Name = "guna2Separator13";
+            this.guna2Separator13.Size = new System.Drawing.Size(537, 10);
+            this.guna2Separator13.TabIndex = 8;
+            // 
+            // guna2Separator14
+            // 
+            this.guna2Transition.SetDecoration(this.guna2Separator14, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Separator14.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator14.Location = new System.Drawing.Point(41, 110);
+            this.guna2Separator14.Name = "guna2Separator14";
+            this.guna2Separator14.Size = new System.Drawing.Size(451, 40);
+            this.guna2Separator14.TabIndex = 13;
+            // 
+            // guna2Separator15
+            // 
+            this.guna2Transition.SetDecoration(this.guna2Separator15, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Separator15.FillColor = System.Drawing.Color.SlateGray;
+            this.guna2Separator15.Location = new System.Drawing.Point(41, 13);
+            this.guna2Separator15.Name = "guna2Separator15";
+            this.guna2Separator15.Size = new System.Drawing.Size(251, 40);
+            this.guna2Separator15.TabIndex = 13;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2Panel2.Controls.Add(this.UnixTS_Panel);
+            this.guna2Panel2.Controls.Add(this.CategoryLabel);
+            this.guna2Panel2.Controls.Add(this.guna2Panel4);
+            this.guna2Panel2.Controls.Add(this.label1);
+            this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
+            this.guna2Transition.SetDecoration(this.guna2Panel2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(861, 55);
+            this.guna2Panel2.TabIndex = 5;
+            // 
+            // CategoryLabel
+            // 
+            this.CategoryLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.CategoryLabel.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.CategoryLabel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.CategoryLabel.Font = new System.Drawing.Font("BigNoodleTooOblique", 30F);
+            this.CategoryLabel.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.CategoryLabel.Location = new System.Drawing.Point(247, 9);
+            this.CategoryLabel.Name = "CategoryLabel";
+            this.CategoryLabel.Size = new System.Drawing.Size(508, 37);
+            this.CategoryLabel.TabIndex = 7;
+            this.CategoryLabel.Text = "2Date Comparer";
+            this.CategoryLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.AutoSize = true;
+            this.guna2Panel4.BackColor = System.Drawing.Color.SteelBlue;
+            this.guna2Panel4.Controls.Add(this.guna2CircleButton1);
+            this.guna2Panel4.Controls.Add(this.guna2PictureBox2);
+            this.guna2Transition.SetDecoration(this.guna2Panel4, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(220, 58);
+            this.guna2Panel4.TabIndex = 6;
+            this.guna2Panel4.Click += new System.EventHandler(this.guna2Panel4_Click);
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.guna2CircleButton1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Image = global::DateTimeCalculator.Properties.Resources.MenuIcon;
+            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(32, 24);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(3, 3);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(48, 46);
+            this.guna2CircleButton1.TabIndex = 2;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2Transition.SetDecoration(this.guna2PictureBox2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox2.Enabled = false;
+            this.guna2PictureBox2.Image = global::DateTimeCalculator.Properties.Resources.DateTimeCalculator_Logo_text;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(84, 2);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(98, 50);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 0;
+            this.guna2PictureBox2.TabStop = false;
+            // 
+            // UnixTS_Panel
+            // 
+            this.UnixTS_Panel.AutoSize = true;
+            this.UnixTS_Panel.BackColor = System.Drawing.Color.Transparent;
+            this.UnixTS_Panel.BorderColor = System.Drawing.Color.Transparent;
+            this.UnixTS_Panel.BorderRadius = 5;
+            this.UnixTS_Panel.BorderThickness = 2;
+            this.UnixTS_Panel.Controls.Add(this.labelTimestamp);
+            this.UnixTS_Panel.Controls.Add(this.label30);
+            this.guna2Transition.SetDecoration(this.UnixTS_Panel, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.UnixTS_Panel.FillColor = System.Drawing.Color.SteelBlue;
+            this.UnixTS_Panel.Location = new System.Drawing.Point(729, 12);
+            this.UnixTS_Panel.Name = "UnixTS_Panel";
+            this.UnixTS_Panel.Size = new System.Drawing.Size(126, 34);
+            this.UnixTS_Panel.TabIndex = 1;
+            // 
+            // labelTimestamp
+            // 
+            this.guna2Transition.SetDecoration(this.labelTimestamp, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.labelTimestamp.Dock = System.Windows.Forms.DockStyle.Right;
+            this.labelTimestamp.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTimestamp.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelTimestamp.Location = new System.Drawing.Point(58, 0);
+            this.labelTimestamp.Name = "labelTimestamp";
+            this.labelTimestamp.Size = new System.Drawing.Size(68, 34);
+            this.labelTimestamp.TabIndex = 0;
+            this.labelTimestamp.Text = "0000";
+            this.labelTimestamp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Location = new System.Drawing.Point(503, 84);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(188, 21);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Date && Time Calculator";
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2Transition.SetDecoration(this.guna2PictureBox1, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.guna2PictureBox1.Image = global::DateTimeCalculator.Properties.Resources.DateIcon;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(465, 73);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 2;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // guna2Transition
             // 
             this.guna2Transition.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.guna2Transition.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.guna2Transition.DefaultAnimation = animation2;
+            // 
+            // label30
+            // 
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition.SetDecoration(this.label30, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label30.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label30.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.label30.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label30.Location = new System.Drawing.Point(0, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(58, 34);
+            this.label30.TabIndex = 11;
+            this.label30.Text = "Unix TS:";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -2907,11 +2916,11 @@
             this.Controls.Add(this.guna2Panel2);
             this.guna2Transition.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "DateAndTime";
-            
+            this.Text = "Datetime";
             this.MenuTabControl.ResumeLayout(false);
             this.DateComparerPage.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
@@ -2938,35 +2947,35 @@
             this.guna2Panel18.ResumeLayout(false);
             this.BirthdayInformerPage.ResumeLayout(false);
             this.guna2Panel19.ResumeLayout(false);
+            this.guna2Panel41.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BI_Num_Year)).EndInit();
+            this.guna2Panel40.ResumeLayout(false);
+            this.guna2Panel33.ResumeLayout(false);
+            this.guna2Panel31.ResumeLayout(false);
+            this.guna2Panel39.ResumeLayout(false);
+            this.guna2Panel32.ResumeLayout(false);
+            this.guna2Panel30.ResumeLayout(false);
+            this.guna2Panel38.ResumeLayout(false);
+            this.guna2Panel25.ResumeLayout(false);
+            this.guna2Panel29.ResumeLayout(false);
+            this.guna2Panel37.ResumeLayout(false);
+            this.guna2Panel24.ResumeLayout(false);
+            this.guna2Panel28.ResumeLayout(false);
+            this.guna2Panel36.ResumeLayout(false);
+            this.guna2Panel23.ResumeLayout(false);
+            this.guna2Panel27.ResumeLayout(false);
+            this.guna2Panel35.ResumeLayout(false);
+            this.guna2Panel34.ResumeLayout(false);
+            this.guna2Panel22.ResumeLayout(false);
+            this.guna2Panel21.ResumeLayout(false);
+            this.guna2Panel20.ResumeLayout(false);
+            this.guna2Panel26.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            this.guna2Panel1.ResumeLayout(false);
+            this.UnixTS_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.guna2Panel26.ResumeLayout(false);
-            this.guna2Panel27.ResumeLayout(false);
-            this.guna2Panel28.ResumeLayout(false);
-            this.guna2Panel29.ResumeLayout(false);
-            this.guna2Panel30.ResumeLayout(false);
-            this.guna2Panel31.ResumeLayout(false);
-            this.guna2Panel20.ResumeLayout(false);
-            this.guna2Panel21.ResumeLayout(false);
-            this.guna2Panel22.ResumeLayout(false);
-            this.guna2Panel23.ResumeLayout(false);
-            this.guna2Panel24.ResumeLayout(false);
-            this.guna2Panel25.ResumeLayout(false);
-            this.guna2Panel32.ResumeLayout(false);
-            this.guna2Panel33.ResumeLayout(false);
-            this.guna2Panel34.ResumeLayout(false);
-            this.guna2Panel35.ResumeLayout(false);
-            this.guna2Panel36.ResumeLayout(false);
-            this.guna2Panel37.ResumeLayout(false);
-            this.guna2Panel38.ResumeLayout(false);
-            this.guna2Panel39.ResumeLayout(false);
-            this.guna2Panel40.ResumeLayout(false);
-            this.guna2Panel41.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2984,7 +2993,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private System.Windows.Forms.TabPage DateComparerPage;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel UnixTS_Panel;
         private System.Windows.Forms.Label labelTimestamp;
         private System.Windows.Forms.Label CategoryLabel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
@@ -3150,6 +3159,7 @@
         private Guna.UI2.WinForms.Guna2Shapes TimerIndicator;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel41;
         private Guna.UI2.WinForms.Guna2Transition guna2Transition;
+        private System.Windows.Forms.Label label30;
     }
 }
 
