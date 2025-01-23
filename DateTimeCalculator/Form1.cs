@@ -22,6 +22,10 @@ namespace DateTimeCalculator
         public Form1()
         {
             InitializeComponent();
+
+            string version = Application.ProductVersion;
+            VersionLabel.Text = $" v.{version}";
+           
             InitializeTimer();
 
             TimePicker1.Value = DateTime.Now;
@@ -472,6 +476,10 @@ namespace DateTimeCalculator
             WindowState = FormWindowState.Minimized;
         }
 
+        private void VersionLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -220,20 +220,21 @@
             this.guna2Separator14 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2Separator15 = new Guna.UI2.WinForms.Guna2Separator();
             this.TopPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.labelTimestamp = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
+            this.Btn_Minimize = new Guna.UI2.WinForms.Guna2Button();
+            this.Btn_CloseApp = new Guna.UI2.WinForms.Guna2Button();
             this.CategoryLabel = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label31 = new System.Windows.Forms.Label();
+            this.VersionLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.Btn_CloseApp = new Guna.UI2.WinForms.Guna2Button();
-            this.Btn_Minimize = new Guna.UI2.WinForms.Guna2Button();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.MenuTabControl.SuspendLayout();
             this.DateComparerPage.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -291,10 +292,10 @@
             this.guna2Panel41.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BI_Num_Year)).BeginInit();
             this.TopPanel.SuspendLayout();
+            this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuTabControl
@@ -2909,6 +2910,16 @@
             this.TopPanel.Size = new System.Drawing.Size(861, 55);
             this.TopPanel.TabIndex = 5;
             // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Controls.Add(this.labelTimestamp);
+            this.guna2Panel2.Controls.Add(this.label30);
+            this.guna2Panel2.Enabled = false;
+            this.guna2Panel2.Location = new System.Drawing.Point(632, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(128, 56);
+            this.guna2Panel2.TabIndex = 12;
+            // 
             // labelTimestamp
             // 
             this.labelTimestamp.BackColor = System.Drawing.Color.Transparent;
@@ -2934,7 +2945,42 @@
             this.label30.TabIndex = 11;
             this.label30.Text = "Unix TS:";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-  
+            // 
+            // Btn_Minimize
+            // 
+            this.Btn_Minimize.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_Minimize.BorderRadius = 5;
+            this.Btn_Minimize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_Minimize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_Minimize.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Btn_Minimize.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Btn_Minimize.FillColor = System.Drawing.Color.Transparent;
+            this.Btn_Minimize.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.Btn_Minimize.ForeColor = System.Drawing.Color.White;
+            this.Btn_Minimize.Location = new System.Drawing.Point(773, 7);
+            this.Btn_Minimize.Name = "Btn_Minimize";
+            this.Btn_Minimize.Size = new System.Drawing.Size(42, 42);
+            this.Btn_Minimize.TabIndex = 8;
+            this.Btn_Minimize.Text = "_";
+            this.Btn_Minimize.Click += new System.EventHandler(this.Btn_Minimize_Click);
+            // 
+            // Btn_CloseApp
+            // 
+            this.Btn_CloseApp.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_CloseApp.BorderRadius = 5;
+            this.Btn_CloseApp.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_CloseApp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Btn_CloseApp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Btn_CloseApp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Btn_CloseApp.FillColor = System.Drawing.Color.Transparent;
+            this.Btn_CloseApp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.Btn_CloseApp.ForeColor = System.Drawing.Color.White;
+            this.Btn_CloseApp.Location = new System.Drawing.Point(815, 7);
+            this.Btn_CloseApp.Name = "Btn_CloseApp";
+            this.Btn_CloseApp.Size = new System.Drawing.Size(42, 42);
+            this.Btn_CloseApp.TabIndex = 8;
+            this.Btn_CloseApp.Text = "X";
+            this.Btn_CloseApp.Click += new System.EventHandler(this.Btn_CloseApp_Click);
             // 
             // CategoryLabel
             // 
@@ -2956,7 +3002,7 @@
             this.guna2Panel4.BackColor = System.Drawing.Color.SteelBlue;
             this.guna2Panel4.Controls.Add(this.guna2CircleButton1);
             this.guna2Panel4.Controls.Add(this.guna2PictureBox2);
-            this.guna2Panel4.Controls.Add(this.label31);
+            this.guna2Panel4.Controls.Add(this.VersionLabel);
             this.guna2Panel4.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(220, 58);
@@ -2987,25 +3033,26 @@
             this.guna2PictureBox2.Enabled = false;
             this.guna2PictureBox2.Image = global::DateTimeCalculator.Properties.Resources.DateTimeCalculator_Logo_text;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(84, 2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(66, 3);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(98, 50);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 0;
             this.guna2PictureBox2.TabStop = false;
             // 
-            // label31
+            // VersionLabel
             // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("BigNoodleTooOblique", 14F);
-            this.label31.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label31.Location = new System.Drawing.Point(180, 32);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(40, 23);
-            this.label31.TabIndex = 11;
-            this.label31.Text = "v.1.0";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.VersionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.VersionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.VersionLabel.Font = new System.Drawing.Font("BigNoodleTooOblique", 12F);
+            this.VersionLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.VersionLabel.Location = new System.Drawing.Point(170, 32);
+            this.VersionLabel.Name = "VersionLabel";
+            this.VersionLabel.Size = new System.Drawing.Size(50, 23);
+            this.VersionLabel.TabIndex = 11;
+            this.VersionLabel.Text = "v.1.0.0.0";
+            this.VersionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.VersionLabel.Click += new System.EventHandler(this.VersionLabel_Click);
             // 
             // label1
             // 
@@ -3030,42 +3077,6 @@
             this.guna2PictureBox1.TabIndex = 2;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // Btn_CloseApp
-            // 
-            this.Btn_CloseApp.BackColor = System.Drawing.Color.Transparent;
-            this.Btn_CloseApp.BorderRadius = 5;
-            this.Btn_CloseApp.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_CloseApp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_CloseApp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Btn_CloseApp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_CloseApp.FillColor = System.Drawing.Color.Transparent;
-            this.Btn_CloseApp.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_CloseApp.ForeColor = System.Drawing.Color.White;
-            this.Btn_CloseApp.Location = new System.Drawing.Point(815, 7);
-            this.Btn_CloseApp.Name = "Btn_CloseApp";
-            this.Btn_CloseApp.Size = new System.Drawing.Size(42, 42);
-            this.Btn_CloseApp.TabIndex = 8;
-            this.Btn_CloseApp.Text = "X";
-            this.Btn_CloseApp.Click += new System.EventHandler(this.Btn_CloseApp_Click);
-            // 
-            // Btn_Minimize
-            // 
-            this.Btn_Minimize.BackColor = System.Drawing.Color.Transparent;
-            this.Btn_Minimize.BorderRadius = 5;
-            this.Btn_Minimize.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_Minimize.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Btn_Minimize.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Btn_Minimize.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Btn_Minimize.FillColor = System.Drawing.Color.Transparent;
-            this.Btn_Minimize.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.Btn_Minimize.ForeColor = System.Drawing.Color.White;
-            this.Btn_Minimize.Location = new System.Drawing.Point(773, 7);
-            this.Btn_Minimize.Name = "Btn_Minimize";
-            this.Btn_Minimize.Size = new System.Drawing.Size(42, 42);
-            this.Btn_Minimize.TabIndex = 8;
-            this.Btn_Minimize.Text = "_";
-            this.Btn_Minimize.Click += new System.EventHandler(this.Btn_Minimize_Click);
-            // 
             // guna2BorderlessForm1
             // 
             this.guna2BorderlessForm1.AnimateWindow = true;
@@ -3081,15 +3092,9 @@
             this.guna2DragControl1.TargetControl = this.TopPanel;
             this.guna2DragControl1.UseTransparentDrag = true;
             // 
-            // guna2Panel2
+            // guna2ShadowForm1
             // 
-            this.guna2Panel2.Controls.Add(this.labelTimestamp);
-            this.guna2Panel2.Controls.Add(this.label30);
-            this.guna2Panel2.Enabled = false;
-            this.guna2Panel2.Location = new System.Drawing.Point(632, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(128, 56);
-            this.guna2Panel2.TabIndex = 12;
+            this.guna2ShadowForm1.BorderRadius = 20;
             // 
             // Form1
             // 
@@ -3165,10 +3170,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.BI_Num_Year)).EndInit();
             this.TopPanel.ResumeLayout(false);
             this.TopPanel.PerformLayout();
+            this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -3349,7 +3354,7 @@
         private Guna.UI2.WinForms.Guna2Shapes TimerIndicator;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel41;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label VersionLabel;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
@@ -3378,6 +3383,7 @@
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
     }
 }
 
